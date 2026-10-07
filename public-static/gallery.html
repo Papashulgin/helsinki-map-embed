@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Layers gallery · Helsinki Map Embed Builder</title>
+  <meta name="description" content="Browse and preview all 1,000+ layers of the City of Helsinki map service (kartta.hel.fi) with live mini-maps, then build an embeddable map.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%BA%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>🗺️ Helsinki Map · Layers gallery</h1>
+      <p class="sub">Live previews of every base map and 1,000+ data layers from the City of Helsinki map service — then send your picks to the builder.</p>
+    </div>
+    <div class="powered">
+      Powered by <a href="https://kartta.hel.fi/" target="_blank" rel="noopener">kartta.hel.fi</a><br>
+      Louhi / SpatialWeb · <a href="index.html">← Embed builder</a>
+    </div>
+  </header>
+
+  <div class="gal-hero">
+    <h1>Explore the layer catalogue</h1>
+    <p>Every card below renders the real map from <b>kartta.hel.fi</b> as a live thumbnail. Tick layers to collect them, then open the builder with your selection pre-loaded. Thumbnails load only when scrolled into view to keep things fast.</p>
+    <div class="links">
+      <a class="btn btn-primary" href="index.html" id="heroOpen">Open builder</a>
+      <a class="btn" href="pointcloud.html">🧊 3D point-cloud viewer (LiDAR)</a>
+      <a class="btn" href="index.html">← Back to builder</a>
+    </div>
+  </div>
+
+  <!-- featured collections -->
+  <div class="gal-featured" id="galFeatured"></div>
+
+  <!-- sticky search bar -->
+  <div class="gal-bar">
+    <div class="search-wrap">
+      <span class="ico">🔍</span>
+      <input type="text" id="galSearch" placeholder="Search all 1,087 layers by name or id (e.g. kaava, puu, kiinteistö, laser, HSL)…" autocomplete="off">
+    </div>
+    <label class="toggle" style="margin:0">Live thumbnails <input type="checkbox" id="thumbsOn" checked><span class="sw"></span></label>
+    <span class="badge" id="galCount">—</span>
+  </div>
+
+  <!-- category tabs -->
+  <div class="gal-tabs" id="galTabs"></div>
+
+  <!-- results -->
+  <section class="gal-sec">
+    <h2 id="galTitle">Base maps <span class="c" id="galSubCount"></span></h2>
+    <div class="layer-grid" id="galGrid"></div>
+    <div id="galEmpty" class="empty" style="display:none;padding:30px;text-align:center;color:var(--muted)">No layers match your search.</div>
+  </section>
+
+  <!-- sticky selection tray -->
+  <div class="tray" id="tray">
+    <span class="tlabel">Selection</span>
+    <span class="badge" id="trayCount">0</span>
+    <div class="chips" id="trayChips"><span class="empty">Tick layers above to collect them here…</span></div>
+    <button class="btn btn-sm" id="trayClear">Clear</button>
+    <button class="btn btn-primary btn-sm" id="trayOpen">Open in builder →</button>
+  </div>
+
+  <footer class="footer">
+    <div>
+      Data source: <a href="https://kartta.hel.fi/" target="_blank" rel="noopener">City of Helsinki Map Service</a>
+      — © City of Helsinki. This tool is an independent helper and is not affiliated with the City of Helsinki.
+    </div>
+    <a class="made" href="https://www.ninjatech.ai/product/super-ninja" target="_blank" rel="noopener">🥷 Made by SuperNinja</a>
+  </footer>
+
+  <script src="gallery.js"></script>
+</body>
+</html>

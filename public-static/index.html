@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Helsinki Map Embed Builder · kartta.hel.fi</title>
+  <meta name="description" content="Build embeddable maps from the City of Helsinki map service (kartta.hel.fi) — 1000+ layers, no API key.">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%BA%EF%B8%8F%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>🗺️ Helsinki Map Embed Builder</h1>
+      <p class="sub">Create embeddable maps from the City of Helsinki map service (kartta.hel.fi) — 1,000+ layers, no API key.</p>
+    </div>
+    <div class="powered">
+      Powered by <a href="https://kartta.hel.fi/" target="_blank" rel="noopener">kartta.hel.fi</a><br>
+      Louhi / SpatialWeb · <a href="gallery.html">Layers gallery →</a>
+    </div>
+  </header>
+
+  <main class="main">
+    <!-- ============ LEFT: controls ============ -->
+    <div class="col-left">
+
+      <!-- 1. Location -->
+      <section class="card">
+        <h2><span class="num">1</span> Location</h2>
+        <div class="field">
+          <label for="place">Quick pick a place</label>
+          <select id="place"><option value="">— choose a place —</option></select>
+        </div>
+        <div class="field">
+          <label>Coordinates (WGS84 — converted automatically by kartta.hel.fi)</label>
+          <div class="row">
+            <input type="text" id="lat" placeholder="Latitude (e.g. 60.1699)">
+            <input type="text" id="lon" placeholder="Longitude (e.g. 24.9384)">
+          </div>
+        </div>
+        <div class="row">
+          <button class="btn btn-sm" id="applyCoords">Set location from coordinates</button>
+        </div>
+        <div class="field" style="margin-top:12px">
+          <label for="res">Zoom (resolution — metres per pixel; smaller = closer)</label>
+          <input type="range" id="res" min="0.25" max="32" step="0.25" value="4">
+        </div>
+        <p class="hint" id="centerInfo">Center: 25496825, 6673044 (EPSG:3879) · zoom 4 m/px</p>
+      </section>
+
+      <!-- 2. Base map -->
+      <section class="card">
+        <h2><span class="num">2</span> Base map</h2>
+        <div class="field">
+          <label for="baseMap">Background layer</label>
+          <select id="baseMap"></select>
+        </div>
+        <p class="hint">34 official base maps: guide, street, property, aerial &amp; ortho imagery, 3D tiles…</p>
+      </section>
+
+      <!-- 3. Layers -->
+      <section class="card">
+        <h2><span class="num">3</span> Layers <span class="badge" id="selCount">0</span></h2>
+        <div class="search-wrap">
+          <span class="ico">🔍</span>
+          <input type="text" id="layerSearch" placeholder="Search 1,000+ layers (e.g. kaava, puu, kiinteistö, laser)…" autocomplete="off">
+        </div>
+        <div class="tree" id="tree"></div>
+        <p class="hint">Tick any number of layers — they stack on top of the base map, in order.</p>
+      </section>
+
+      <!-- 4. Selected layers -->
+      <section class="card">
+        <h2><span class="num">4</span> Selected layers</h2>
+        <div class="sel-list" id="selList"></div>
+      </section>
+
+      <!-- 5. Interface & size -->
+      <section class="card">
+        <h2><span class="num">5</span> Interface &amp; size</h2>
+        <div class="field">
+          <label>User interface components</label>
+          <div class="toggles">
+            <label class="toggle">Mini map <input type="checkbox" id="minimap" checked><span class="sw"></span></label>
+            <label class="toggle">Now on map <input type="checkbox" id="maplink"><span class="sw"></span></label>
+            <label class="toggle">Toolbar <input type="checkbox" id="maptools"><span class="sw"></span></label>
+            <label class="toggle">Main menu <input type="checkbox" id="leftmenu" checked><span class="sw"></span></label>
+            <label class="toggle">Link to full service <input type="checkbox" id="legend" checked><span class="sw"></span></label>
+            <label class="toggle">Mouse-wheel zoom <input type="checkbox" id="wheelzoom" checked><span class="sw"></span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="allow3d">3D mode</label>
+          <select id="allow3d">
+            <option value="">Disabled (2D only)</option>
+            <option value="1">2D first, 3D available</option>
+            <option value="2">3D active on start</option>
+            <option value="3">Only 3D</option>
+          </select>
+        </div>
+        <div class="row field">
+          <div><label for="w">Width (px)</label><input type="number" id="w" value="640" min="200" step="10"></div>
+          <div><label for="h">Height (px)</label><input type="number" id="h" value="480" min="150" step="10"></div>
+        </div>
+        <div class="field">
+          <label for="lang">Language</label>
+          <select id="lang">
+            <option value="fi">Suomi (Finnish)</option>
+            <option value="en">English</option>
+            <option value="sv">Svenska (Swedish)</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="text">Comment / drawing text (optional)</label>
+          <textarea id="text" placeholder="Shown as a marker/comment on the map"></textarea>
+        </div>
+        <button class="btn btn-primary" id="generate">Generate embedded map</button>
+        <div class="status" id="status"></div>
+      </section>
+    </div>
+
+    <!-- ============ RIGHT: preview ============ -->
+    <div class="col-right">
+      <section class="card">
+        <h2>Live preview</h2>
+        <div class="preview-frame" id="previewFrame">
+          <div class="preview-empty" id="previewEmpty">
+            <div class="big">🗺️</div>
+            <div>Configure the map on the left and click <b>Generate embedded map</b>.</div>
+          </div>
+        </div>
+        <div class="meta" id="meta"></div>
+      </section>
+
+      <section class="card">
+        <h2>Embed code</h2>
+        <textarea class="code" id="code" readonly placeholder="Your &lt;iframe&gt; snippet will appear here…"></textarea>
+        <div class="code-actions">
+          <button class="btn btn-sm" id="copy">📋 Copy snippet</button>
+          <button class="btn btn-sm" id="openUrl">↗ Open embed URL</button>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div>
+      Data source: <a href="https://kartta.hel.fi/" target="_blank" rel="noopener">City of Helsinki Map Service</a>
+      — © City of Helsinki. This tool is an independent helper and is not affiliated with the City of Helsinki.
+    </div>
+    <a class="made" href="https://www.ninjatech.ai/product/super-ninja" target="_blank" rel="noopener">🥷 Made by SuperNinja</a>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/proj4@2.11.0/dist/proj4.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

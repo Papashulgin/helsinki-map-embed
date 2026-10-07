@@ -1,0 +1,28 @@
+{
+  "name": "rgb_674495a",
+  "title": "Helsinki LiDAR \u2014 RGB point cloud (500 \u00d7 500 m tile)",
+  "source": "City of Helsinki laser scanning (laserkeilausaineisto), RGB returns",
+  "crs": "EPSG:3879 (ETRS89 / GK25FIN)",
+  "count": 1000000,
+  "scale": 0.01,
+  "origin": {
+    "x": 25495000.0,
+    "y": 6674000.0,
+    "z": -1.0
+  },
+  "bounds": {
+    "xmin": 25495000.0,
+    "xmax": 25495499.999,
+    "ymin": 6674000.0,
+    "ymax": 6674499.999,
+    "zmin": -0.454,
+    "zmax": 39.779
+  },
+  "tile": {
+    "easting": 25495000.0,
+    "northing": 6674000.0,
+    "size": 500.0
+  },
+  "bin": "pointcloud.bin",
+  "bytesPerPoint": 9
+}

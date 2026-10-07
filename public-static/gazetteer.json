@@ -1,0 +1,212 @@
+[
+  {
+    "name": "Helsinki Central Railway Station",
+    "lat": 60.1719,
+    "lon": 24.9414,
+    "easting": 25496747,
+    "northing": 6673226
+  },
+  {
+    "name": "Senate Square",
+    "lat": 60.1699,
+    "lon": 24.9523,
+    "easting": 25497352,
+    "northing": 6673003
+  },
+  {
+    "name": "Market Square (Kauppatori)",
+    "lat": 60.1675,
+    "lon": 24.9536,
+    "easting": 25497424,
+    "northing": 6672736
+  },
+  {
+    "name": "Helsinki Cathedral",
+    "lat": 60.1704,
+    "lon": 24.9521,
+    "easting": 25497341,
+    "northing": 6673059
+  },
+  {
+    "name": "Uspenski Cathedral",
+    "lat": 60.1686,
+    "lon": 24.9596,
+    "easting": 25497757,
+    "northing": 6672858
+  },
+  {
+    "name": "Temppeliaukio Church",
+    "lat": 60.1731,
+    "lon": 24.9253,
+    "easting": 25495854,
+    "northing": 6673361
+  },
+  {
+    "name": "Kamppi",
+    "lat": 60.168,
+    "lon": 24.9317,
+    "easting": 25496208,
+    "northing": 6672792
+  },
+  {
+    "name": "Kallio",
+    "lat": 60.1843,
+    "lon": 24.9503,
+    "easting": 25497242,
+    "northing": 6674607
+  },
+  {
+    "name": "Linnanmäki amusement park",
+    "lat": 60.1886,
+    "lon": 24.9403,
+    "easting": 25496688,
+    "northing": 6675087
+  },
+  {
+    "name": "Olympic Stadium",
+    "lat": 60.1876,
+    "lon": 24.9256,
+    "easting": 25495872,
+    "northing": 6674976
+  },
+  {
+    "name": "Suomenlinna",
+    "lat": 60.145,
+    "lon": 24.988,
+    "easting": 25499333,
+    "northing": 6670228
+  },
+  {
+    "name": "Seurasaari",
+    "lat": 60.183,
+    "lon": 24.884,
+    "easting": 25493563,
+    "northing": 6674467
+  },
+  {
+    "name": "Korkeasaari Zoo",
+    "lat": 60.176,
+    "lon": 25,
+    "easting": 25500000,
+    "northing": 6673682
+  },
+  {
+    "name": "Esplanadi Park",
+    "lat": 60.1675,
+    "lon": 24.945,
+    "easting": 25496947,
+    "northing": 6672736
+  },
+  {
+    "name": "Ateneum Art Museum",
+    "lat": 60.17,
+    "lon": 24.944,
+    "easting": 25496891,
+    "northing": 6673014
+  },
+  {
+    "name": "Kiasma Museum",
+    "lat": 60.1713,
+    "lon": 24.9368,
+    "easting": 25496492,
+    "northing": 6673160
+  },
+  {
+    "name": "Oodi Central Library",
+    "lat": 60.1736,
+    "lon": 24.938,
+    "easting": 25496559,
+    "northing": 6673416
+  },
+  {
+    "name": "Töölö",
+    "lat": 60.181,
+    "lon": 24.92,
+    "easting": 25495560,
+    "northing": 6674241
+  },
+  {
+    "name": "Eira",
+    "lat": 60.156,
+    "lon": 24.942,
+    "easting": 25496779,
+    "northing": 6671455
+  },
+  {
+    "name": "Ullanlinna",
+    "lat": 60.16,
+    "lon": 24.95,
+    "easting": 25497223,
+    "northing": 6671900
+  },
+  {
+    "name": "Kruununhaka",
+    "lat": 60.173,
+    "lon": 24.956,
+    "easting": 25497558,
+    "northing": 6673348
+  },
+  {
+    "name": "Punavuori",
+    "lat": 60.162,
+    "lon": 24.938,
+    "easting": 25496557,
+    "northing": 6672123
+  },
+  {
+    "name": "Vallila",
+    "lat": 60.195,
+    "lon": 24.956,
+    "easting": 25497559,
+    "northing": 6675799
+  },
+  {
+    "name": "Pasila",
+    "lat": 60.199,
+    "lon": 24.933,
+    "easting": 25496284,
+    "northing": 6676246
+  },
+  {
+    "name": "Itäkeskus",
+    "lat": 60.2107,
+    "lon": 25.08,
+    "easting": 25504436,
+    "northing": 6677550
+  },
+  {
+    "name": "Malmi",
+    "lat": 60.25,
+    "lon": 25.01,
+    "easting": 25500554,
+    "northing": 6681926
+  },
+  {
+    "name": "Herttoniemi",
+    "lat": 60.195,
+    "lon": 25.03,
+    "easting": 25501664,
+    "northing": 6675799
+  },
+  {
+    "name": "Käpylä",
+    "lat": 60.22,
+    "lon": 24.95,
+    "easting": 25497229,
+    "northing": 6678585
+  },
+  {
+    "name": "Helsinki Airport (Vantaa)",
+    "lat": 60.3172,
+    "lon": 24.9633,
+    "easting": 25497972,
+    "northing": 6689414
+  },
+  {
+    "name": "Tapiola (Espoo)",
+    "lat": 60.1755,
+    "lon": 24.8047,
+    "easting": 25489160,
+    "northing": 6673642
+  }
+]

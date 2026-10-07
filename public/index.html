@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Helsinki Map Embed Builder · kartta.hel.fi</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%BA%EF%B8%8F%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="style.css" />
+<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">🗺️</div>
+    <div>
+      <h1>Helsinki Map Embed Builder</h1>
+      <div class="sub">Create embeddable maps from the City of Helsinki map service (kartta.hel.fi)</div>
+    </div>
+    <div class="spacer"></div>
+    <div class="pill">Powered by kartta.hel.fi · Louhi / SpatialWeb</div>
+  </header>
+
+  <div class="layout">
+    <!-- ============ CONTROLS ============ -->
+    <div>
+      <div class="panel">
+        <h2><span class="num">1</span> Location</h2>
+
+        <label class="field" for="searchInput">Search an address or place</label>
+        <div class="search-wrap">
+          <input type="text" id="searchInput" placeholder="e.g. Mannerheimintie 1, Kamppi…" autocomplete="off" />
+          <div class="search-results" id="searchResults"></div>
+        </div>
+
+        <div class="row" style="margin-top:14px;">
+          <div>
+            <label class="field" for="lat">Latitude (WGS84)</label>
+            <input type="text" id="lat" placeholder="60.1699" />
+          </div>
+          <div>
+            <label class="field" for="lon">Longitude (WGS84)</label>
+            <input type="text" id="lon" placeholder="24.9384" />
+          </div>
+        </div>
+        <button class="ghost" id="applyCoords" style="margin-top:10px; width:100%;">Set location from coordinates</button>
+
+        <label class="field" for="resolution">Zoom (resolution, metres / pixel)</label>
+        <div class="row">
+          <input type="range" id="resolutionRange" min="0.25" max="20" step="0.25" value="4" />
+          <input type="number" id="resolution" min="0.1" max="100" step="0.1" value="4" style="max-width:90px;" />
+        </div>
+        <div class="hint" id="viewInfo">Center: 25496825, 6673044 (EPSG:3879)</div>
+      </div>
+
+      <div class="panel">
+        <h2><span class="num">2</span> Base map &amp; layers</h2>
+        <label class="field" for="baseMap">Base map</label>
+        <select id="baseMap"></select>
+
+        <label class="field" for="overlay">Overlay (optional)</label>
+        <select id="overlay">
+          <option value="">— none —</option>
+        </select>
+        <div class="hint">Overlays are drawn on top of the base map.</div>
+      </div>
+
+      <div class="panel">
+        <h2><span class="num">3</span> Interface &amp; size</h2>
+
+        <label class="field">User interface components</label>
+        <div class="toggles">
+          <label class="switch"><input type="checkbox" id="opt-minimap" /><span class="track"></span>Mini map</label>
+          <label class="switch"><input type="checkbox" id="opt-legend" /><span class="track"></span>Now on map</label>
+          <label class="switch"><input type="checkbox" id="opt-maptools" /><span class="track"></span>Toolbar</label>
+          <label class="switch"><input type="checkbox" id="opt-leftmenu" /><span class="track"></span>Main menu</label>
+          <label class="switch"><input type="checkbox" id="opt-maplink" /><span class="track"></span>Link to full service</label>
+          <label class="switch"><input type="checkbox" id="opt-wheelzoom" checked /><span class="track"></span>Mouse-wheel zoom</label>
+        </div>
+
+        <label class="field" for="allow3d">3D mode</label>
+        <select id="allow3d">
+          <option value="0">Disabled (2D only)</option>
+          <option value="1">2D first, 3D available</option>
+          <option value="2">3D active on start</option>
+          <option value="3">Only 3D</option>
+        </select>
+
+        <div class="row" style="margin-top:14px;">
+          <div>
+            <label class="field" for="width">Width (px)</label>
+            <input type="number" id="width" value="640" min="250" />
+          </div>
+          <div>
+            <label class="field" for="height">Height (px)</label>
+            <input type="number" id="height" value="480" min="250" />
+          </div>
+        </div>
+
+        <label class="field" for="language">Language</label>
+        <select id="language">
+          <option value="fi">Suomi (Finnish)</option>
+          <option value="en">English</option>
+          <option value="sv">Svenska (Swedish)</option>
+        </select>
+
+        <label class="field" for="text">Comment / drawing text (optional)</label>
+        <textarea id="text" placeholder="Shown as a marker/comment on the map"></textarea>
+
+        <button class="primary" id="generateBtn">Generate embedded map</button>
+        <div class="status" id="status"></div>
+      </div>
+    </div>
+
+    <!-- ============ PREVIEW ============ -->
+    <div>
+      <div class="panel preview-panel">
+        <h2><span class="num">4</span> Live preview</h2>
+        <div class="preview-frame" id="previewFrame">
+          <div class="preview-placeholder">
+            <div class="big">🗺️</div>
+            Configure the map on the left and click<br /><b>Generate embedded map</b> to preview it here.
+          </div>
+        </div>
+
+        <h2 style="margin-top:22px;"><span class="num">5</span> Embed code</h2>
+        <div class="code-box">
+          <pre id="embedCode">Your &lt;iframe&gt; snippet will appear here…</pre>
+          <button class="copy" id="copyBtn">Copy</button>
+        </div>
+
+        <div class="meta" id="meta"></div>
+        <div class="hint">
+          Paste the snippet into any HTML page. The map is served directly by
+          kartta.hel.fi; no API key is required. Map data © City of Helsinki.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    Data source: City of Helsinki Map Service — source kartta.hel.fi, © City of Helsinki.
+    This tool is an independent helper and is not affiliated with the City of Helsinki.
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
