@@ -1,0 +1,38 @@
+{
+  "recordType": "building-archive-reference",
+  "address": "Mannerheimintie 5, 00100 Helsinki",
+  "buildingIdentity": {
+    "ratu": "391",
+    "vtjPrt": "103036835V",
+    "propertyId": "091-002-0096-0034",
+    "helsinkiWfsFeature": "Rakennukset_alue_rekisteritiedot.81772"
+  },
+  "mapSource": {
+    "name": "Helsingin kaupungin rakennus- ja osoiterekisteri WFS",
+    "url": "https://kartta.hel.fi/ws/geoserver/avoindata/wfs",
+    "coordinateReferenceSystem": "EPSG:4326",
+    "addressPoint": [24.93964617, 60.1695137],
+    "projectedCoordinateReferenceSystem": "EPSG:3879",
+    "projectedCoordinate": [25496649.50004517, 6672960.503190785],
+    "buildingClass": "0400"
+  },
+  "archiveReference": {
+    "provider": "Yksa · Helsingin kaupunginarkisto",
+    "recordId": "167421523809800",
+    "url": "https://yksa.disec.fi/Yksa4/id/167421523809800/?view=list&_displayStart=0&back=true&history=1&ref=results&_sort=4%2Cdesc#tab/overview",
+    "title": "Ritning till varuhus Ab Stockmann Oy",
+    "historicDesignation": "Att uppföras å ABC City tillhöriga tomten No 1 vid Östra Henriksgatan i kvarteret No 95 av Helsingfors stad · första byggnadsperioden",
+    "facadeLabel": "Fasad mot Alexandersgatan",
+    "associationStatus": "User-linked to the current Mannerheimintie 5 building card; verify the historic-to-current address match against the archive record."
+  },
+  "image": {
+    "file": "mannerheimintie-5.jpg",
+    "originalFile": "/home/psykodorka/Lataukset/mansku5.jpg",
+    "mimeType": "image/jpeg",
+    "pixelSize": [8000, 5031],
+    "sha256": "3b9cd4f453e0cfe7cefd12a2428e05a114f413a6cc43b4b8a6d7825c2f198626",
+    "measurementStatus": "Not scale-calibrated; archival image only."
+  },
+  "addedAt": "2026-11-02",
+  "addedBy": "User-supplied attachment"
+}

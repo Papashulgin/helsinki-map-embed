@@ -1,0 +1,4588 @@
+{
+  "manufacturer": "ALFIX GmbH",
+  "currency": "EUR",
+  "source": "https://www.alfix-systems.com/web/sitemap/shop-1/sitemap-1.xml.gz",
+  "sourceIndex": "https://www.alfix-systems.com/de/shop/",
+  "checkedAt": "2026-10-28T14:06:02+00:00",
+  "scope": "Shop sitemap product detail pages; only public listed item prices are included.",
+  "coverage": {
+    "sitemapProductPages": 457,
+    "fetchedPages": 457,
+    "priceListedProducts": 457,
+    "pagesWithoutPublicPrice": 0,
+    "fetchErrors": 0
+  },
+  "records": [
+    {
+      "name": "Abdeckkappe aus Kunststoff (PP) für Modulanschlussscheibe, gelb",
+      "articleNumber": "3700009",
+      "price": 5.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/abdeckkappe-aus-kunststoff-pp-fuer-modulanschlussscheibe-gelb.html",
+      "lastCheckedAt": "2026-10-28T13:52:13+00:00"
+    },
+    {
+      "name": "Abdeckkappe aus Kunststoff (PP) für Modulknoten, gelb",
+      "articleNumber": "3700008",
+      "price": 5.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/abdeckkappe-aus-kunststoff-pp-fuer-modulknoten-gelb.html",
+      "lastCheckedAt": "2026-10-28T13:52:13+00:00"
+    },
+    {
+      "name": "Abdeckkappe aus Kunststoff für Gerüstrohre ø 48,3 mm",
+      "articleNumber": "3769000",
+      "price": 1.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/abdeckkappe-aus-kunststoff-fuer-geruestrohre-oe-48-3-mm.html",
+      "lastCheckedAt": "2026-10-28T13:52:14+00:00"
+    },
+    {
+      "name": "Abstandrohr aus Stahl, vz",
+      "articleNumber": "1361040",
+      "price": 13.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/abstandrohr-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:14+00:00"
+    },
+    {
+      "name": "Absteifkupplung",
+      "articleNumber": "1306019",
+      "price": 19.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/absteifkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:52:15+00:00"
+    },
+    {
+      "name": "Adapter aus Stahl 0,16 m für ALFIX Voreilenden Stirngeländerrahmen",
+      "articleNumber": "1443302",
+      "price": 27.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/adapter-aus-stahl-0-16-m-fuer-alfix-voreilenden-stirngelaenderrahmen.html",
+      "lastCheckedAt": "2026-10-28T13:52:15+00:00"
+    },
+    {
+      "name": "Adapterplatte aus Stahl für Erdankerung, vz",
+      "articleNumber": "1152000",
+      "price": 24.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/adapterplatte-aus-stahl-fuer-erdankerung-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:15+00:00"
+    },
+    {
+      "name": "ALBLITZ Anfangstreppe aus Aluminium 0,62 m",
+      "articleNumber": "1298067",
+      "price": 293.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-anfangstreppe-aus-aluminium-0-62-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:15+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium 0,60 m, ohne Leiter, Belag SDP",
+      "articleNumber": "1292207",
+      "price": 271.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-0-60-m-ohne-leiter-belag-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:16+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium 0,60 m, ohne Leiter, Belag WBQ",
+      "articleNumber": "1295207",
+      "price": 303.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-0-60-m-ohne-leiter-belag-wbq.html",
+      "lastCheckedAt": "2026-10-28T13:52:16+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium 2,07 x 0,60 m, ohne Leiter, mit Auftritt , Klappe seitlich, Belag W",
+      "articleNumber": "1294209",
+      "price": 381.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-2-07-x-0-60-m-ohne-leiter-mit-auftritt-klappe-seitlich-belag-w.html",
+      "lastCheckedAt": "2026-10-28T13:52:16+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium mit Leiter, Klappe seitlich, Belag SDP",
+      "articleNumber": "1291259",
+      "price": 384.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-mit-leiter-klappe-seitlich-belag-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:18+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium mit Leiter, Klappe seitlich, Belag WBQ",
+      "articleNumber": "1294259",
+      "price": 485.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-mit-leiter-klappe-seitlich-belag-wbq.html",
+      "lastCheckedAt": "2026-10-28T13:52:18+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium ohne Leiter, Klappe seitlich, Belag SDP",
+      "articleNumber": "1292159",
+      "price": 216.25,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-ohne-leiter-klappe-seitlich-belag-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:18+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium, mit Leiter, Belag SDP",
+      "articleNumber": "1291257",
+      "price": 320.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-mit-leiter-belag-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:16+00:00"
+    },
+    {
+      "name": "ALBLITZ Durchstieg aus Aluminium, mit Leiter, Belag WBQ",
+      "articleNumber": "1294257",
+      "price": 378.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-durchstieg-aus-aluminium-mit-leiter-belag-wbq.html",
+      "lastCheckedAt": "2026-10-28T13:52:18+00:00"
+    },
+    {
+      "name": "ALBLITZ Gewindefußplatte aus Stahl, vz",
+      "articleNumber": "1151040",
+      "price": 20.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-gewindefussplatte-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:19+00:00"
+    },
+    {
+      "name": "ALBLITZ LW Boden aus Aluminium 0,60 m",
+      "articleNumber": "1213157",
+      "price": 172.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-lw-boden-aus-aluminium-0-60-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:19+00:00"
+    },
+    {
+      "name": "ALBLITZ Podestgeländer aus Stahl, vz",
+      "articleNumber": "4129257",
+      "price": 89.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-podestgelaender-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:19+00:00"
+    },
+    {
+      "name": "ALBLITZ Rahmentafel aus Aluminium 0,60m, Belag SDP",
+      "articleNumber": "1290050",
+      "price": 117.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-rahmentafel-aus-aluminium-0-60m-belag-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:19+00:00"
+    },
+    {
+      "name": "ALBLITZ Treppe aus Aluminium 0,62 m",
+      "articleNumber": "1298207",
+      "price": 530.75,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-treppe-aus-aluminium-0-62-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:20+00:00"
+    },
+    {
+      "name": "ALBLITZ Treppen-Geländerpfosten aus Stahl 1,10 m, vz",
+      "articleNumber": "1131110",
+      "price": 51.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-treppen-gelaenderpfosten-aus-stahl-1-10-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:19+00:00"
+    },
+    {
+      "name": "ALBLITZ Treppengeländer doppelt aus Stahl mit Hespenkupplung, vz",
+      "articleNumber": "4136203",
+      "price": 154.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-treppengelaender-doppelt-aus-stahl-mit-hespenkupplung-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:20+00:00"
+    },
+    {
+      "name": "ALBLITZ Treppengeländer doppelt aus Stahl mit Keilköpfen, vz",
+      "articleNumber": "4136208",
+      "price": 144.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-treppengelaender-doppelt-aus-stahl-mit-keilkoepfen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:21+00:00"
+    },
+    {
+      "name": "ALBLITZ Treppengeländer doppelt aus Stahl, vz",
+      "articleNumber": "1298208",
+      "price": 135.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alblitz-treppengelaender-doppelt-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:21+00:00"
+    },
+    {
+      "name": "ALFIX Abdeckkappe aus Kunststoff ø 14 x 40 mm, Kappe ø 28 mm, Lamelle",
+      "articleNumber": "3701001",
+      "price": 0.25,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-abdeckkappe-aus-kunststoff-oe-14-x-40-mm-kappe-oe-28-mm-lamelle.html",
+      "lastCheckedAt": "2026-10-28T13:52:22+00:00"
+    },
+    {
+      "name": "ALFIX Aluminium-U-Profil mit Halbkupplungen",
+      "articleNumber": "1380200",
+      "price": 100.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-aluminium-u-profil-mit-halbkupplungen.html",
+      "lastCheckedAt": "2026-10-28T13:52:21+00:00"
+    },
+    {
+      "name": "ALFIX Anfangsquerriegel aus Stahl, vz",
+      "articleNumber": "1401073",
+      "price": 38.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-anfangsquerriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:22+00:00"
+    },
+    {
+      "name": "ALFIX Ankerkupplung 48/- SW 19",
+      "articleNumber": "1306119",
+      "price": 17.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-ankerkupplung-48/sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:52:23+00:00"
+    },
+    {
+      "name": "ALFIX Aufhängung für Gitterträger aus Stahl 0,53 m, vz SW19",
+      "articleNumber": "1385000",
+      "price": 50.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-aufhaengung-fuer-gittertraeger-aus-stahl-0-53-m-vz-sw19.html",
+      "lastCheckedAt": "2026-10-28T13:52:22+00:00"
+    },
+    {
+      "name": "ALFIX Auslegerrahmen aus Stahl",
+      "articleNumber": "1019100L",
+      "price": 184.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-auslegerrahmen-aus-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:52:23+00:00"
+    },
+    {
+      "name": "ALFIX Belagsicherung für Konsole aus Stahl, vz",
+      "articleNumber": "1048036",
+      "price": 14.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-belagsicherung-fuer-konsole-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:24+00:00"
+    },
+    {
+      "name": "ALFIX Bordbrett aus Holz 0,15 m",
+      "articleNumber": "1250073",
+      "price": 18.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-bordbrett-aus-holz-0-15-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:24+00:00"
+    },
+    {
+      "name": "ALFIX Bordbrett aus Stahl, vz",
+      "articleNumber": "1252073",
+      "price": 19.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-bordbrett-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:25+00:00"
+    },
+    {
+      "name": "ALFIX Dachfangrahmen aus Stahl 2,00 x 0,73 m auf 1,09 m, vz, LA",
+      "articleNumber": "1019003L",
+      "price": 182.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-dachfangrahmen-aus-stahl-2-00-x-0-73-m-auf-1-09-m-vz-la.html",
+      "lastCheckedAt": "2026-10-28T13:52:25+00:00"
+    },
+    {
+      "name": "ALFIX Diagonale aus Stahl mit 2 drehbaren Halbkupplungen SW 19, vz",
+      "articleNumber": "1100150",
+      "price": 62.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-diagonale-aus-stahl-mit-2-drehbaren-halbkupplungen-sw-19-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:26+00:00"
+    },
+    {
+      "name": "ALFIX Diagonale aus Stahl mit drehbaren Keilkupplungen, vz",
+      "articleNumber": "1100281",
+      "price": 41.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-diagonale-aus-stahl-mit-drehbaren-keilkupplungen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:26+00:00"
+    },
+    {
+      "name": "ALFIX Diagonale aus Stahl mit drehbarer Halbkupplung SW 19, vz",
+      "articleNumber": "1100280",
+      "price": 41.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-diagonale-aus-stahl-mit-drehbarer-halbkupplung-sw-19-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:26+00:00"
+    },
+    {
+      "name": "ALFIX Doppelgeländer aus Aluminium mit Zwischendiagonalen",
+      "articleNumber": "1051158",
+      "price": 74.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-doppelgelaender-aus-aluminium-mit-zwischendiagonalen.html",
+      "lastCheckedAt": "2026-10-28T13:52:28+00:00"
+    },
+    {
+      "name": "ALFIX Doppelgeländer aus Stahl, vz",
+      "articleNumber": "1061157",
+      "price": 51.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-doppelgelaender-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:28+00:00"
+    },
+    {
+      "name": "ALFIX Dreieckfußplatte",
+      "articleNumber": "1378000",
+      "price": 76.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-dreieckfussplatte.html",
+      "lastCheckedAt": "2026-10-28T13:52:28+00:00"
+    },
+    {
+      "name": "ALFIX DS Konsolrahmen aus Stahl, vz",
+      "articleNumber": "1032099",
+      "price": 154.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-ds-konsolrahmen-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:28+00:00"
+    },
+    {
+      "name": "ALFIX Durchgangsrahmen aus Stahl 2,20 x 1,57 m, 3-teilig, vz",
+      "articleNumber": "1019006",
+      "price": 260.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-durchgangsrahmen-aus-stahl-2-20-x-1-57-m-3-teilig-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:29+00:00"
+    },
+    {
+      "name": "ALFIX Eck-Geländerkästchen, vz",
+      "articleNumber": "1309001",
+      "price": 18.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-eck-gelaenderkaestchen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:28+00:00"
+    },
+    {
+      "name": "ALFIX Eckbelag aus Aluminium 0,60 m, verstellbar 45-90°, mit Bordbrett, WBQ",
+      "articleNumber": "4091001",
+      "price": 448.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-eckbelag-aus-aluminium-0-60-m-verstellbar-45-900-mit-bordbrett-wbq.html",
+      "lastCheckedAt": "2026-10-28T13:52:29+00:00"
+    },
+    {
+      "name": "ALFIX Eisfreigerüst aus Stahl, Erweiterungsfeld 3,07 x 0,73 x 3,20 m",
+      "articleNumber": "9008002adm",
+      "price": 599.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-eisfreigeruest-aus-stahl-erweiterungsfeld-3-07-x-0-73-x-3-20-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:29+00:00"
+    },
+    {
+      "name": "ALFIX Eisfreigerüst aus Stahl, Grundeinheit 13,19 x 0,73 x 3,20 m",
+      "articleNumber": "9008001adm",
+      "price": 3999.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-eisfreigeruest-aus-stahl-grundeinheit-13-19-x-0-73-x-3-20-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:29+00:00"
+    },
+    {
+      "name": "ALFIX Fahrbalken aus Stahl 2,00 m",
+      "articleNumber": "1412200",
+      "price": 169.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-fahrbalken-aus-stahl-2-00-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:31+00:00"
+    },
+    {
+      "name": "ALFIX Geländerhalter aus Stahl 0,50 m für Alu-Treppen, SW 19",
+      "articleNumber": "1132050",
+      "price": 36.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gelaenderhalter-aus-stahl-0-50-m-fuer-alu-treppen-sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:52:31+00:00"
+    },
+    {
+      "name": "ALFIX Geländerstütze aus Aluminium 1,00 x 0,73 m",
+      "articleNumber": "1053100",
+      "price": 66.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gelaenderstuetze-aus-aluminium-1-00-x-0-73-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:31+00:00"
+    },
+    {
+      "name": "ALFIX Geländerstütze aus Stahl, vz",
+      "articleNumber": "1064073L",
+      "price": 52.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gelaenderstuetze-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:31+00:00"
+    },
+    {
+      "name": "ALFIX Geländerstütze einfach aus Aluminium 1,00 m",
+      "articleNumber": "1054000",
+      "price": 51.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gelaenderstuetze-einfach-aus-aluminium-1-00-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:32+00:00"
+    },
+    {
+      "name": "ALFIX Geländerstütze einfach aus Stahl 1,00 m, vz, LA",
+      "articleNumber": "1065100L",
+      "price": 38.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gelaenderstuetze-einfach-aus-stahl-1-00-m-vz-la.html",
+      "lastCheckedAt": "2026-10-28T13:52:32+00:00"
+    },
+    {
+      "name": "ALFIX Gerüstbaudübel aus Nylon",
+      "articleNumber": "3700010",
+      "price": 0.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-geruestbauduebel-aus-nylon.html",
+      "lastCheckedAt": "2026-10-28T13:52:33+00:00"
+    },
+    {
+      "name": "ALFIX Gitterträger aus Aluminium",
+      "articleNumber": "1370320",
+      "price": 221.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gittertraeger-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:52:32+00:00"
+    },
+    {
+      "name": "ALFIX Gitterträger aus Stahl 0,45 m, vz",
+      "articleNumber": "1375320",
+      "price": 208.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gittertraeger-aus-stahl-0-45-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:33+00:00"
+    },
+    {
+      "name": "ALFIX Gitterträgertraverse aus Stahl, vz",
+      "articleNumber": "1381073",
+      "price": 82.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-gittertraegertraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:33+00:00"
+    },
+    {
+      "name": "ALFIX Holzboden 0,32 m",
+      "articleNumber": "1231073",
+      "price": 52.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-holzboden-0-32-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:34+00:00"
+    },
+    {
+      "name": "ALFIX Horizontalstrebe aus Stahl mit drehbaren 2 Halbkupplungen, vz",
+      "articleNumber": "1102207",
+      "price": 73.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-horizontalstrebe-aus-stahl-mit-drehbaren-2-halbkupplungen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:35+00:00"
+    },
+    {
+      "name": "ALFIX Horizontalstrebe aus Stahl mit drehbaren 2 Keilkupplungen, vz",
+      "articleNumber": "1102208",
+      "price": 73.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-horizontalstrebe-aus-stahl-mit-drehbaren-2-keilkupplungen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:35+00:00"
+    },
+    {
+      "name": "ALFIX Inneneckkonsole aus Stahl 0,27 m, vz",
+      "articleNumber": "1049025",
+      "price": 55.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-inneneckkonsole-aus-stahl-0-27-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:34+00:00"
+    },
+    {
+      "name": "ALFIX Innengeländerstütze aus Stahl 1,00 m",
+      "articleNumber": "1065713",
+      "price": 42.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-innengelaenderstuetze-aus-stahl-1-00-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:35+00:00"
+    },
+    {
+      "name": "ALFIX Kamingerüst Paket",
+      "articleNumber": "3229150",
+      "price": 2206.5,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-kamingeruest-paket.html",
+      "lastCheckedAt": "2026-10-28T13:52:35+00:00"
+    },
+    {
+      "name": "ALFIX Knotenblechkupplung SW 19",
+      "articleNumber": "1306319",
+      "price": 15.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-knotenblechkupplung-sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:52:35+00:00"
+    },
+    {
+      "name": "ALFIX Konsole aus Stahl ohne RV, SW 19",
+      "articleNumber": "1030024",
+      "price": 37.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-konsole-aus-stahl-ohne-rv-sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:52:36+00:00"
+    },
+    {
+      "name": "ALFIX Konsole aus Stahl SW 19, vz",
+      "articleNumber": "1030036",
+      "price": 41.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-konsole-aus-stahl-sw-19-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:36+00:00"
+    },
+    {
+      "name": "ALFIX Konsole spezial aus Stahl 0,36 m, vz",
+      "articleNumber": "1049036",
+      "price": 56.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-konsole-spezial-aus-stahl-0-36-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:37+00:00"
+    },
+    {
+      "name": "ALFIX MODUL 4.0 Distanzkupplung starr",
+      "articleNumber": "4150003",
+      "price": 26.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-4.0-distanzkupplung-starr.html",
+      "lastCheckedAt": "2026-10-28T13:52:37+00:00"
+    },
+    {
+      "name": "ALFIX MODUL 4.0 Hängegerüstverbinder aus Stahl, vz",
+      "articleNumber": "4875060",
+      "price": 44.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-4.0-haengegeruestverbinder-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:37+00:00"
+    },
+    {
+      "name": "ALFIX MODUL 4.0 Keilkopfkupplung",
+      "articleNumber": "4150000",
+      "price": 26.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-4.0-keilkopfkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:52:38+00:00"
+    },
+    {
+      "name": "ALFIX MODUL 4.0 Keilkopfkupplung 48/- SW 19, drehbar",
+      "articleNumber": "4150001",
+      "price": 29.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-4.0-keilkopfkupplung-48/sw-19-drehbar.html",
+      "lastCheckedAt": "2026-10-28T13:52:38+00:00"
+    },
+    {
+      "name": "ALFIX MODUL 4.0 Sicherung für Gewindefußplatte aus Stahl 0,65 m, vz",
+      "articleNumber": "4152003",
+      "price": 33.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-4.0-sicherung-fuer-gewindefussplatte-aus-stahl-0-65-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:38+00:00"
+    },
+    {
+      "name": "ALFIX MODUL 4.0 Treppengeländerhalter aus Stahl, vz",
+      "articleNumber": "4136300",
+      "price": 20.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-4.0-treppengelaenderhalter-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:38+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Geländerhalter RE aus Stahl 1,65 m mit Bordbretthalter, vz",
+      "articleNumber": "4136165",
+      "price": 66.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-gelaenderhalter-re-aus-stahl-1-65-m-mit-bordbretthalter-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:39+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Konsolstrebe aus Stahl 2,05 m, SW 19, vz, L=2,035 m",
+      "articleNumber": "4010207",
+      "price": 66.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-konsolstrebe-aus-stahl-2-05-m-sw-19-vz-l-2-035-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:39+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Konsolstrebe aus Stahl 2,05 m, SW 22, vz, L=2,035 m",
+      "articleNumber": "4010205",
+      "price": 66.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-konsolstrebe-aus-stahl-2-05-m-sw-22-vz-l-2-035-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:39+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Kopfspindel U aus Stahl 0,60 m, vz",
+      "articleNumber": "4159000",
+      "price": 51.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-kopfspindel-u-aus-stahl-0-60-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:40+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 0,19 m Spaltabdeckung aus Aluminium-Warzenblech für Treppenturm",
+      "articleNumber": "4835107",
+      "price": 54.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-0-19-m-spaltabdeckung-aus-aluminium-warzenblech-fuer-treppenturm.html",
+      "lastCheckedAt": "2026-10-28T13:52:40+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Doppelstirngeländer aus Stahl",
+      "articleNumber": "4862074n",
+      "price": 39.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-doppelstirngelaender-aus-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:52:40+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Gitterträger aus Stahl, vz",
+      "articleNumber": "4870250",
+      "price": 302.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-gittertraeger-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:40+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Horizontaldiagonalriegel aus Stahl, vz",
+      "articleNumber": "4823503",
+      "price": 78.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-horizontaldiagonalriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:41+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 kindersicheres Geländer aus Stahl, vz",
+      "articleNumber": "4838074",
+      "price": 223.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-kindersicheres-gelaender-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:42+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Konsolriegel aus Stahl, vz",
+      "articleNumber": "4829000",
+      "price": 23.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-konsolriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:42+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Rohrriegel aus Stahl, verstärkt, vz",
+      "articleNumber": "4861110",
+      "price": 47.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-rohrriegel-aus-stahl-verstaerkt-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:42+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Rohrriegel aus Stahl, vz",
+      "articleNumber": "4860025",
+      "price": 20.25,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-rohrriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:42+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Treppengeländer kindersicher aus Stahl, 500 kg/m²",
+      "articleNumber": "4836102",
+      "price": 302.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-treppengelaender-kindersicher-aus-stahl-500-kg/m2.html",
+      "lastCheckedAt": "2026-10-28T13:52:43+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC 4.0 Treppengeländer kindersicher aus Stahl, 750 kg/m²",
+      "articleNumber": "4836162",
+      "price": 371.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-4.0-treppengelaender-kindersicher-aus-stahl-750-kg/m2.html",
+      "lastCheckedAt": "2026-10-28T13:52:43+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Aluminium Rahmentafel mit Durchstieg und integrierter Etagenleiter RE (SDP)",
+      "articleNumber": "4800251",
+      "price": 417.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-aluminium-rahmentafel-mit-durchstieg-und-integrierter-etagenleiter-re-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:43+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Aluminium Rahmentafel RE (SDP)",
+      "articleNumber": "4803150",
+      "price": 180.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-aluminium-rahmentafel-re-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:52:44+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Auflageriegel aus Stahl, UNIFIX-Auflage, vz",
+      "articleNumber": "4850074",
+      "price": 44.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-auflageriegel-aus-stahl-unifix-auflage-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:44+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Auflageriegel RE aus Stahl, vz",
+      "articleNumber": "4050070",
+      "price": 35.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-auflageriegel-re-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:44+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Belagriegel aus Stahl, vz",
+      "articleNumber": "4865040",
+      "price": 37.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-belagriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:44+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Belagsicherung aus Stahl, vz",
+      "articleNumber": "4898074",
+      "price": 38.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-belagsicherung-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:45+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Bordbrett aus Holz 0,15 m",
+      "articleNumber": "4895074",
+      "price": 17.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-bordbrett-aus-holz-0-15-m.html",
+      "lastCheckedAt": "2026-10-28T13:52:45+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Bordbretthalter aus Stahl, vz",
+      "articleNumber": "1313030",
+      "price": 17.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-bordbretthalter-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:45+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Doppelriegel aus Stahl, vz",
+      "articleNumber": "4865150",
+      "price": 103.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-doppelriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:45+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Etagenleitersegment aus Stahl 0,74 x 0,50 m, vz",
+      "articleNumber": "4811001",
+      "price": 98.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-etagenleitersegment-aus-stahl-0-74-x-0-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:45+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Flächengerüststiel aus Stahl, vz",
+      "articleNumber": "4830046",
+      "price": 27.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-flaechengerueststiel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:46+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Gitterträger aus Stahl, UNIFIX Auflage, vz",
+      "articleNumber": "4871200",
+      "price": 317.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-gittertraeger-aus-stahl-unifix-auflage-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:47+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Gitterträgertraverse aus Stahl, vz",
+      "articleNumber": "4873074",
+      "price": 147.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-gittertraegertraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:47+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Horizontaldiagonale aus Stahl für Feldlänge 2,00 m, vz",
+      "articleNumber": "4841200",
+      "price": 64.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-horizontaldiagonale-aus-stahl-fuer-feldlaenge-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:47+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Horizontaldiagonale aus Stahl für Feldlänge 2,50 m, vz",
+      "articleNumber": "4841250",
+      "price": 65.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-horizontaldiagonale-aus-stahl-fuer-feldlaenge-2-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:48+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Horizontaldiagonale aus Stahl für Feldlänge 3,00 m, vz",
+      "articleNumber": "4841300",
+      "price": 73.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-horizontaldiagonale-aus-stahl-fuer-feldlaenge-3-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:48+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Horizontaldiagonalriegel aus Stahl, vz",
+      "articleNumber": "4823502",
+      "price": 63.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-horizontaldiagonalriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:48+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Konsole aus Stahl mit Rohrriegel-Einhängung, vz",
+      "articleNumber": "4810020",
+      "price": 55.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-konsole-aus-stahl-mit-rohrriegel-einhaengung-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:48+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Konsole aus Stahl, vz",
+      "articleNumber": "4810001",
+      "price": 54.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-konsole-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:50+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Konsole für Antrittsstufe aus Stahl 0,32 m, 750kg/m²",
+      "articleNumber": "4810029",
+      "price": 35.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-konsole-fuer-antrittsstufe-aus-stahl-0-32-m-750kg/m2.html",
+      "lastCheckedAt": "2026-10-28T13:52:49+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Podestgeländer aus Stahl, feuerverzinkt",
+      "articleNumber": "4829250",
+      "price": 90.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-podestgelaender-aus-stahl-feuerverzinkt.html",
+      "lastCheckedAt": "2026-10-28T13:52:49+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Querbordbrett aus Holz, Höhe 15 cm",
+      "articleNumber": "4851074",
+      "price": 18.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-querbordbrett-aus-holz-hoehe-15-cm.html",
+      "lastCheckedAt": "2026-10-28T13:52:50+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Querbordbrett RE aus Holz",
+      "articleNumber": "4897074",
+      "price": 12.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-querbordbrett-re-aus-holz.html",
+      "lastCheckedAt": "2026-10-28T13:52:50+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Rohrverbinder aus Stahl für Gitterträger, vz",
+      "articleNumber": "4851001",
+      "price": 29.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-rohrverbinder-aus-stahl-fuer-gittertraeger-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:51+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Spaltabdeckung aus Aluminium-Warzenblech",
+      "articleNumber": "4832110",
+      "price": 60.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-spaltabdeckung-aus-aluminium-warzenblech.html",
+      "lastCheckedAt": "2026-10-28T13:52:50+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Spaltabdeckung für Doppelstiel",
+      "articleNumber": "4833110",
+      "price": 87.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-spaltabdeckung-fuer-doppelstiel.html",
+      "lastCheckedAt": "2026-10-28T13:52:51+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Spaltriegel aus Stahl",
+      "articleNumber": "4820079",
+      "price": 91.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-spaltriegel-aus-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:52:52+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Spaltriegel aus Stahl 0,12 m, vz",
+      "articleNumber": "4820115",
+      "price": 108.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-spaltriegel-aus-stahl-0-12-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:51+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Stahlboden RE 0,32 m, vz",
+      "articleNumber": "4820074",
+      "price": 80.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-stahlboden-re-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:52+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Treppengeländer doppelt aus Stahl, vz",
+      "articleNumber": "4836209",
+      "price": 138.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-treppengelaender-doppelt-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:52+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Treppenwange aus Stahl mit Halbkupplung, vz",
+      "articleNumber": "4810054L",
+      "price": 327.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-treppenwange-aus-stahl-mit-halbkupplung-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:53+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Treppenwange aus Stahl, mit Keilköpfen, vz",
+      "articleNumber": "4810053",
+      "price": 344.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-treppenwange-aus-stahl-mit-keilkoepfen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:53+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Vertikaldiagonale aus Stahl für Feldhöhe 0,50 m, vz",
+      "articleNumber": "4824050",
+      "price": 54.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-vertikaldiagonale-aus-stahl-fuer-feldhoehe-0-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:54+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Vertikaldiagonale aus Stahl für Feldhöhe 1,00 m, vz",
+      "articleNumber": "4824100",
+      "price": 56.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-vertikaldiagonale-aus-stahl-fuer-feldhoehe-1-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:54+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Vertikaldiagonale aus Stahl für Feldhöhe 1,50 m, vz",
+      "articleNumber": "4824150",
+      "price": 60.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-vertikaldiagonale-aus-stahl-fuer-feldhoehe-1-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:54+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Vertikaldiagonale aus Stahl für Feldhöhe 2,00 m, vz",
+      "articleNumber": "4821200",
+      "price": 52.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-vertikaldiagonale-aus-stahl-fuer-feldhoehe-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:54+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Vollaluminium Rahmentafel mit Durchstieg und integrierter Etagenleiter RE (WBQ)",
+      "articleNumber": "4800250",
+      "price": 540.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-vollaluminium-rahmentafel-mit-durchstieg-und-integrierter-etagenleiter-re-wbq.html",
+      "lastCheckedAt": "2026-10-28T13:52:55+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Zwischenbelag RE aus Stahl 0,19 m, vz",
+      "articleNumber": "4830074",
+      "price": 78.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-zwischenbelag-re-aus-stahl-0-19-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:55+00:00"
+    },
+    {
+      "name": "ALFIX MODUL METRIC Zwischenbelagriegel aus Stahl, vz",
+      "articleNumber": "4854032",
+      "price": 39.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-metric-zwischenbelagriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:55+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Belagsicherung aus Stahl, vz",
+      "articleNumber": "4098109",
+      "price": 27.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-belagsicherung-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:56+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Doppelstirngeländer aus Stahl 0,73 m, vz",
+      "articleNumber": "4062073",
+      "price": 61.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-doppelstirngelaender-aus-stahl-0-73-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:56+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Doppelstirngeländer aus Stahl 1,09 m, vz",
+      "articleNumber": "4062109",
+      "price": 62.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-doppelstirngelaender-aus-stahl-1-09-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:57+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Geländer kindersicher aus Stahl 1,10 m, vz",
+      "articleNumber": "4140073",
+      "price": 173.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-gelaender-kindersicher-aus-stahl-1-10-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:57+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Gitterträger aus Stahl, vz",
+      "articleNumber": "4070207",
+      "price": 185.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-gittertraeger-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:57+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Konsole aus Stahl, vz",
+      "articleNumber": "4010011",
+      "price": 37.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-konsole-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:57+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Konsole RE aus Stahl, vz",
+      "articleNumber": "4010009",
+      "price": 51.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-konsole-re-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:59+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Rohrriegel aus Stahl, verstärkt, vz",
+      "articleNumber": "4061140",
+      "price": 76.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-rohrriegel-aus-stahl-verstaerkt-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:59+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Rohrriegel aus Stahl, vz",
+      "articleNumber": "4060036",
+      "price": 32.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-rohrriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:52:59+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Treppengeländer kindersicher aus Stahl, 500 kg/m²",
+      "articleNumber": "4136102",
+      "price": 398.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-treppengelaender-kindersicher-aus-stahl-500-kg/m2.html",
+      "lastCheckedAt": "2026-10-28T13:52:59+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 Treppengeländer kindersicher aus Stahl, 750 kg/m²",
+      "articleNumber": "4137031",
+      "price": 233.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-treppengelaender-kindersicher-aus-stahl-750-kg/m2.html",
+      "lastCheckedAt": "2026-10-28T13:53:00+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 U-Gitterträger aus Stahl, vz",
+      "articleNumber": "4071207",
+      "price": 220.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-u-gittertraeger-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:00+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 U-Riegel aus Stahl, verstärkt, vz",
+      "articleNumber": "4065140",
+      "price": 81.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-u-riegel-aus-stahl-verstaerkt-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:00+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI 4.0 U-Riegel aus Stahl, vz",
+      "articleNumber": "4065073",
+      "price": 30.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-4.0-u-riegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:00+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Aluminium Rahmentafel RE (SDP)",
+      "articleNumber": "4160157",
+      "price": 186.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-aluminium-rahmentafel-re-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:53:02+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Aluminium Rahmentafel RE mit Durchstieg und integrierter Etagenleiter 0,60 m",
+      "articleNumber": "4163257",
+      "price": 333.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-aluminium-rahmentafel-re-mit-durchstieg-und-integrierter-etagenleiter-0-60-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:02+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Aluminium Rahmentafel RE mit Durchstieg, ohne Leiter (SDP) 0,60 m",
+      "articleNumber": "4163158",
+      "price": 308.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-aluminium-rahmentafel-re-mit-durchstieg-ohne-leiter-sdp-0-60-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:02+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Auflageriegel RE aus Stahl, vz",
+      "articleNumber": "4050073",
+      "price": 29.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-auflageriegel-re-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:02+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Auflageriegel U aus Stahl, vz",
+      "articleNumber": "4055073",
+      "price": 47.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-auflageriegel-u-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:04+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Bordbrett aus Holz 0,15 m",
+      "articleNumber": "4095073",
+      "price": 20.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-bordbrett-aus-holz-0-15-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:04+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Bordbrett aus Stahl 0,15 m",
+      "articleNumber": "4096073",
+      "price": 22.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-bordbrett-aus-stahl-0-15-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:04+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Eckbelag aus Stahl 0,39 x 0,39 m",
+      "articleNumber": "4091039",
+      "price": 91.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-eckbelag-aus-stahl-0-39-x-0-39-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:04+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Eckbelag aus Stahl 0,73 x 0,73 m",
+      "articleNumber": "4091073",
+      "price": 224.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-eckbelag-aus-stahl-0-73-x-0-73-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:05+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Eisfreigerüst aus Stahl, Erweiterungsfeld 3,07 x 1,09 x 3,20 m",
+      "articleNumber": "9008004adm",
+      "price": 959.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-eisfreigeruest-aus-stahl-erweiterungsfeld-3-07-x-1-09-x-3-20-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:05+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Eisfreigerüst aus Stahl, Grundeinheit 14,60 x 1,09 x 3,40 m",
+      "articleNumber": "9008003adm",
+      "price": 6699.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-eisfreigeruest-aus-stahl-grundeinheit-14-60-x-1-09-x-3-40-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:06+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Etagenleitersegment aus Stahl 0,73 x 0,50 m, vz",
+      "articleNumber": "4011001",
+      "price": 98.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-etagenleitersegment-aus-stahl-0-73-x-0-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:06+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Gitterträgertraverse aus Stahl, vz",
+      "articleNumber": "4073073",
+      "price": 70.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-gittertraegertraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:07+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Horizontaldiagonale aus Stahl für Feldlänge 2,07 m, vz",
+      "articleNumber": "4045073",
+      "price": 66.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-horizontaldiagonale-aus-stahl-fuer-feldlaenge-2-07-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:07+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Horizontaldiagonale aus Stahl für Feldlänge 2,57 m, vz",
+      "articleNumber": "4046073",
+      "price": 77.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-horizontaldiagonale-aus-stahl-fuer-feldlaenge-2-57-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:07+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Horizontaldiagonale aus Stahl für Feldlänge 3,07 m, vz",
+      "articleNumber": "4047073",
+      "price": 82.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-horizontaldiagonale-aus-stahl-fuer-feldlaenge-3-07-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:07+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Horizontaldiagonalriegel aus Stahl, vz",
+      "articleNumber": "4044158",
+      "price": 59.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-horizontaldiagonalriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:08+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Konsole für Antrittsstufe aus Stahl 0,36 m, 750kg/m²·",
+      "articleNumber": "4107029",
+      "price": 40.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-konsole-fuer-antrittsstufe-aus-stahl-0-36-m-750kg/m2.html",
+      "lastCheckedAt": "2026-10-28T13:53:08+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Konsole mit Rohrriegel-Einhängung aus Stahl, vz",
+      "articleNumber": "4010030",
+      "price": 72.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-konsole-mit-rohrriegel-einhaengung-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:09+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Querbordbrett RE aus Holz 0,15 m",
+      "articleNumber": "4097073",
+      "price": 18.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-querbordbrett-re-aus-holz-0-15-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:09+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Schwenktür aus Stahl, vz",
+      "articleNumber": "4077073",
+      "price": 165.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-schwenktuer-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:09+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Spaltabdeckung aus Aluminium (WBQ) für Systembeläge 0,19 m",
+      "articleNumber": "4032109",
+      "price": 42.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-spaltabdeckung-aus-aluminium-wbq-fuer-systembelaege-0-19-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:10+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Spaltabdeckung aus Aluminium 0,19 m, T-Form",
+      "articleNumber": "4034109",
+      "price": 55.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-spaltabdeckung-aus-aluminium-0-19-m-t-form.html",
+      "lastCheckedAt": "2026-10-28T13:53:10+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Spaltabdeckung aus Aluminium für Doppelstiel Achsmaß 155 mm",
+      "articleNumber": "4033109",
+      "price": 95.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-spaltabdeckung-aus-aluminium-fuer-doppelstiel-achsmass-155-mm.html",
+      "lastCheckedAt": "2026-10-28T13:53:10+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Spaltriegel aus Stahl 0,12 m, vz",
+      "articleNumber": "4020079",
+      "price": 91.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-spaltriegel-aus-stahl-0-12-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:11+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Spaltriegel aus Stahl 0,16 m, vz",
+      "articleNumber": "4020077",
+      "price": 91.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-spaltriegel-aus-stahl-0-16-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:11+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Treppenwange aus Stahl mit Halbkupplung, vz",
+      "articleNumber": "4107054L",
+      "price": 326.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-treppenwange-aus-stahl-mit-halbkupplung-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:11+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Treppenwange aus Stahl mit Keilköpfen",
+      "articleNumber": "4107031",
+      "price": 207.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-treppenwange-aus-stahl-mit-keilkoepfen.html",
+      "lastCheckedAt": "2026-10-28T13:53:12+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Treppenwange aus Stahl mit Keilköpfen, vz",
+      "articleNumber": "4107053L",
+      "price": 335.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-treppenwange-aus-stahl-mit-keilkoepfen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:12+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI U-Riegel aus Stahl, vz",
+      "articleNumber": "4065039",
+      "price": 30.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-u-riegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:12+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI U-Wechselriegel aus Stahl, vz",
+      "articleNumber": "4063073",
+      "price": 47.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-u-wechselriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:13+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Vertikaldiagonale aus Stahl für Feld 0,50 m, vz",
+      "articleNumber": "4024050",
+      "price": 54.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-vertikaldiagonale-aus-stahl-fuer-feld-0-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:14+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Vertikaldiagonale aus Stahl für Feld 1,00 m, vz",
+      "articleNumber": "4024100",
+      "price": 55.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-vertikaldiagonale-aus-stahl-fuer-feld-1-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:13+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Vertikaldiagonale aus Stahl für Feld 1,50 m, vz",
+      "articleNumber": "4024150",
+      "price": 57.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-vertikaldiagonale-aus-stahl-fuer-feld-1-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:14+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Vertikaldiagonale aus Stahl für Feld 2,00 m, vz",
+      "articleNumber": "4021200",
+      "price": 51.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-vertikaldiagonale-aus-stahl-fuer-feld-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:14+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Vollaluminium Rahmentafel mit Durchstieg und integrierter Etagenleiter (WBQ)",
+      "articleNumber": "4167257",
+      "price": 414.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-vollaluminium-rahmentafel-mit-durchstieg-und-integrierter-etagenleiter-wbq.html",
+      "lastCheckedAt": "2026-10-28T13:53:15+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Zwischenbelag RE aus Stahl 0,19 m, vz",
+      "articleNumber": "4030157",
+      "price": 92.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-zwischenbelag-re-aus-stahl-0-19-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:15+00:00"
+    },
+    {
+      "name": "ALFIX MODUL MULTI Zwischenbelagriegel U aus Stahl, vz",
+      "articleNumber": "4054032",
+      "price": 37.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-multi-zwischenbelagriegel-u-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:16+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Rohrverbinder aus Stahl 0,40 m, vz für U-Riegel und Rohrauflage",
+      "articleNumber": "4151002",
+      "price": 53.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-rohrverbinder-aus-stahl-0-40-m-vz-fuer-u-riegel-und-rohrauflage.html",
+      "lastCheckedAt": "2026-10-28T13:53:16+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Rohrverbinder aus Stahl für Gitterträger 0,30 m, vz",
+      "articleNumber": "4151001",
+      "price": 29.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-rohrverbinder-aus-stahl-fuer-gittertraeger-0-30-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:16+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Rohrverbinder aus Stahl für Gitterträger, vz",
+      "articleNumber": "4151007",
+      "price": 33.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-rohrverbinder-aus-stahl-fuer-gittertraeger-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:17+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Rohrverbinder aus Stahl für Hängegerüst, vz",
+      "articleNumber": "8340050",
+      "price": 17.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-rohrverbinder-aus-stahl-fuer-haengegeruest-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:17+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Vertikal-Anfangsstück aus Stahl 0,33 m, vz",
+      "articleNumber": "4000041",
+      "price": 15.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-vertikal-anfangsstueck-aus-stahl-0-33-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:18+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Vertikalanfangsstiel aus Stahl mit angeformtem RV, vz",
+      "articleNumber": "4008066",
+      "price": 39.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-vertikalanfangsstiel-aus-stahl-mit-angeformtem-rv-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:18+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Vertikalanfangsstiel aus Stahl, vz",
+      "articleNumber": "4815066",
+      "price": 38.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-vertikalanfangsstiel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:18+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Vertikalstiel aus Stahl mit angeformtem RV",
+      "articleNumber": "4009050",
+      "price": 28.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-vertikalstiel-aus-stahl-mit-angeformtem-rv.html",
+      "lastCheckedAt": "2026-10-28T13:53:19+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Vertikalstiel aus Stahl mit eingepresstem RV, vz",
+      "articleNumber": "4004050",
+      "price": 26.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-vertikalstiel-aus-stahl-mit-eingepresstem-rv-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:19+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Vertikalstiel aus Stahl ohne RV",
+      "articleNumber": "4015050",
+      "price": 26.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-vertikalstiel-aus-stahl-ohne-rv.html",
+      "lastCheckedAt": "2026-10-28T13:53:19+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Voreilende Geländerstütze aus Stahl 2,00 m, mit 2 Kippstiften, vz",
+      "articleNumber": "4078000",
+      "price": 90.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-voreilende-gelaenderstuetze-aus-stahl-2-00-m-mit-2-kippstiften-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:20+00:00"
+    },
+    {
+      "name": "ALFIX MODUL Zwischenbelagriegel RE aus Stahl, vz",
+      "articleNumber": "4053064",
+      "price": 41.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-modul-zwischenbelagriegel-re-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:20+00:00"
+    },
+    {
+      "name": "ALFIX Oberteil aus Stahl 1,57 m für Durchgangsrahmen",
+      "articleNumber": "8310059",
+      "price": 157.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-oberteil-aus-stahl-1-57-m-fuer-durchgangsrahmen.html",
+      "lastCheckedAt": "2026-10-28T13:53:21+00:00"
+    },
+    {
+      "name": "ALFIX Querriegel aus Stahl, vz",
+      "articleNumber": "1402719",
+      "price": 56.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-querriegel-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:21+00:00"
+    },
+    {
+      "name": "ALFIX Rückengeländer aus Stahl, vz",
+      "articleNumber": "1060073",
+      "price": 19.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-rueckengelaender-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:22+00:00"
+    },
+    {
+      "name": "ALFIX Schnellanker aus Stahl 0,65 m, vz",
+      "articleNumber": "1362065",
+      "price": 18.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-schnellanker-aus-stahl-0-65-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:22+00:00"
+    },
+    {
+      "name": "ALFIX Schutzdachaufsatz aus Stahl 0,46 x 0,66 m, vz",
+      "articleNumber": "1071000",
+      "price": 56.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-schutzdachaufsatz-aus-stahl-0-46-x-0-66-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:21+00:00"
+    },
+    {
+      "name": "ALFIX Schutzdachträger aus Stahl 3,00 x 0,60 m, vz",
+      "articleNumber": "1071010",
+      "price": 205.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-schutzdachtraeger-aus-stahl-3-00-x-0-60-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:22+00:00"
+    },
+    {
+      "name": "ALFIX Schutznetzstütze aus Stahl, vz",
+      "articleNumber": "1071077",
+      "price": 117.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-schutznetzstuetze-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:23+00:00"
+    },
+    {
+      "name": "ALFIX Spaltabdeckung aus Stahl (SDP) 0,10 m",
+      "articleNumber": "1226150",
+      "price": 86.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-spaltabdeckung-aus-stahl-sdp-0-10-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:23+00:00"
+    },
+    {
+      "name": "ALFIX Stahlboden 0,32 m, vz",
+      "articleNumber": "1221073",
+      "price": 66.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stahlboden-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:23+00:00"
+    },
+    {
+      "name": "ALFIX Stellrahmen aus Aluminium 0,73m",
+      "articleNumber": "1000067",
+      "price": 93.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stellrahmen-aus-aluminium-0-73m.html",
+      "lastCheckedAt": "2026-10-28T13:53:23+00:00"
+    },
+    {
+      "name": "ALFIX Stellrahmen aus Stahl 0,73 m",
+      "articleNumber": "1011067L",
+      "price": 80.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stellrahmen-aus-stahl-0-73-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:24+00:00"
+    },
+    {
+      "name": "ALFIX Stellrahmen aus Stahl 1,09 m, vz",
+      "articleNumber": "1012067",
+      "price": 97.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stellrahmen-aus-stahl-1-09-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:24+00:00"
+    },
+    {
+      "name": "ALFIX Stellrahmen aus Stahl 2,00 x 0,37 m LA, vz",
+      "articleNumber": "1019200",
+      "price": 105.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stellrahmen-aus-stahl-2-00-x-0-37-m-la-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:24+00:00"
+    },
+    {
+      "name": "ALFIX Stellrahmen aus Stahl 2,00 x 0,73 m, mit 4 Geländerkästchen",
+      "articleNumber": "1011204L",
+      "price": 116.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stellrahmen-aus-stahl-2-00-x-0-73-m-mit-4-gelaenderkaestchen.html",
+      "lastCheckedAt": "2026-10-28T13:53:24+00:00"
+    },
+    {
+      "name": "ALFIX Stellrahmen aus Stahl 2,00 x 1,09 m, mit 4 Geländerkästchen, vz",
+      "articleNumber": "1012204",
+      "price": 136.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stellrahmen-aus-stahl-2-00-x-1-09-m-mit-4-gelaenderkaestchen-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:25+00:00"
+    },
+    {
+      "name": "ALFIX Stirnbordbrett aus Holz 0,15 m",
+      "articleNumber": "1251073",
+      "price": 19.5,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stirnbordbrett-aus-holz-0-15-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:26+00:00"
+    },
+    {
+      "name": "ALFIX Stirnbordbrett aus Stahl 0,73 x 0,15 m, vz",
+      "articleNumber": "1251076",
+      "price": 19.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stirnbordbrett-aus-stahl-0-73-x-0-15-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:25+00:00"
+    },
+    {
+      "name": "ALFIX Stirnbordbrett aus Stahl 1,09 x 0,15 m, vz",
+      "articleNumber": "1251112",
+      "price": 22.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stirnbordbrett-aus-stahl-1-09-x-0-15-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:26+00:00"
+    },
+    {
+      "name": "ALFIX Stirngeländerrahmen aus Aluminium 1,00 x 0,73 m",
+      "articleNumber": "1052073",
+      "price": 122.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stirngelaenderrahmen-aus-aluminium-1-00-x-0-73-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:26+00:00"
+    },
+    {
+      "name": "ALFIX Stirngeländerrahmen aus Stahl, vz, LA",
+      "articleNumber": "1063073L",
+      "price": 94.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-stirngelaenderrahmen-aus-stahl-vz-la.html",
+      "lastCheckedAt": "2026-10-28T13:53:26+00:00"
+    },
+    {
+      "name": "ALFIX Teleskop-Rückengeländer aus Stahl, vz",
+      "articleNumber": "1099000",
+      "price": 87.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-teleskop-rueckengelaender-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:27+00:00"
+    },
+    {
+      "name": "ALFIX TRBS Geländer Stahl",
+      "articleNumber": "1447073",
+      "price": 90.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-trbs-gelaender-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:53:27+00:00"
+    },
+    {
+      "name": "ALFIX TRBS Stirngeländer Stahl",
+      "articleNumber": "1447070",
+      "price": 93.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-trbs-stirngelaender-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:53:27+00:00"
+    },
+    {
+      "name": "ALFIX Verlängerungskonsole aus Stahl, vz, mit RV",
+      "articleNumber": "1049050",
+      "price": 54.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-verlaengerungskonsole-aus-stahl-vz-mit-rv.html",
+      "lastCheckedAt": "2026-10-28T13:53:28+00:00"
+    },
+    {
+      "name": "ALFIX Vollaluminium Belag 0,32 m",
+      "articleNumber": "1211109",
+      "price": 119.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-vollaluminium-belag-0-32-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:29+00:00"
+    },
+    {
+      "name": "ALFIX Voreilende Geländerstütze aus Stahl 2,00 m, mit 2 Kippstiften, vz",
+      "articleNumber": "1443100",
+      "price": 66.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-voreilende-gelaenderstuetze-aus-stahl-2-00-m-mit-2-kippstiften-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:29+00:00"
+    },
+    {
+      "name": "ALFIX Voreilender Stirngeländerrahmen aus Stahl 0,73 m, mit Aushubsicherung",
+      "articleNumber": "1443301",
+      "price": 138.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-voreilender-stirngelaenderrahmen-aus-stahl-0-73-m-mit-aushubsicherung.html",
+      "lastCheckedAt": "2026-10-28T13:53:29+00:00"
+    },
+    {
+      "name": "ALFIX Voreilender Stirngeländerrahmen aus Stahl 1,09 m, mit Aushubsicherung",
+      "articleNumber": "1443303",
+      "price": 175.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-voreilender-stirngelaenderrahmen-aus-stahl-1-09-m-mit-aushubsicherung.html",
+      "lastCheckedAt": "2026-10-28T13:53:29+00:00"
+    },
+    {
+      "name": "ALFIX Wetterschutzaufsatz aus Stahl 2,00 x 0,73 m, vz",
+      "articleNumber": "1071201",
+      "price": 152.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-wetterschutzaufsatz-aus-stahl-2-00-x-0-73-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:29+00:00"
+    },
+    {
+      "name": "ALFIX Wetterschutzstütze aus Stahl 2,00 m, vz",
+      "articleNumber": "1071200",
+      "price": 117.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-wetterschutzstuetze-aus-stahl-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:29+00:00"
+    },
+    {
+      "name": "ALFIX Zwischenbelag aus Stahl 0,19 m, vz",
+      "articleNumber": "1225157",
+      "price": 59.5,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix-zwischenbelag-aus-stahl-0-19-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:30+00:00"
+    },
+    {
+      "name": "ALFIX/UNIFIX Dachständer aus Aluminium inkl. 1 Fallstecker spezial",
+      "articleNumber": "3210001",
+      "price": 200.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alfix/unifix-dachstaender-aus-aluminium-inkl.-1-fallstecker-spezial.html",
+      "lastCheckedAt": "2026-10-28T13:53:30+00:00"
+    },
+    {
+      "name": "ALUFIX Belagbühne ohne Durchstieg (SDP)",
+      "articleNumber": "3000002",
+      "price": 199.25,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/alufix-belagbuehne-ohne-durchstieg-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:53:31+00:00"
+    },
+    {
+      "name": "Aufsatzstück für Gitterträger aus Stahl 0,30 m, vz",
+      "articleNumber": "1375000",
+      "price": 38.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/aufsatzstueck-fuer-gittertraeger-aus-stahl-0-30-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:31+00:00"
+    },
+    {
+      "name": "Aufsteckgeländer aus Stahl 2,50 m, vz",
+      "articleNumber": "6712502",
+      "price": 78.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/aufsteckgelaender-aus-stahl-2-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:31+00:00"
+    },
+    {
+      "name": "Baurolle mit Kreuzbügel und drehbarem Lasthaken, ø 190 mm",
+      "articleNumber": "3783000",
+      "price": 99.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/baurolle-mit-kreuzbuegel-und-drehbarem-lasthaken-oe-190-mm.html",
+      "lastCheckedAt": "2026-10-28T13:53:31+00:00"
+    },
+    {
+      "name": "Bordbrettkupplung",
+      "articleNumber": "1313019",
+      "price": 20.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/bordbrettkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:32+00:00"
+    },
+    {
+      "name": "Bundmutter M14 SW 19, feuerverzinkt",
+      "articleNumber": "1452001",
+      "price": 0.75,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/bundmutter-m14-sw-19-feuerverzinkt.html",
+      "lastCheckedAt": "2026-10-28T13:53:32+00:00"
+    },
+    {
+      "name": "Bundmutter M14 SW 22, feuerverzinkt",
+      "articleNumber": "1452000",
+      "price": 0.75,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/bundmutter-m14-sw-22-feuerverzinkt.html",
+      "lastCheckedAt": "2026-10-28T13:53:33+00:00"
+    },
+    {
+      "name": "Dachbock aus Aluminium 1,00 m, Tragkraft max. 500kg",
+      "articleNumber": "6782500",
+      "price": 165.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/dachbock-aus-aluminium-1-00-m-tragkraft-max.-500kg.html",
+      "lastCheckedAt": "2026-10-28T13:53:33+00:00"
+    },
+    {
+      "name": "Distanzkupplung SW 22",
+      "articleNumber": "1320022",
+      "price": 26.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/distanzkupplung-sw-22.html",
+      "lastCheckedAt": "2026-10-28T13:53:34+00:00"
+    },
+    {
+      "name": "Doppelratsche Standard SW 19/22",
+      "articleNumber": "3701922",
+      "price": 65.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/doppelratsche-standard-sw-19/22.html",
+      "lastCheckedAt": "2026-10-28T13:53:34+00:00"
+    },
+    {
+      "name": "Doppelstirngeländer aus Stahl, SW 19",
+      "articleNumber": "1062070",
+      "price": 41.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/doppelstirngelaender-aus-stahl-sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:53:35+00:00"
+    },
+    {
+      "name": "Drehkupplung 48/48",
+      "articleNumber": "1303019",
+      "price": 11.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/drehkupplung-48/48.html",
+      "lastCheckedAt": "2026-10-28T13:53:35+00:00"
+    },
+    {
+      "name": "Dreirohrstütze",
+      "articleNumber": "1390200",
+      "price": 225.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/dreirohrstuetze.html",
+      "lastCheckedAt": "2026-10-28T13:53:35+00:00"
+    },
+    {
+      "name": "DS Etagenleiter aus Stahl 1,00 m, vz",
+      "articleNumber": "1142010",
+      "price": 101.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/ds-etagenleiter-aus-stahl-1-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:35+00:00"
+    },
+    {
+      "name": "Einmalbinder Standard, weiß",
+      "articleNumber": "3740001",
+      "price": 0.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/einmalbinder-standard-weiss.html",
+      "lastCheckedAt": "2026-10-28T13:53:36+00:00"
+    },
+    {
+      "name": "Erdnagel aus Stahl 0,48 m, ø 25 mm, unverzinkt",
+      "articleNumber": "6100000",
+      "price": 21.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/erdnagel-aus-stahl-0-48-m-oe-25-mm-unverzinkt.html",
+      "lastCheckedAt": "2026-10-28T13:53:36+00:00"
+    },
+    {
+      "name": "Etagenleiter aus Aluminium 2,00 x 0,40 m",
+      "articleNumber": "1132001",
+      "price": 85.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/etagenleiter-aus-aluminium-2-00-x-0-40-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:37+00:00"
+    },
+    {
+      "name": "Etagenleiter aus Stahl 2,00 x 0,40 m, mit Haken, vz",
+      "articleNumber": "1142000",
+      "price": 85.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/etagenleiter-aus-stahl-2-00-x-0-40-m-mit-haken-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:37+00:00"
+    },
+    {
+      "name": "Fahrbalken mobil aus Stahl 2,50 m, vz",
+      "articleNumber": "6712501",
+      "price": 415.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/fahrbalken-mobil-aus-stahl-2-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:37+00:00"
+    },
+    {
+      "name": "Fahrgerüstkupplung 48/48 mit Kreuzgriffen, drehbar",
+      "articleNumber": "3020000",
+      "price": 26.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/fahrgeruestkupplung-48/48-mit-kreuzgriffen-drehbar.html",
+      "lastCheckedAt": "2026-10-28T13:53:37+00:00"
+    },
+    {
+      "name": "Fallstecker aus Stahl, vz",
+      "articleNumber": "1450000",
+      "price": 1.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/fallstecker-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:39+00:00"
+    },
+    {
+      "name": "Faserseil geflochten",
+      "articleNumber": "3781130",
+      "price": 192.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/faserseil-geflochten.html",
+      "lastCheckedAt": "2026-10-28T13:53:37+00:00"
+    },
+    {
+      "name": "Federstecker aus Stahl 2,00 mm, vz",
+      "articleNumber": "7304006",
+      "price": 1.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/federstecker-aus-stahl-2-00-mm-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:38+00:00"
+    },
+    {
+      "name": "Federstecker aus Stahl 4 x 78 mm, vz, als Belagsicherung für METRIC Treppenwange",
+      "articleNumber": "7304004",
+      "price": 0.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/federstecker-aus-stahl-4-x-78-mm-vz-als-belagsicherung-fuer-metric-treppenwange.html",
+      "lastCheckedAt": "2026-10-28T13:53:38+00:00"
+    },
+    {
+      "name": "Firstgelenk aus Aluminium 1,20 x 0,25 m mit integriertem Leiterteil, zweiteilig",
+      "articleNumber": "3220000",
+      "price": 411.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/firstgelenk-aus-aluminium-1-20-x-0-25-m-mit-integriertem-leiterteil-zweiteilig.html",
+      "lastCheckedAt": "2026-10-28T13:53:40+00:00"
+    },
+    {
+      "name": "Flachdachseitenschutz - MOBIL Set 4,50 x 2,50 m",
+      "articleNumber": "6712510",
+      "price": 1686.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/flachdachseitenschutz-mobil-set-4-50-x-2-50-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:40+00:00"
+    },
+    {
+      "name": "GEDA Lasthaken für Gerüstteile",
+      "articleNumber": "3601408",
+      "price": 25.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geda-lasthaken-fuer-geruestteile.html",
+      "lastCheckedAt": "2026-10-28T13:53:40+00:00"
+    },
+    {
+      "name": "Geländerkupplung 48/-",
+      "articleNumber": "1309030",
+      "price": 21.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/gelaenderkupplung-48/.html",
+      "lastCheckedAt": "2026-10-28T13:53:41+00:00"
+    },
+    {
+      "name": "Geländerrahmen aus Aluminium 2,50 m",
+      "articleNumber": "6712503",
+      "price": 151.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/gelaenderrahmen-aus-aluminium-2-50-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:41+00:00"
+    },
+    {
+      "name": "Gerüst Anlegeleiter aus Stahl, vz",
+      "articleNumber": "1140200",
+      "price": 128.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruest-anlegeleiter-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:41+00:00"
+    },
+    {
+      "name": "Gerüstpalette aus Stahl, vz",
+      "articleNumber": "3380070",
+      "price": 283.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruestpalette-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:41+00:00"
+    },
+    {
+      "name": "Gerüstplane Gittergewebe, transparent",
+      "articleNumber": "3750127",
+      "price": 56.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruestplane-gittergewebe-transparent.html",
+      "lastCheckedAt": "2026-10-28T13:53:42+00:00"
+    },
+    {
+      "name": "Gerüstplane PE-Bändchengewebe, transparent",
+      "articleNumber": "3751108",
+      "price": 13.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruestplane-pe-baendchengewebe-transparent.html",
+      "lastCheckedAt": "2026-10-28T13:53:42+00:00"
+    },
+    {
+      "name": "Gerüstrohr aus Aluminium, ø 48,3 x 4,05 mm",
+      "articleNumber": "1340100",
+      "price": 19.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruestrohr-aus-aluminium-oe-48-3-x-4-05-mm.html",
+      "lastCheckedAt": "2026-10-28T13:53:42+00:00"
+    },
+    {
+      "name": "Gerüstrohr aus Stahl vz",
+      "articleNumber": "1351100",
+      "price": 15.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruestrohr-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:42+00:00"
+    },
+    {
+      "name": "Gerüstschutznetz, blau",
+      "articleNumber": "3753125",
+      "price": 23.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/geruestschutznetz-blau.html",
+      "lastCheckedAt": "2026-10-28T13:53:44+00:00"
+    },
+    {
+      "name": "Gerüststrick aus Kunststoff weiß-blau",
+      "articleNumber": "3782004",
+      "price": 1.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/gerueststrick-aus-kunststoff-weiss-blau.html",
+      "lastCheckedAt": "2026-10-28T13:53:43+00:00"
+    },
+    {
+      "name": "Gerüststütze teleskopierbar aus Stahl 3,00 - 5,00 m, vz",
+      "articleNumber": "1363500",
+      "price": 240.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/gerueststuetze-teleskopierbar-aus-stahl-3-00-5-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:44+00:00"
+    },
+    {
+      "name": "Gewindefußplatte aus Stahl 0,60 m, schwenkbar, vz",
+      "articleNumber": "1152060",
+      "price": 49.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/gewindefussplatte-aus-stahl-0-60-m-schwenkbar-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:44+00:00"
+    },
+    {
+      "name": "Gurtschnellverschluss 0,55 m, grün",
+      "articleNumber": "3741000",
+      "price": 1.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/gurtschnellverschluss-0-55-m-gruen.html",
+      "lastCheckedAt": "2026-10-28T13:53:45+00:00"
+    },
+    {
+      "name": "Halbkupplung",
+      "articleNumber": "1302019",
+      "price": 9.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/halbkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:45+00:00"
+    },
+    {
+      "name": "Halbkupplung mit Keil 48/-, vz",
+      "articleNumber": "1302039",
+      "price": 9.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/halbkupplung-mit-keil-48/vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:45+00:00"
+    },
+    {
+      "name": "Hammerkopfschraube M14 x 78 mm, feuerverzinkt",
+      "articleNumber": "1451000",
+      "price": 0.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/hammerkopfschraube-m14-x-78-mm-feuerverzinkt.html",
+      "lastCheckedAt": "2026-10-28T13:53:46+00:00"
+    },
+    {
+      "name": "Höhensicherungsgerät Turbolite 2,00 m",
+      "articleNumber": "3750025",
+      "price": 209.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/hoehensicherungsgeraet-turbolite-2-00-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:46+00:00"
+    },
+    {
+      "name": "Hülsenrohr aus Kunststoff 25,00 m/Rolle, schwarz",
+      "articleNumber": "1360025",
+      "price": 169.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/huelsenrohr-aus-kunststoff-25-00-m/rolle-schwarz.html",
+      "lastCheckedAt": "2026-10-28T13:53:46+00:00"
+    },
+    {
+      "name": "Innengeländer aus Stahl für ALBLITZ/UNIFIX Alu-Treppe Feldhöhe 2,00 m, vz",
+      "articleNumber": "1131000",
+      "price": 148.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/innengelaender-aus-stahl-fuer-alblitz/unifix-alu-treppe-feldhoehe-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:46+00:00"
+    },
+    {
+      "name": "Kantholzkupplung",
+      "articleNumber": "3381019",
+      "price": 21.5,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kantholzkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:46+00:00"
+    },
+    {
+      "name": "KASK Superplasma AQ Industriekletterhelm",
+      "articleNumber": "3750030",
+      "price": 90.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kask-superplasma-aq-industriekletterhelm.html",
+      "lastCheckedAt": "2026-10-28T13:53:47+00:00"
+    },
+    {
+      "name": "KASK Superplasma AQ Nackenschutz grau",
+      "articleNumber": "3750040",
+      "price": 25.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kask-superplasma-aq-nackenschutz-grau.html",
+      "lastCheckedAt": "2026-10-28T13:53:47+00:00"
+    },
+    {
+      "name": "Kederplane PVC 590 g/m², weiß (Tagespreis auf Anfrage)",
+      "articleNumber": "4790080",
+      "price": 468.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kederplane-pvc-590-g/m2-weiss-tagespreis-auf-anfrage.html",
+      "lastCheckedAt": "2026-10-28T13:53:47+00:00"
+    },
+    {
+      "name": "Kederschiene aus Aluminium mit 2 Bohrungen",
+      "articleNumber": "4775180",
+      "price": 76.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kederschiene-aus-aluminium-mit-2-bohrungen.html",
+      "lastCheckedAt": "2026-10-28T13:53:47+00:00"
+    },
+    {
+      "name": "Kederschienenhalter aus Stahl, vz",
+      "articleNumber": "4799000",
+      "price": 37.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kederschienenhalter-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:48+00:00"
+    },
+    {
+      "name": "Kippstiftkupplung",
+      "articleNumber": "1305022",
+      "price": 10.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kippstiftkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:48+00:00"
+    },
+    {
+      "name": "Klauenkupplung",
+      "articleNumber": "1310019",
+      "price": 20.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/klauenkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:48+00:00"
+    },
+    {
+      "name": "Klemmkupplung doppelt mit Keil",
+      "articleNumber": "1317030",
+      "price": 29.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/klemmkupplung-doppelt-mit-keil.html",
+      "lastCheckedAt": "2026-10-28T13:53:48+00:00"
+    },
+    {
+      "name": "Klemmkupplung universal, SW 19",
+      "articleNumber": "1317019",
+      "price": 30.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/klemmkupplung-universal-sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:53:49+00:00"
+    },
+    {
+      "name": "Knebelbinder",
+      "articleNumber": "3740000",
+      "price": 1.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/knebelbinder.html",
+      "lastCheckedAt": "2026-10-28T13:53:49+00:00"
+    },
+    {
+      "name": "Kombikupplung",
+      "articleNumber": "1304019",
+      "price": 21.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kombikupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:49+00:00"
+    },
+    {
+      "name": "Kombiunterlage aus Kunststoff (PP), eckig, für Gewindefußplatte, 250 x 190 x 30 mm, gelb mit 5° Nei",
+      "articleNumber": "3700007",
+      "price": 6.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kombiunterlage-aus-kunststoff-pp-eckig-fuer-gewindefussplatte-250-x-190-x-30-mm-gelb-mit-50-nei.html",
+      "lastCheckedAt": "2026-10-28T13:53:49+00:00"
+    },
+    {
+      "name": "Konsole für Baurolle aus Stahl 0,73 m, vz",
+      "articleNumber": "1049073",
+      "price": 67.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/konsole-fuer-baurolle-aus-stahl-0-73-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:51+00:00"
+    },
+    {
+      "name": "Kunststofftasche A5 gelb",
+      "articleNumber": "3758003",
+      "price": 3.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/kunststofftasche-a5-gelb.html",
+      "lastCheckedAt": "2026-10-28T13:53:50+00:00"
+    },
+    {
+      "name": "Lamellenstopfen aus Kunststoff, 32 mm, natur",
+      "articleNumber": "1360001",
+      "price": 1.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/lamellenstopfen-aus-kunststoff-32-mm-natur.html",
+      "lastCheckedAt": "2026-10-28T13:53:51+00:00"
+    },
+    {
+      "name": "Langgutfahne 30 x 30 mm mit Bügel, ROT mit ALFIX-Logo",
+      "articleNumber": "3758000",
+      "price": 2.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/langgutfahne-30-x-30-mm-mit-buegel-rot-mit-alfix-logo.html",
+      "lastCheckedAt": "2026-10-28T13:53:50+00:00"
+    },
+    {
+      "name": "Lenkrolle 10 kN aus Stahl 0,50 m, ø 200 mm, vz",
+      "articleNumber": "1412007",
+      "price": 169.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/lenkrolle-10-kn-aus-stahl-0-50-m-oe-200-mm-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:51+00:00"
+    },
+    {
+      "name": "Mannesmann-Ratschenschlüssel",
+      "articleNumber": "3723019",
+      "price": 153.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/mannesmann-ratschenschluessel.html",
+      "lastCheckedAt": "2026-10-28T13:53:52+00:00"
+    },
+    {
+      "name": "METRIC Stahlboden RE, Rundrohrauflage",
+      "articleNumber": "4820200",
+      "price": 105.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/metric-stahlboden-re-rundrohrauflage.html",
+      "lastCheckedAt": "2026-10-28T13:53:52+00:00"
+    },
+    {
+      "name": "Miller SafEscape ELITE Hub Höhenrettungsgerät, 40 m Seil, EN 341 Klasse A, EN 1496 Klasse B",
+      "articleNumber": "3750026",
+      "price": 1831.5,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/miller-safescape-elite-hub-hoehenrettungsgeraet-40-m-seil-en-341-klasse-a-en-1496-klasse-b.html",
+      "lastCheckedAt": "2026-10-28T13:53:52+00:00"
+    },
+    {
+      "name": "Miller Twin Manyard Edge 2,00 m mit 2 Aluminium Gerüsthaken 65mm",
+      "articleNumber": "3767522",
+      "price": 280.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/miller-twin-manyard-edge-2-00-m-mit-2-aluminium-geruesthaken-65mm.html",
+      "lastCheckedAt": "2026-10-28T13:53:52+00:00"
+    },
+    {
+      "name": "Modulgitterpalette aus Stahl 1,14 x 0,74 x 0,82 m·",
+      "articleNumber": "6822840",
+      "price": 528.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/modulgitterpalette-aus-stahl-1-14-x-0-74-x-0-82-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:53+00:00"
+    },
+    {
+      "name": "Modulpalette aus Stahl",
+      "articleNumber": "6822800",
+      "price": 303.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/modulpalette-aus-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:53:53+00:00"
+    },
+    {
+      "name": "Nischenkonsolenanfangsstück aus Stahl 0,35 m, vz",
+      "articleNumber": "1440000",
+      "price": 9.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/nischenkonsolenanfangsstueck-aus-stahl-0-35-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:53+00:00"
+    },
+    {
+      "name": "Nischenkonsolenhalter aus Stahl mit integrierter Halbkupplung SW 19, vz",
+      "articleNumber": "1451060",
+      "price": 44.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/nischenkonsolenhalter-aus-stahl-mit-integrierter-halbkupplung-sw-19-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:53+00:00"
+    },
+    {
+      "name": "Normalkupplung 48/48",
+      "articleNumber": "1301019",
+      "price": 9.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/normalkupplung-48/48.html",
+      "lastCheckedAt": "2026-10-28T13:53:54+00:00"
+    },
+    {
+      "name": "Pfostengitterpalette aus Stahl 1,15 x 0,65 x 0,74 m",
+      "articleNumber": "3380171",
+      "price": 484.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/pfostengitterpalette-aus-stahl-1-15-x-0-65-x-0-74-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:54+00:00"
+    },
+    {
+      "name": "PSA Gerüstbauset Premium Gr. L/XL",
+      "articleNumber": "3767009",
+      "price": 398.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/psa-geruestbauset-premium-gr.-l/xl.html",
+      "lastCheckedAt": "2026-10-28T13:53:54+00:00"
+    },
+    {
+      "name": "Querdiagonale aus Stahl, vz",
+      "articleNumber": "1128719",
+      "price": 54.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/querdiagonale-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:54+00:00"
+    },
+    {
+      "name": "Ratschen-Zurrgurt 6,00 m, einteilig",
+      "articleNumber": "3768004",
+      "price": 23.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/ratschen-zurrgurt-6-00-m-einteilig.html",
+      "lastCheckedAt": "2026-10-28T13:53:55+00:00"
+    },
+    {
+      "name": "Ratschen-Zurrgurt 8,00 m, zweiteilig",
+      "articleNumber": "3768000",
+      "price": 38.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/ratschen-zurrgurt-8-00-m-zweiteilig.html",
+      "lastCheckedAt": "2026-10-28T13:53:55+00:00"
+    },
+    {
+      "name": "Reduzier-Drehkupplung",
+      "articleNumber": "1312219",
+      "price": 23.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/reduzier-drehkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:55+00:00"
+    },
+    {
+      "name": "Reduzier-Normalkupplung",
+      "articleNumber": "1311019",
+      "price": 18.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/reduzier-normalkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:56+00:00"
+    },
+    {
+      "name": "Reduzier-Normalkupplung 60/48, SW 19, vz",
+      "articleNumber": "1311419",
+      "price": 23.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/reduzier-normalkupplung-60/48-sw-19-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:56+00:00"
+    },
+    {
+      "name": "Renovierungsbock aus Aluminium 0,44 - 0,67 m x 0,65 m",
+      "articleNumber": "3320000",
+      "price": 131.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/renovierungsbock-aus-aluminium-0-44-0-67-m-x-0-65-m.html",
+      "lastCheckedAt": "2026-10-28T13:53:56+00:00"
+    },
+    {
+      "name": "Ringschraube",
+      "articleNumber": "3702300",
+      "price": 3.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/ringschraube.html",
+      "lastCheckedAt": "2026-10-28T13:53:57+00:00"
+    },
+    {
+      "name": "Rohrklappstecker aus Stahl 12 x 70 mm, vz",
+      "articleNumber": "1360000",
+      "price": 3.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrklappstecker-aus-stahl-12-x-70-mm-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:58+00:00"
+    },
+    {
+      "name": "Rohrklappstecker aus Stahl 8 x 60 mm, galvanisch vz",
+      "articleNumber": "3006250",
+      "price": 1.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrklappstecker-aus-stahl-8-x-60-mm-galvanisch-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:57+00:00"
+    },
+    {
+      "name": "Rohrpalette aus Stahl 1,45 x 0,68 x 1,25 m für TRBS Geländer·",
+      "articleNumber": "3380145",
+      "price": 393.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrpalette-aus-stahl-1-45-x-0-68-x-1-25-m-fuer-trbs-gelaender.html",
+      "lastCheckedAt": "2026-10-28T13:53:58+00:00"
+    },
+    {
+      "name": "Rohrpalette aus Stahl, vz",
+      "articleNumber": "3380120",
+      "price": 242.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrpalette-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:53:59+00:00"
+    },
+    {
+      "name": "Rohrverbinder für Gitterträger aus Stahl 0,41 m, vz, inkl. 4 Schrauben M14x65 und 4 Muttern M14",
+      "articleNumber": "1388030",
+      "price": 28.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrverbinder-fuer-gittertraeger-aus-stahl-0-41-m-vz-inkl.-4-schrauben-m14x65-und-4-muttern-m14.html",
+      "lastCheckedAt": "2026-10-28T13:53:59+00:00"
+    },
+    {
+      "name": "Rohrverbinder für Zugkupplung",
+      "articleNumber": "1308000",
+      "price": 7.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrverbinder-fuer-zugkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:53:59+00:00"
+    },
+    {
+      "name": "Rohrverbinder universal 0,24 m, klemmbar",
+      "articleNumber": "1308001",
+      "price": 15.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/rohrverbinder-universal-0-24-m-klemmbar.html",
+      "lastCheckedAt": "2026-10-28T13:53:58+00:00"
+    },
+    {
+      "name": "Sechskant-Hutmutter M 14 aus Stahl, vz",
+      "articleNumber": "7302003",
+      "price": 1.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/sechskant-hutmutter-m-14-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:00+00:00"
+    },
+    {
+      "name": "Sechskantmutter",
+      "articleNumber": "7301030",
+      "price": 0.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/sechskantmutter.html",
+      "lastCheckedAt": "2026-10-28T13:54:00+00:00"
+    },
+    {
+      "name": "Sechskantschraube",
+      "articleNumber": "1453000",
+      "price": 1.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/sechskantschraube.html",
+      "lastCheckedAt": "2026-10-28T13:54:02+00:00"
+    },
+    {
+      "name": "Seitenschutznetz, grün",
+      "articleNumber": "3756512",
+      "price": 40.25,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/seitenschutznetz-gruen.html",
+      "lastCheckedAt": "2026-10-28T13:54:02+00:00"
+    },
+    {
+      "name": "Sicherungsbolzen für Gitterträger",
+      "articleNumber": "1388114",
+      "price": 4.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/sicherungsbolzen-fuer-gittertraeger.html",
+      "lastCheckedAt": "2026-10-28T13:54:02+00:00"
+    },
+    {
+      "name": "Sicherungsbügel für Stellrahmenpalette aus Stahl 1,25 m, vz",
+      "articleNumber": "3386002",
+      "price": 30.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/sicherungsbuegel-fuer-stellrahmenpalette-aus-stahl-1-25-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:03+00:00"
+    },
+    {
+      "name": "Sicherungsscheibe aus Stahl, vz",
+      "articleNumber": "6712504",
+      "price": 13.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/sicherungsscheibe-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:03+00:00"
+    },
+    {
+      "name": "Spaltabdeckung aus Stahl für Alu-Treppen",
+      "articleNumber": "1131028",
+      "price": 46.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/spaltabdeckung-aus-stahl-fuer-alu-treppen.html",
+      "lastCheckedAt": "2026-10-28T13:54:04+00:00"
+    },
+    {
+      "name": "Spurkranzrolle aus Stahl 0,70 m, ø 200mm, vz",
+      "articleNumber": "1412005",
+      "price": 330.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/spurkranzrolle-aus-stahl-0-70-m-oe-200mm-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:04+00:00"
+    },
+    {
+      "name": "Stahlbohle mit Sicherungsstift und Federstecker 0,30 m, vz",
+      "articleNumber": "1224100",
+      "price": 77.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/stahlbohle-mit-sicherungsstift-und-federstecker-0-30-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:04+00:00"
+    },
+    {
+      "name": "TORPEDO Wasserwaage 0,25 m, magnetisch",
+      "articleNumber": "3725001",
+      "price": 32.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/torpedo-wasserwaage-0-25-m-magnetisch.html",
+      "lastCheckedAt": "2026-10-28T13:54:05+00:00"
+    },
+    {
+      "name": "Treppengeländer aus Aluminium 1,40 x 1,00 m",
+      "articleNumber": "1298101",
+      "price": 153.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/treppengelaender-aus-aluminium-1-40-x-1-00-m.html",
+      "lastCheckedAt": "2026-10-28T13:54:05+00:00"
+    },
+    {
+      "name": "UNIFIX Aluminium Rahmentafel (SDP)",
+      "articleNumber": "2202150",
+      "price": 173.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-aluminium-rahmentafel-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:54:07+00:00"
+    },
+    {
+      "name": "UNIFIX Aluminium Rahmentafel mit Durchstieg und integrierter Etagenleiter 0,64 m (SDP)",
+      "articleNumber": "2204250",
+      "price": 390.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-aluminium-rahmentafel-mit-durchstieg-und-integrierter-etagenleiter-0-64-m-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:54:06+00:00"
+    },
+    {
+      "name": "UNIFIX Aluminium Rahmentafel mit Durchstieg, integrierter Etagenleiter und Austrittsstufe 0,64 m",
+      "articleNumber": "2209250",
+      "price": 424.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-aluminium-rahmentafel-mit-durchstieg-integrierter-etagenleiter-und-austrittsstufe-0-64-m.html",
+      "lastCheckedAt": "2026-10-28T13:54:05+00:00"
+    },
+    {
+      "name": "UNIFIX Aluminium Rahmentafel mit Durchstieg, ohne Leiter 0,64 m (SDP)",
+      "articleNumber": "2205150",
+      "price": 267.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-aluminium-rahmentafel-mit-durchstieg-ohne-leiter-0-64-m-sdp.html",
+      "lastCheckedAt": "2026-10-28T13:54:06+00:00"
+    },
+    {
+      "name": "UNIFIX Anfangstreppe aus Aluminium 0,64 m",
+      "articleNumber": "2298050",
+      "price": 278.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-anfangstreppe-aus-aluminium-0-64-m.html",
+      "lastCheckedAt": "2026-10-28T13:54:07+00:00"
+    },
+    {
+      "name": "UNIFIX Ankerkupplung 48/- SW 22",
+      "articleNumber": "1306222",
+      "price": 17.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-ankerkupplung-48/sw-22.html",
+      "lastCheckedAt": "2026-10-28T13:54:07+00:00"
+    },
+    {
+      "name": "UNIFIX Aufhängung für Gitterträger aus Stahl, vz",
+      "articleNumber": "2390000",
+      "price": 46.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-aufhaengung-fuer-gittertraeger-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:07+00:00"
+    },
+    {
+      "name": "UNIFIX Auflagerohr aus Stahl, vz",
+      "articleNumber": "2393065",
+      "price": 52.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-auflagerohr-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:08+00:00"
+    },
+    {
+      "name": "UNIFIX Auslegerrahmen aus Stahl LA 2,00 m, vz",
+      "articleNumber": "2019040L",
+      "price": 141.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-auslegerrahmen-aus-stahl-la-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:08+00:00"
+    },
+    {
+      "name": "UNIFIX Belagsicherung aus Stahl für Konsole 0,64 m mit 1 RV",
+      "articleNumber": "2048064",
+      "price": 54.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-belagsicherung-aus-stahl-fuer-konsole-0-64-m-mit-1-rv.html",
+      "lastCheckedAt": "2026-10-28T13:54:08+00:00"
+    },
+    {
+      "name": "UNIFIX Belagsicherung aus Stahl für Konsole ohne RV",
+      "articleNumber": "2048066",
+      "price": 40.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-belagsicherung-aus-stahl-fuer-konsole-ohne-rv.html",
+      "lastCheckedAt": "2026-10-28T13:54:09+00:00"
+    },
+    {
+      "name": "UNIFIX Belagsicherung für Schutzdachausleger aus Stahl 0,66 x 0,89 m, vz",
+      "articleNumber": "2071002",
+      "price": 56.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-belagsicherung-fuer-schutzdachausleger-aus-stahl-0-66-x-0-89-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:09+00:00"
+    },
+    {
+      "name": "UNIFIX Belagtraverse aus Stahl, vz",
+      "articleNumber": "2403070",
+      "price": 55.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-belagtraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:09+00:00"
+    },
+    {
+      "name": "UNIFIX Bordbrett aus Holz",
+      "articleNumber": "2250074",
+      "price": 17.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-bordbrett-aus-holz.html",
+      "lastCheckedAt": "2026-10-28T13:54:10+00:00"
+    },
+    {
+      "name": "UNIFIX Dachfangrahmen aus Stahl 2,00 x 0,74 auf 1,10 m, vz",
+      "articleNumber": "2019003L",
+      "price": 151.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-dachfangrahmen-aus-stahl-2-00-x-0-74-auf-1-10-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:10+00:00"
+    },
+    {
+      "name": "UNIFIX Diagonale aus Stahl für Feldhöhe 1,00 m, vz",
+      "articleNumber": "2101269",
+      "price": 35.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-diagonale-aus-stahl-fuer-feldhoehe-1-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:11+00:00"
+    },
+    {
+      "name": "UNIFIX Diagonale aus Stahl für Feldhöhe 2,00 m, vz",
+      "articleNumber": "2101250",
+      "price": 33.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-diagonale-aus-stahl-fuer-feldhoehe-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:11+00:00"
+    },
+    {
+      "name": "UNIFIX DS Konsolrahmen aus Stahl 0,99 x 0,74 m, vz",
+      "articleNumber": "2032799",
+      "price": 142.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-ds-konsolrahmen-aus-stahl-0-99-x-0-74-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:11+00:00"
+    },
+    {
+      "name": "UNIFIX Durchgangsrahmen aus Stahl 2,00 m, 3-teilig, vz",
+      "articleNumber": "2019150",
+      "price": 284.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-durchgangsrahmen-aus-stahl-2-00-m-3-teilig-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:12+00:00"
+    },
+    {
+      "name": "UNIFIX Durchstieg aus Aluminium, ohne Leiter, Belag WBQ",
+      "articleNumber": "2208150",
+      "price": 295.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-durchstieg-aus-aluminium-ohne-leiter-belag-wbq.html",
+      "lastCheckedAt": "2026-10-28T14:05:23+00:00"
+    },
+    {
+      "name": "UNIFIX Fahrbalken aus Stahl 2,00 m, vz",
+      "articleNumber": "2410200",
+      "price": 171.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-fahrbalken-aus-stahl-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:54:12+00:00"
+    },
+    {
+      "name": "UNIFIX Geländerhalter aus Stahl 0,50 m für Alu-Treppen, SW 22",
+      "articleNumber": "2132050",
+      "price": 36.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gelaenderhalter-aus-stahl-0-50-m-fuer-alu-treppen-sw-22.html",
+      "lastCheckedAt": "2026-10-28T14:05:23+00:00"
+    },
+    {
+      "name": "UNIFIX Geländerstütze aus Stahl 1,00 m, vz, ohne RV",
+      "articleNumber": "2064070L",
+      "price": 49.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gelaenderstuetze-aus-stahl-1-00-m-vz-ohne-rv.html",
+      "lastCheckedAt": "2026-10-28T13:55:43+00:00"
+    },
+    {
+      "name": "UNIFIX Geländerstütze aus Stahl 1,00 x 0,74 m, vz, mit RV",
+      "articleNumber": "2064071L",
+      "price": 54.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gelaenderstuetze-aus-stahl-1-00-x-0-74-m-vz-mit-rv.html",
+      "lastCheckedAt": "2026-10-28T14:05:25+00:00"
+    },
+    {
+      "name": "UNIFIX Geländerstütze einfach aus Stahl 1,00 m, vz",
+      "articleNumber": "2065100L",
+      "price": 33.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gelaenderstuetze-einfach-aus-stahl-1-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:25+00:00"
+    },
+    {
+      "name": "UNIFIX Geländerstützenaufsatz aus Stahl 1,00 m, vz, mit RV",
+      "articleNumber": "2064101L",
+      "price": 37.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gelaenderstuetzenaufsatz-aus-stahl-1-00-m-vz-mit-rv.html",
+      "lastCheckedAt": "2026-10-28T14:05:26+00:00"
+    },
+    {
+      "name": "UNIFIX Gitterträger aus Aluminium",
+      "articleNumber": "2370310",
+      "price": 221.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gittertraeger-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T14:05:26+00:00"
+    },
+    {
+      "name": "UNIFIX Gitterträger aus Stahl, vz",
+      "articleNumber": "2375310",
+      "price": 203.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gittertraeger-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:27+00:00"
+    },
+    {
+      "name": "UNIFIX Gitterträgertraverse aus Stahl, vz",
+      "articleNumber": "2391073",
+      "price": 147.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-gittertraegertraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:27+00:00"
+    },
+    {
+      "name": "UNIFIX Holzboden 0,32 m",
+      "articleNumber": "2231050",
+      "price": 52.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-holzboden-0-32-m.html",
+      "lastCheckedAt": "2026-10-28T14:05:29+00:00"
+    },
+    {
+      "name": "UNIFIX Hängetraverse aus Stahl, vz",
+      "articleNumber": "2402070",
+      "price": 72.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-haengetraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:28+00:00"
+    },
+    {
+      "name": "UNIFIX Inneneckkonsole aus Stahl 0,25 m, vz",
+      "articleNumber": "2049025",
+      "price": 41.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-inneneckkonsole-aus-stahl-0-25-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:29+00:00"
+    },
+    {
+      "name": "UNIFIX Innengeländerstütze aus Stahl 1,00 m, vz",
+      "articleNumber": "2065713",
+      "price": 50.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-innengelaenderstuetze-aus-stahl-1-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:30+00:00"
+    },
+    {
+      "name": "UNIFIX Kamingerüst Paket",
+      "articleNumber": "3239150",
+      "price": 2231.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-kamingeruest-paket.html",
+      "lastCheckedAt": "2026-10-28T14:05:30+00:00"
+    },
+    {
+      "name": "UNIFIX Konsole aus Stahl, vz, mit 2 RV",
+      "articleNumber": "2031074",
+      "price": 104.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-konsole-aus-stahl-vz-mit-2-rv.html",
+      "lastCheckedAt": "2026-10-28T14:05:31+00:00"
+    },
+    {
+      "name": "UNIFIX Konsole aus Stahl, vz, mit RV",
+      "articleNumber": "2031032",
+      "price": 61.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-konsole-aus-stahl-vz-mit-rv.html",
+      "lastCheckedAt": "2026-10-28T14:05:31+00:00"
+    },
+    {
+      "name": "UNIFIX Konsole aus Stahl, vz, ohne RV",
+      "articleNumber": "2031016",
+      "price": 39.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-konsole-aus-stahl-vz-ohne-rv.html",
+      "lastCheckedAt": "2026-10-28T14:05:32+00:00"
+    },
+    {
+      "name": "UNIFIX LW Boden aus Aluminium 0,64 m",
+      "articleNumber": "2213150",
+      "price": 165.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-lw-boden-aus-aluminium-0-64-m.html",
+      "lastCheckedAt": "2026-10-28T14:05:33+00:00"
+    },
+    {
+      "name": "UNIFIX Obere Belagsicherung aus Stahl, vz",
+      "articleNumber": "2048070",
+      "price": 27.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-obere-belagsicherung-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:33+00:00"
+    },
+    {
+      "name": "UNIFIX Podesttraverse aus Stahl, vz",
+      "articleNumber": "2401070",
+      "price": 64.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-podesttraverse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:33+00:00"
+    },
+    {
+      "name": "UNIFIX Rückengeländer aus Stahl, vz",
+      "articleNumber": "2060070",
+      "price": 18.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-rueckengelaender-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:35+00:00"
+    },
+    {
+      "name": "UNIFIX Schnellanker aus Stahl 0,65 m, vz",
+      "articleNumber": "2362070",
+      "price": 24.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-schnellanker-aus-stahl-0-65-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:34+00:00"
+    },
+    {
+      "name": "UNIFIX Schutzdachausleger aus Stahl 0,60 x 0,30 m, vz",
+      "articleNumber": "2071000",
+      "price": 42.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-schutzdachausleger-aus-stahl-0-60-x-0-30-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:35+00:00"
+    },
+    {
+      "name": "UNIFIX Schutzgitterstütze aus Stahl 2,00 m, vz",
+      "articleNumber": "2427207",
+      "price": 114.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-schutzgitterstuetze-aus-stahl-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:36+00:00"
+    },
+    {
+      "name": "UNIFIX Spaltabdeckung aus Aluminium 0,25 m, für Durchstiege, WBQ",
+      "articleNumber": "2228150",
+      "price": 79.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-spaltabdeckung-aus-aluminium-0-25-m-fuer-durchstiege-wbq.html",
+      "lastCheckedAt": "2026-10-28T14:05:36+00:00"
+    },
+    {
+      "name": "UNIFIX Spaltabdeckung aus Holz 0,14m",
+      "articleNumber": "2233200",
+      "price": 68.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-spaltabdeckung-aus-holz-0-14m.html",
+      "lastCheckedAt": "2026-10-28T14:05:37+00:00"
+    },
+    {
+      "name": "UNIFIX Stahlboden 0,74 x 0,32 m, vz",
+      "articleNumber": "2221074",
+      "price": 73.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stahlboden-0-74-x-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:37+00:00"
+    },
+    {
+      "name": "UNIFIX Stahlboden 1,10 x 0,32 m, vz",
+      "articleNumber": "2221110",
+      "price": 75.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stahlboden-1-10-x-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:38+00:00"
+    },
+    {
+      "name": "UNIFIX Stahlboden 1,50 x 0,32 m, vz",
+      "articleNumber": "2221150",
+      "price": 85.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stahlboden-1-50-x-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:39+00:00"
+    },
+    {
+      "name": "UNIFIX Stahlboden 2,00 x 0,32 m, vz",
+      "articleNumber": "2221200",
+      "price": 95.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stahlboden-2-00-x-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:39+00:00"
+    },
+    {
+      "name": "UNIFIX Stahlboden 2,50 x 0,32 m, vz",
+      "articleNumber": "2221250",
+      "price": 104.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stahlboden-2-50-x-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:40+00:00"
+    },
+    {
+      "name": "UNIFIX Stahlboden 3,00 x 0,32 m, vz",
+      "articleNumber": "2221300",
+      "price": 119.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stahlboden-3-00-x-0-32-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:40+00:00"
+    },
+    {
+      "name": "UNIFIX Stellrahmen aus Aluminium 0,74 m",
+      "articleNumber": "2000050",
+      "price": 120.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stellrahmen-aus-aluminium-0-74-m.html",
+      "lastCheckedAt": "2026-10-28T14:05:41+00:00"
+    },
+    {
+      "name": "UNIFIX Stellrahmen aus Stahl 1,10 m, vz",
+      "articleNumber": "2011050",
+      "price": 107.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stellrahmen-aus-stahl-1-10-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:41+00:00"
+    },
+    {
+      "name": "UNIFIX Stellrahmen aus Stahl 2,00 x 0,41 m LA, vz",
+      "articleNumber": "2019402L",
+      "price": 107.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stellrahmen-aus-stahl-2-00-x-0-41-m-la-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:42+00:00"
+    },
+    {
+      "name": "UNIFIX Stellrahmen aus Stahl 2,00 x 0,74 m LA, vz mit beidseitigen Kippstiften und beidseitigen Bord",
+      "articleNumber": "2010202L",
+      "price": 111.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stellrahmen-aus-stahl-2-00-x-0-74-m-la-vz-mit-beidseitigen-kippstiften-und-beidseitigen-bord.html",
+      "lastCheckedAt": "2026-10-28T14:05:45+00:00"
+    },
+    {
+      "name": "UNIFIX Stellrahmen aus Stahl 2,00 x 1,10 m, vz, mit beidseitigen Kippstiften und Bordbrettzapfen",
+      "articleNumber": "2011201",
+      "price": 148.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stellrahmen-aus-stahl-2-00-x-1-10-m-vz-mit-beidseitigen-kippstiften-und-bordbrettzapfen.html",
+      "lastCheckedAt": "2026-10-28T14:05:44+00:00"
+    },
+    {
+      "name": "UNIFIX Stellrahmen aus Stahl mit einseitigen Kippstiften LA 0,74 m, vz",
+      "articleNumber": "2010050L",
+      "price": 90.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stellrahmen-aus-stahl-mit-einseitigen-kippstiften-la-0-74-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:45+00:00"
+    },
+    {
+      "name": "UNIFIX Stirnbordbrett aus Holz",
+      "articleNumber": "2251074",
+      "price": 22.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stirnbordbrett-aus-holz.html",
+      "lastCheckedAt": "2026-10-28T14:05:48+00:00"
+    },
+    {
+      "name": "UNIFIX Stirngeländerrahmen aus Stahl 1,00 m mit RV, vz",
+      "articleNumber": "2067070L",
+      "price": 84.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-stirngelaenderrahmen-aus-stahl-1-00-m-mit-rv-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:48+00:00"
+    },
+    {
+      "name": "UNIFIX Teleskop-Rückengeländer aus Stahl 1,50 - 2,50 m, vz",
+      "articleNumber": "2099000",
+      "price": 80.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-teleskop-rueckengelaender-aus-stahl-1-50-2-50-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:49+00:00"
+    },
+    {
+      "name": "UNIFIX Traverse mit Kupplungen aus Stahl, vz",
+      "articleNumber": "2400070",
+      "price": 52.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-traverse-mit-kupplungen-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:49+00:00"
+    },
+    {
+      "name": "UNIFIX TRBS Geländer Stahl",
+      "articleNumber": "2447074",
+      "price": 91.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-trbs-gelaender-stahl.html",
+      "lastCheckedAt": "2026-10-28T14:05:50+00:00"
+    },
+    {
+      "name": "UNIFIX TRBS Stirngeländer Stahl",
+      "articleNumber": "2447070",
+      "price": 102.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-trbs-stirngelaender-stahl.html",
+      "lastCheckedAt": "2026-10-28T14:05:51+00:00"
+    },
+    {
+      "name": "UNIFIX Treppe aus Aluminium",
+      "articleNumber": "2298140",
+      "price": 364.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-treppe-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T14:05:55+00:00"
+    },
+    {
+      "name": "UNIFIX Treppe aus Aluminium 0,64 m",
+      "articleNumber": "2298200",
+      "price": 469.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-treppe-aus-aluminium-0-64-m.html",
+      "lastCheckedAt": "2026-10-28T14:05:52+00:00"
+    },
+    {
+      "name": "UNIFIX Treppen-Geländerpfosten aus Stahl 1,10 m, vz",
+      "articleNumber": "2131110",
+      "price": 51.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-treppen-gelaenderpfosten-aus-stahl-1-10-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:55+00:00"
+    },
+    {
+      "name": "UNIFIX Treppengeländer aus Stahl 2,00 m, vz",
+      "articleNumber": "2298201",
+      "price": 103.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-treppengelaender-aus-stahl-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:56+00:00"
+    },
+    {
+      "name": "UNIFIX Untere Diagonalbefestigung aus Stahl, vz",
+      "articleNumber": "2128000",
+      "price": 8.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-untere-diagonalbefestigung-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:58+00:00"
+    },
+    {
+      "name": "UNIFIX Verlängerungskonsole aus Stahl, vz, mit RV",
+      "articleNumber": "2049050",
+      "price": 72.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-verlaengerungskonsole-aus-stahl-vz-mit-rv.html",
+      "lastCheckedAt": "2026-10-28T14:05:59+00:00"
+    },
+    {
+      "name": "UNIFIX Vollaluminium Belag 0,32 m",
+      "articleNumber": "2211110",
+      "price": 116.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-vollaluminium-belag-0-32-m.html",
+      "lastCheckedAt": "2026-10-28T14:05:59+00:00"
+    },
+    {
+      "name": "UNIFIX Vollaluminium Rahmentafel mit Durchstieg und integrierter Etagenleiter (WBQ)",
+      "articleNumber": "2207250",
+      "price": 430.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-vollaluminium-rahmentafel-mit-durchstieg-und-integrierter-etagenleiter-wbq.html",
+      "lastCheckedAt": "2026-10-28T14:06:00+00:00"
+    },
+    {
+      "name": "UNIFIX Voreilende Geländerstütze aus Stahl 2,00 m, mit 2 Kippstiften, vz",
+      "articleNumber": "2443100",
+      "price": 71.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-voreilende-gelaenderstuetze-aus-stahl-2-00-m-mit-2-kippstiften-vz.html",
+      "lastCheckedAt": "2026-10-28T14:06:00+00:00"
+    },
+    {
+      "name": "UNIFIX Voreilender Stirngeländerrahmen aus Stahl 0,74 m, mit Aushubsicherung",
+      "articleNumber": "2443301",
+      "price": 138.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-voreilender-stirngelaenderrahmen-aus-stahl-0-74-m-mit-aushubsicherung.html",
+      "lastCheckedAt": "2026-10-28T14:06:01+00:00"
+    },
+    {
+      "name": "UNIFIX Wetterschutzaufsatz aus Stahl 2,00 m, vz",
+      "articleNumber": "2071201",
+      "price": 140.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-wetterschutzaufsatz-aus-stahl-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:06:01+00:00"
+    },
+    {
+      "name": "UNIFIX Wetterschutzstütze aus Stahl 2,00 m, vz",
+      "articleNumber": "2071200",
+      "price": 123.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-wetterschutzstuetze-aus-stahl-2-00-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:06:02+00:00"
+    },
+    {
+      "name": "UNIFIX Zwischenbelag aus Stahl, vz",
+      "articleNumber": "2225074",
+      "price": 72.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-zwischenbelag-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:33+00:00"
+    },
+    {
+      "name": "UNIFIX Übergangsrahmen aus Stahl 2,00 x 0,41 m auf 0,74 m",
+      "articleNumber": "2019005L",
+      "price": 140.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-uebergangsrahmen-aus-stahl-2-00-x-0-41-m-auf-0-74-m.html",
+      "lastCheckedAt": "2026-10-28T14:05:56+00:00"
+    },
+    {
+      "name": "UNIFIX Übergangstraverse aus Stahl 1,10 m, vz",
+      "articleNumber": "2404111",
+      "price": 52.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/unifix-uebergangstraverse-aus-stahl-1-10-m-vz.html",
+      "lastCheckedAt": "2026-10-28T14:05:57+00:00"
+    },
+    {
+      "name": "Universaldübel aus Nylon 14 x 70 mm, ohne Bund",
+      "articleNumber": "3700000",
+      "price": 0.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/universalduebel-aus-nylon-14-x-70-mm-ohne-bund.html",
+      "lastCheckedAt": "2026-10-28T13:55:35+00:00"
+    },
+    {
+      "name": "Universalunterlage aus Kunststoff (PP), rund, für Gewindefußplatten, 210 x 220 x 20 mm, gelb·",
+      "articleNumber": "3700006",
+      "price": 5.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/universalunterlage-aus-kunststoff-pp-rund-fuer-gewindefussplatten-210-x-220-x-20-mm-gelb.html",
+      "lastCheckedAt": "2026-10-28T13:55:37+00:00"
+    },
+    {
+      "name": "Untersetzrohr aus Stahl 1,80 m, vz",
+      "articleNumber": "1360180",
+      "price": 48.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/untersetzrohr-aus-stahl-1-80-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:38+00:00"
+    },
+    {
+      "name": "VARIO Adapter aus Stahl für Fahrschiene",
+      "articleNumber": "4762500",
+      "price": 64.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-adapter-aus-stahl-fuer-fahrschiene.html",
+      "lastCheckedAt": "2026-10-28T13:55:39+00:00"
+    },
+    {
+      "name": "VARIO Belagtraverse aus Stahl, mit RV beidseitig, SW 19",
+      "articleNumber": "4727157",
+      "price": 81.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-belagtraverse-aus-stahl-mit-rv-beidseitig-sw-19.html",
+      "lastCheckedAt": "2026-10-28T13:55:41+00:00"
+    },
+    {
+      "name": "VARIO Belagtraverse aus Stahl, mit RV beidseitig, SW 22",
+      "articleNumber": "4727150",
+      "price": 76.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-belagtraverse-aus-stahl-mit-rv-beidseitig-sw-22.html",
+      "lastCheckedAt": "2026-10-28T13:55:42+00:00"
+    },
+    {
+      "name": "VARIO Dachträger Adapter aus Aluminium 1,00m",
+      "articleNumber": "4712100",
+      "price": 200.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-dachtraeger-adapter-aus-aluminium-1-00m.html",
+      "lastCheckedAt": "2026-10-28T13:55:43+00:00"
+    },
+    {
+      "name": "VARIO Dachträger aus Aluminium inkl. Verbinder und Schrauben",
+      "articleNumber": "4710075",
+      "price": 218.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-dachtraeger-aus-aluminium-inkl.-verbinder-und-schrauben.html",
+      "lastCheckedAt": "2026-10-28T13:55:44+00:00"
+    },
+    {
+      "name": "VARIO Dachträger Eckteil aus Aluminium 1,15 m, 37,5° (inklusive Verbinder und Schrauben)·",
+      "articleNumber": "4711115",
+      "price": 585.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-dachtraeger-eckteil-aus-aluminium-1-15-m-37-50-inklusive-verbinder-und-schrauben.html",
+      "lastCheckedAt": "2026-10-28T13:55:44+00:00"
+    },
+    {
+      "name": "VARIO Dachträger Endstück aus Aluminium 0,32 m, (inklusive Verbinder und Schrauben)",
+      "articleNumber": "4710032",
+      "price": 74.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-dachtraeger-endstueck-aus-aluminium-0-32-m-inklusive-verbinder-und-schrauben.html",
+      "lastCheckedAt": "2026-10-28T13:55:44+00:00"
+    },
+    {
+      "name": "VARIO Diagonalriegel aus Aluminium",
+      "articleNumber": "4730008",
+      "price": 93.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-diagonalriegel-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:45+00:00"
+    },
+    {
+      "name": "VARIO Dreieckstütze aus Stahl für fahrbare Halle, vz",
+      "articleNumber": "4770180",
+      "price": 148.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-dreieckstuetze-aus-stahl-fuer-fahrbare-halle-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:45+00:00"
+    },
+    {
+      "name": "VARIO Eckteilaussteifung aus Aluminium",
+      "articleNumber": "4752257",
+      "price": 217.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-eckteilaussteifung-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:45+00:00"
+    },
+    {
+      "name": "VARIO Fahrrolle spurgeführt aus Stahl 0,50 m, ø 200 mm, vz",
+      "articleNumber": "4799001",
+      "price": 209.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-fahrrolle-spurgefuehrt-aus-stahl-0-50-m-oe-200-mm-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:45+00:00"
+    },
+    {
+      "name": "VARIO Fahrschiene aus Aluminium",
+      "articleNumber": "4763207",
+      "price": 449.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-fahrschiene-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:46+00:00"
+    },
+    {
+      "name": "VARIO Fahrwagen aus Stahl 0,60 m, mit Aufsatz für Kederhalle",
+      "articleNumber": "4762060",
+      "price": 733.6,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-fahrwagen-aus-stahl-0-60-m-mit-aufsatz-fuer-kederhalle.html",
+      "lastCheckedAt": "2026-10-28T13:55:46+00:00"
+    },
+    {
+      "name": "VARIO Fahrwagen aus Stahl 0,60 m, mit Trägerauflager 15°",
+      "articleNumber": "4762061",
+      "price": 744.75,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-fahrwagen-aus-stahl-0-60-m-mit-traegerauflager-150.html",
+      "lastCheckedAt": "2026-10-28T13:55:46+00:00"
+    },
+    {
+      "name": "VARIO Firstriegel 37,5° aus Aluminium",
+      "articleNumber": "4741257",
+      "price": 145.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-firstriegel-37-50-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:47+00:00"
+    },
+    {
+      "name": "VARIO Firstriegel aus Aluminium",
+      "articleNumber": "4740257",
+      "price": 124.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-firstriegel-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:47+00:00"
+    },
+    {
+      "name": "VARIO Firstträger aus Aluminium 4,60 m, Dachneigung 15°",
+      "articleNumber": "4700460",
+      "price": 883.75,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-firsttraeger-aus-aluminium-4-60-m-dachneigung-150.html",
+      "lastCheckedAt": "2026-10-28T13:55:48+00:00"
+    },
+    {
+      "name": "VARIO Kederprofilverbinder aus Stahl, vz",
+      "articleNumber": "4799011",
+      "price": 10.5,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-kederprofilverbinder-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:47+00:00"
+    },
+    {
+      "name": "VARIO Kederschiene aus Aluminium 0,50 m mit Kippstift",
+      "articleNumber": "4775050",
+      "price": 25.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-kederschiene-aus-aluminium-0-50-m-mit-kippstift.html",
+      "lastCheckedAt": "2026-10-28T13:55:48+00:00"
+    },
+    {
+      "name": "VARIO Kederschienenhalter 360° verstellbar aus Stahl mit Halbkupplung SW19, für Gerüstrohre ø 48,3 m",
+      "articleNumber": "4799019",
+      "price": 39.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-kederschienenhalter-3600-verstellbar-aus-stahl-mit-halbkupplung-sw19-fuer-geruestrohre-oe-48-3-m.html",
+      "lastCheckedAt": "2026-10-28T13:55:49+00:00"
+    },
+    {
+      "name": "VARIO Kederschienenlängsverbinder aus Stahl 300 x 50 mm, vz inkl. 4 x Schraube M12 x 50 und 4 x Mut",
+      "articleNumber": "4799014",
+      "price": 14.9,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-kederschienenlaengsverbinder-aus-stahl-300-x-50-mm-vz-inkl.-4-x-schraube-m12-x-50-und-4-x-mut.html",
+      "lastCheckedAt": "2026-10-28T13:55:49+00:00"
+    },
+    {
+      "name": "VARIO Kederschienenwandprofil aus Aluminium mit 2 Bohrungen pro Seite",
+      "articleNumber": "4776200",
+      "price": 97.85,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-kederschienenwandprofil-aus-aluminium-mit-2-bohrungen-pro-seite.html",
+      "lastCheckedAt": "2026-10-28T13:55:49+00:00"
+    },
+    {
+      "name": "VARIO Kopfstrebe aus Aluminium",
+      "articleNumber": "4720620",
+      "price": 846.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-kopfstrebe-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:50+00:00"
+    },
+    {
+      "name": "VARIO Längsriegel aus Aluminium",
+      "articleNumber": "4726257",
+      "price": 93.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-laengsriegel-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:50+00:00"
+    },
+    {
+      "name": "VARIO Moosgummi Dachträgerdichtung, 6 mm stark, selbstklebend",
+      "articleNumber": "4799020",
+      "price": 1.65,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-moosgummi-dachtraegerdichtung-6-mm-stark-selbstklebend.html",
+      "lastCheckedAt": "2026-10-28T13:55:50+00:00"
+    },
+    {
+      "name": "VARIO Moosgummi Kederschienendichtung, 4 mm stark",
+      "articleNumber": "4799005",
+      "price": 1.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-moosgummi-kederschienendichtung-4-mm-stark.html",
+      "lastCheckedAt": "2026-10-28T13:55:51+00:00"
+    },
+    {
+      "name": "VARIO Nutenprofilverlängerung 90 aus Aluminium, inkl. Schrauben u. Muttern",
+      "articleNumber": "4799010",
+      "price": 29.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-nutenprofilverlaengerung-90-aus-aluminium-inkl.-schrauben-u.-muttern.html",
+      "lastCheckedAt": "2026-10-28T13:55:51+00:00"
+    },
+    {
+      "name": "VARIO Nutenprofilverlängerung aus Aluminium inkl. Schrauben u. Muttern",
+      "articleNumber": "4799008",
+      "price": 41.45,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-nutenprofilverlaengerung-aus-aluminium-inkl.-schrauben-u.-muttern.html",
+      "lastCheckedAt": "2026-10-28T13:55:51+00:00"
+    },
+    {
+      "name": "VARIO Prellbock aus Stahl 0,22 m",
+      "articleNumber": "4762001",
+      "price": 29.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-prellbock-aus-stahl-0-22-m.html",
+      "lastCheckedAt": "2026-10-28T13:55:52+00:00"
+    },
+    {
+      "name": "VARIO Stopper aus Stahl für VARIO Fahrschiene",
+      "articleNumber": "4762002",
+      "price": 32.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-stopper-aus-stahl-fuer-vario-fahrschiene.html",
+      "lastCheckedAt": "2026-10-28T13:55:52+00:00"
+    },
+    {
+      "name": "VARIO Traufaussteifung aus Aluminium",
+      "articleNumber": "4750257",
+      "price": 210.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traufaussteifung-aus-aluminium.html",
+      "lastCheckedAt": "2026-10-28T13:55:54+00:00"
+    },
+    {
+      "name": "VARIO Traufriegel aus Stahl 2,57 m",
+      "articleNumber": "4745257",
+      "price": 28.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traufriegel-aus-stahl-2-57-m.html",
+      "lastCheckedAt": "2026-10-28T13:55:55+00:00"
+    },
+    {
+      "name": "VARIO Traufriegelanschluss aus Stahl, vz, mit Kippstift",
+      "articleNumber": "4745300",
+      "price": 21.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traufriegelanschluss-aus-stahl-vz-mit-kippstift.html",
+      "lastCheckedAt": "2026-10-28T13:55:55+00:00"
+    },
+    {
+      "name": "VARIO Trägerauflager 200 aus Stahl, vz",
+      "articleNumber": "4760200",
+      "price": 148.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traegerauflager-200-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:53+00:00"
+    },
+    {
+      "name": "VARIO Trägerauflager 400 aus Stahl, vz",
+      "articleNumber": "4760400",
+      "price": 153.55,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traegerauflager-400-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:53+00:00"
+    },
+    {
+      "name": "VARIO Trägerauflager gelenkig aus Stahl",
+      "articleNumber": "4760500",
+      "price": 239.2,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traegerauflager-gelenkig-aus-stahl.html",
+      "lastCheckedAt": "2026-10-28T13:55:53+00:00"
+    },
+    {
+      "name": "VARIO Trägerplatte aus Stahl 0,15 x 0,18 m für Fahrschiene, inklusive Normteile",
+      "articleNumber": "4762000",
+      "price": 48.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/vario-traegerplatte-aus-stahl-0-15-x-0-18-m-fuer-fahrschiene-inklusive-normteile.html",
+      "lastCheckedAt": "2026-10-28T13:55:53+00:00"
+    },
+    {
+      "name": "Verlängerungsleiter aus Aluminium inkl. 2 Fallstecker",
+      "articleNumber": "3221100",
+      "price": 147.0,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/verlaengerungsleiter-aus-aluminium-inkl.-2-fallstecker.html",
+      "lastCheckedAt": "2026-10-28T13:55:55+00:00"
+    },
+    {
+      "name": "Voreilendes Teleskopgeländer aus Aluminium/Stahl 2,00 - 2,57m",
+      "articleNumber": "1443220",
+      "price": 74.4,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/voreilendes-teleskopgelaender-aus-aluminium/stahl-2-00-2-57m.html",
+      "lastCheckedAt": "2026-10-28T13:55:56+00:00"
+    },
+    {
+      "name": "Voreilendes Teleskopgeländer aus Stahl / Aluminium 2,50 - 3,07m",
+      "articleNumber": "1443200",
+      "price": 76.35,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/voreilendes-teleskopgelaender-aus-stahl/aluminium-2-50-3-07m.html",
+      "lastCheckedAt": "2026-10-28T13:55:56+00:00"
+    },
+    {
+      "name": "Wandbefestigung für Gitterträger aus Stahl 0,70 m, vz",
+      "articleNumber": "1390001",
+      "price": 101.8,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/wandbefestigung-fuer-gittertraeger-aus-stahl-0-70-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:56+00:00"
+    },
+    {
+      "name": "Wangenabsturzsicherung aus Stahl 1,00 x 0,50 m, inkl. Rohrklappstecker 12 x 70 mm, vz",
+      "articleNumber": "1131001",
+      "price": 79.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/wangenabsturzsicherung-aus-stahl-1-00-x-0-50-m-inkl.-rohrklappstecker-12-x-70-mm-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:58+00:00"
+    },
+    {
+      "name": "WDVS Ankerhülse aus Stahl, vz",
+      "articleNumber": "1360300",
+      "price": 49.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/wdvs-ankerhuelse-aus-stahl-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:58+00:00"
+    },
+    {
+      "name": "WDVS-Dämmstopfen NEOPOR® 32, 32 x 220 mm",
+      "articleNumber": "1360002",
+      "price": 0.95,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/wdvs-daemmstopfen-neopor-32-32-x-220-mm.html",
+      "lastCheckedAt": "2026-10-28T13:55:57+00:00"
+    },
+    {
+      "name": "Werbeplane 2,40 x 2,05 m",
+      "articleNumber": "3759000",
+      "price": 393.3,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/werbeplane-2-40-x-2-05-m.html",
+      "lastCheckedAt": "2026-10-28T13:55:58+00:00"
+    },
+    {
+      "name": "Werbetafelrahmen aus Stahl 1,00 x 0,70 m, vz",
+      "articleNumber": "1499001",
+      "price": 115.15,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/werbetafelrahmen-aus-stahl-1-00-x-0-70-m-vz.html",
+      "lastCheckedAt": "2026-10-28T13:55:59+00:00"
+    },
+    {
+      "name": "Werkzeugtasche für Gerüstratschen",
+      "articleNumber": "3750017",
+      "price": 54.75,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/werkzeugtasche-fuer-geruestratschen.html",
+      "lastCheckedAt": "2026-10-28T13:56:00+00:00"
+    },
+    {
+      "name": "Zugbandkupplung",
+      "articleNumber": "4350019",
+      "price": 77.05,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/zugbandkupplung.html",
+      "lastCheckedAt": "2026-10-28T13:55:59+00:00"
+    },
+    {
+      "name": "Zugbandrohr aus Stahl, mit Bohrungen für RV für GT",
+      "articleNumber": "4351320",
+      "price": 53.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/zugbandrohr-aus-stahl-mit-bohrungen-fuer-rv-fuer-gt.html",
+      "lastCheckedAt": "2026-10-28T13:55:59+00:00"
+    },
+    {
+      "name": "Zugkupplung 48/48",
+      "articleNumber": "1307019",
+      "price": 19.7,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/zugkupplung-48/48.html",
+      "lastCheckedAt": "2026-10-28T13:56:01+00:00"
+    },
+    {
+      "name": "Zylinderkopfschraube M 12 x 30 vz, mit Innensechskant",
+      "articleNumber": "7301025",
+      "price": 1.1,
+      "currency": "EUR",
+      "priceType": "net",
+      "vatIncluded": false,
+      "sourceUrl": "https://www.alfix-systems.com/de/shop/zylinderkopfschraube-m-12-x-30-vz-mit-innensechskant.html",
+      "lastCheckedAt": "2026-10-28T13:56:01+00:00"
+    }
+  ],
+  "errors": []
+}

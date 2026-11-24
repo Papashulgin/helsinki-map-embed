@@ -1,0 +1,29 @@
+{
+  "manufacturer": "Layher",
+  "system": "Keder Roof XL",
+  "document": "Keder-Roof-XL-Manual-PDF.pdf",
+  "revision": "Edition 01.2014",
+  "language": "English",
+  "pages": 40,
+  "source": "User-provided PDF",
+  "modelScope": "Double-pitch roof 18 degree reference geometry and manual-based component draft",
+  "sourcePages": {
+    "roofOptionsAndDoublePitch18Table": 6,
+    "supportScaffoldAndWindSnowWarning": [6, 7],
+    "assemblyAndConnections": [8, 9],
+    "roofBracing": [9, 10, 11],
+    "tarpaulinInstallation": 21,
+    "nominalWidthFormulas": 24,
+    "componentIdsAndWeights": [32, 33, 34, 35, 36],
+    "individualStructuralChecks": [30, 31]
+  },
+  "roofBayMaximumM": 2.57,
+  "supportAxisOptionsM": [0.73, 1.09],
+  "roofAngleDegrees": 18,
+  "nominalWidth": {
+    "external": "Na = L + a",
+    "internal": "Ni = L - a",
+    "aMeaning": "support frame axis dimension (0.73 m or 1.09 m)"
+  },
+  "boundary": "Geometric draft only. Site-specific wind, snow, ties, foundations, total stability and support scaffold design remain to be checked by a qualified designer. Roof tarp exact 5972.xxx item numbers require a current Layher price list."
+}

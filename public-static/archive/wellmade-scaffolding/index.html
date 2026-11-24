@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wellmade-telinejärjestelmien arkisto</title>
+  <style>
+    body{font:16px/1.55 system-ui,sans-serif;max-width:1000px;margin:2.5rem auto;padding:0 1.2rem;color:#172b3f}
+    h1,h2{color:#173b5e}section{border:1px solid #d8e1e9;border-radius:12px;padding:1.2rem 1.5rem;margin:1.1rem 0}
+    a{color:#006a78}li{margin:.3rem 0}small{color:#526b7d}
+  </style>
+</head>
+<body>
+  <p><a href="/archive/">← Telinearkiston etusivulle</a></p>
+  <h1>Wellmade Scaffolding -lähdearkisto</h1>
+  <p>Catalog, tekninen analyysi ja Ringlock-juoksun 3D-mallit.</p>
+  <section>
+    <h2>Aineisto</h2>
+    <ul>
+      <li><a href="Wellmade-Scaffolding-Catalogue.pdf">Wellmade-järjestelmätelineiden PDF-luettelo</a> (28 PDF-aukeamaa, painettu numerointi 1–53)</li>
+      <li><a href="analysis-fi.md">Luettelon suomenkielinen analyysi</a></li>
+      <li><a href="metadata.json">Metatiedot ja lähdeosoitteet</a></li>
+      <li><a href="README.md">Arkiston kuvaus</a></li>
+      <li><a href="parts-dimension-notes-fi.md">3D-osien mittaperusteet</a></li>
+      <li><a href="drawings/">Piirustukset ja käyttäjän kuvaviitteet</a></li>
+      <li><a href="SHA256SUMS">Tiedostojen tarkistussummat</a></li>
+      <li><a href="/archive/Wellmade-scaffolding-backup-2026-10-28.zip">ZIP-varmuuskopio koko arkistosta</a></li>
+    </ul>
+  </section>
+  <section>
+  <h2>Ringlock-osien 3D-mallit</h2>
+    <ul>
+      <li><a href="models/ledger-lengths.html">Kaikki 10 juoksupituutta + 3,07 m variantti</a></li>
+      <li><a href="models/standard-lengths.html">Kaikki 7 pystyvarianttia</a></li>
+      <li><a href="models/diagonal-lengths.html">Kaikki 10 diagonaalivarianttia</a></li>
+      <li><a href="models/stair-rises.html">Porraslennot ja oletetut askelnousut</a></li>
+      <li><a href="models/Wellmade-Ringlock-3-components.blend">Blender-kooste: WRL307 3,07 m juoksu, WRS200 2 m pysty, 760 mm säätöjalka</a></li>
+      <li><a href="models/Wellmade-Ringlock-Ledger-WRL307-3070mm.stl">WRL307 juoksu STL</a></li>
+      <li><a href="models/Wellmade-Ringlock-Standard-WRS200-2000mm.stl">WRS200 pysty STL</a></li> <li><a href="models/Wellmade-Ringlock-All-Standards.blend">Kaikki pystyt Blenderissä</a> · <a href="models/Wellmade-Ringlock-All-Standards.glb">GLB</a></li>
+      <li><a href="models/Wellmade-Ringlock-All-Diagonals.blend">Kaikki diagonaalit Blenderissä</a> · <a href="models/Wellmade-Ringlock-All-Diagonals.glb">GLB</a></li>
+      <li><a href="models/Wellmade-All-Scaffold-Stair-Variants.blend">Kaikki porrasvariantit Blenderissä</a> · <a href="models/Wellmade-All-Scaffold-Stair-Variants.glb">GLB</a></li>
+      <li><a href="models/Wellmade-Adjustable-Jack-760mm-38x4.stl">Säätöjalka STL</a></li>
+      <li><a href="models/Wellmade-Ringlock-3-components.glb">GLB-kooste 3D-katselimiin</a></li>
+      <li>Esikatselut: <a href="models/Wellmade-components-preview.png">kaikki osat</a> · <a href="models/Wellmade-ledger-preview.png">juoksu</a> · <a href="models/Wellmade-ledger-head-preview.png">juoksupää</a> · <a href="models/Wellmade-standard-preview.png">pysty</a> · <a href="models/Wellmade-jack-preview.png">säätöjalka</a> · <a href="models/Wellmade-all-standard-lengths-preview.png">kaikki pystypituudet</a> · <a href="models/Wellmade-all-diagonal-lengths-preview.png">diagonaalit</a> · <a href="models/Wellmade-all-stair-rises-preview.png">portaat</a></li>
+      <li><a href="make_scaffold_parts.py">Osamallien Blender-skripti</a> · <a href="make_all_ledgers.py">kaikkien juoksujen generointiskripti</a> · <a href="make_all_standards.py">kaikkien pystyjen generointiskripti</a> · <a href="make_all_diagonals.py">diagonaalien generointiskripti</a> · <a href="make_stairs.py">porrasmallien generointiskripti</a> · <a href="drawings/metadata.json">piirustusten kuvametatiedot</a></li>
+    </ul>
+  <p><small>Runkojen lähdemitat on mallinnettu. Juoksupään valupinnat, ruusukkeen aukkojen yksityiskohdat ja säätöjalan mutterin muoto on osin rekonstruoitu; tarkkuuden rajat on kirjattu mittamuistioon.</small></p>
+  </section>
+  <section>
+    <h2>Cuplock-esimerkkimalli</h2>
+    <p>Yksi havainnollistava 1,8 × 1,2 m aukko, jossa on Cuplock-kupit, lapapäiset juoksut, ristikot ja visuaaliset lankut. Oletukset ja mittarajat on dokumentoitu erikseen.</p>
+    <ul>
+      <li><a href="models/Cuplock-one-bay-1800x1200x2000.glb">Cuplock-aukko GLB 3D-katseluun</a></li>
+      <li><a href="models/Cuplock-one-bay-1800x1200x2000.blend">Blender-malli</a> · <a href="models/Cuplock-one-bay-1800x1200x2000.stl">STL-kooste</a></li>
+      <li><a href="models/Cuplock-one-bay-preview.png">PNG-esikatselu</a> · <a href="cuplock-fi.md">Mitat, oletukset ja lähteet</a> · <a href="models/generate_cuplock_demo.py">Generointiskripti</a></li>
+    </ul>
+  </section>
+  <section>
+    <h2>Ulkoinen lähde</h2>
+    <ul>
+      <li><a href="https://www.wm-scaffold.com/wp-content/uploads/2021/01/2-Wellmade-Scaffold-Catalogue-different-scaffolding-sytsems.pdf">Valmistajan alkuperäinen PDF</a></li>
+      <li><a href="https://www.wm-scaffold.com/scaffold-catalogue/">Valmistajan luettelosivu</a></li>
+    </ul>
+  </section>
+</body>
+</html>

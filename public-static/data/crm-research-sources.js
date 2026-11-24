@@ -1,0 +1,12 @@
+window.workspaceCrmResearchSources = [
+  { name: 'YTJ · yritys- ja yhteisöhaku', kind: 'Yrityksen perustiedot', url: 'https://www.ytj.fi/', use: 'Virallinen nimi, Y-tunnus, yritysmuoto, kotipaikka ja rekisteritiedot.' },
+  { name: 'PRH · tilinpäätösten avoin XBRL', kind: 'Tilinpäätökset', url: 'https://avoindata.prh.fi/en', use: 'Tarkista julkaistut digitaaliset tilinpäätökset ja niiden tilikaudet. Kaikkia tilinpäätöksiä ei ole avoimessa XBRL-aineistossa.' },
+  { name: 'PRH Virre', kind: 'Viralliset asiakirjat', url: 'https://www.prh.fi/virre', use: 'Kaupparekisteriotteet ja saatavilla olevat tilinpäätösasiakirjat; osa asiakirjoista on maksullisia.' },
+  { name: 'RALA · yrityshaku', kind: 'Pätevyydet ja sertifiointi', url: 'https://www.rala.fi/yrityshaku', use: 'Rakennusalan RALA-pätevyydet, sertifioinnit, referenssit sekä yrityshaku Y-tunnuksella.' },
+  { name: 'Luotettava Kumppani · Vastuu Group', kind: 'Tilaajavastuu ja yrityksen kelpoisuus', url: 'https://www.vastuugroup.fi/palvelut/luotettava-kumppani', use: 'Tilaajavastuulain tietoja, vakuutuksia, liikennelupia ja palveluun kuuluvia taloustietoja. Raportin tarkastelu edellyttää palvelun käyttöoikeutta.' },
+  { name: 'Valtti · Vastuu Group', kind: 'Työmaaperehdytys ja pätevyydet', url: 'https://www.vastuugroup.fi/palvelut/valtti', use: 'Valttikortit, työntekijätiedon hallinta ja pätevyyksien jakaminen. Käytä vain valtuutetun yritystilin kautta; älä tuo henkilötunnuksia tai työntekijälistoja CRM-yrityskorttiin.' },
+  { name: 'Työturvallisuuskeskus · rakennusala', kind: 'Työturvallisuusohjeet', url: 'https://ttk.fi/tyoturvallisuus/toimialakohtaista-tietoa/rakennusala/', use: 'Rakennusalan ohjeet, perehdytys- ja käyttölupapohjat. Ohjeet eivät todista yksittäisen yrityksen pätevyyttä.' },
+  { name: 'Traficom · avoin data ja liikenneluvat', kind: 'Kalusto ja luvat', url: 'https://tieto.traficom.fi/fi/avoin-data', use: 'Ajoneuvoaineistot ja Y-tunnukseen perustuva liikennelupien avoin rajapinta. Käyttökelpoinen kalusto- ja kuljetusyritysten taustaan.' },
+  { name: 'Väylävirasto · hankkeet ja avoin data', kind: 'Hankkeet ja markkinasignaalit', url: 'https://vayla.fi/avoindata', use: 'Väyläverkkojen aineistot, suunnittelu- ja investointiohjelmat; tunnista hankkeet ja mahdolliset aliurakka-, suunnittelu- ja konsultointimarkkinat.' },
+  { name: 'HILMA · julkiset hankinnat', kind: 'Tarjouspyynnöt ja hankinnat', url: 'https://www.hankintailmoitukset.fi/fi/', use: 'Julkiset kilpailutukset ja ennakkoilmoitukset. Tallenna lähdeilmoituksen linkki CRM-mahdollisuuteen.' },
+];

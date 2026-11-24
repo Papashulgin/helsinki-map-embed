@@ -26,7 +26,7 @@ const state = { cat: '__base__', q: '', sel: [], thumbs: true, limit: PAGE };
 /*  Thumbnail scheduler (bounded concurrency)                          */
 /* ------------------------------------------------------------------ */
 const MAX_CONCURRENT = 6;
-let activeThumbs = 0;
+const activeThumbs = new Set();
 const thumbQueue = [];
 
 function thumbUrl(layers, res) {
@@ -52,28 +52,55 @@ function requestThumb(card) {
 }
 
 function pumpThumbs() {
-  while (activeThumbs < MAX_CONCURRENT && thumbQueue.length) {
+  while (activeThumbs.size < MAX_CONCURRENT && thumbQueue.length) {
     const card = thumbQueue.shift();
     if (!card.isConnected || card._loaded) { card._queued = false; continue; }
     loadThumb(card);
   }
 }
 
+function finishThumb(card, removeFrame = false, resumeQueue = true) {
+  if (card._timer) clearTimeout(card._timer);
+  card._timer = null;
+
+  if (card._iframe && card._onThumbDone) {
+    card._iframe.removeEventListener('load', card._onThumbDone);
+    card._iframe.removeEventListener('error', card._onThumbDone);
+  }
+  if (removeFrame && card._iframe) card._iframe.remove();
+  card._iframe = null;
+  card._onThumbDone = null;
+
+  const released = activeThumbs.delete(card);
+  if (released && resumeQueue) pumpThumbs();
+}
+
+function cancelThumbs() {
+  thumbQueue.length = 0;
+  for (const card of [...activeThumbs]) finishThumb(card, true, false);
+}
+
 function loadThumb(card) {
-  activeThumbs++;
+  card._queued = false;
   card._loaded = true;
   const thumb = card.querySelector('.thumb');
-  if (!thumb) { activeThumbs--; return; }
+  if (!thumb) return;
   const ph = thumb.querySelector('.ph'); if (ph) ph.remove();
   const ifr = document.createElement('iframe');
   ifr.setAttribute('scrolling', 'no');
   ifr.setAttribute('tabindex', '-1');
   ifr.title = 'preview';
   ifr.src = card._url;
-  let done = false;
-  const finish = () => { if (done) return; done = true; activeThumbs = Math.max(0, activeThumbs - 1); pumpThumbs(); };
-  ifr.addEventListener('load', finish);
-  setTimeout(finish, 9000);
+  card._iframe = ifr;
+  card._onThumbDone = () => finishThumb(card);
+  activeThumbs.add(card);
+  ifr.addEventListener('load', card._onThumbDone);
+  ifr.addEventListener('error', card._onThumbDone);
+  card._timer = setTimeout(() => {
+    finishThumb(card, true);
+    const preview = card.querySelector('.thumb');
+    if (preview && card.isConnected) preview.textContent = 'Preview timed out';
+  }, 9000);
   thumb.appendChild(ifr);
 }
 
@@ -100,7 +127,7 @@ async function init() {
   $('galSearch').addEventListener('input', (e) => { state.q = e.target.value.trim(); state.limit = PAGE; render(); });
   $('thumbsOn').addEventListener('change', (e) => {
     state.thumbs = e.target.checked;
-    if (state.thumbs) render(); else render(); // re-render to drop/attach iframes
+    render();
   });
   $('trayClear').addEventListener('click', () => { state.sel = []; render(); });
   $('trayOpen').addEventListener('click', openInBuilder);
@@ -116,7 +143,7 @@ function buildFeatured() {
   const n = (cat) => CATALOG.flat.filter((f) => f.cat === cat && f.subType !== 2).length;
 
   const items = [
-    { ico: '🧊', tt: '3D LiDAR point cloud', dd: 'Fly through a real 1M-point RGB laser scan of central Helsinki.', tag: 'interactive 3D', href: 'pointcloud.html' },
+    { ico: '🧊', tt: '3D LiDAR point cloud', dd: 'Open a downloaded LAS/LAZ tile from the map, or fly through the built-in 1M-point RGB sample.', tag: 'interactive 3D', href: 'pointcloud.html' },
     { ico: '📡', tt: 'Laser scanning', dd: 'Laserkeilausaineistot — ground & all-return point layers.', tag: n('Laserkeilausaineistot') + ' layers', cat: 'Laserkeilausaineistot' },
     { ico: '⛰️', tt: 'Elevation models', dd: 'Digital terrain & surface models (xyz, 1×1 m, GeoTIFF).', tag: n('Korkeusmalliaineistot') + ' layers', cat: 'Korkeusmalliaineistot' },
     { ico: '🌄', tt: 'Hillshade', dd: 'Rinnevarjostukset — shaded relief from different light angles.', tag: n('Rinnevarjostukset') + ' layers', cat: 'Rinnevarjostukset' },
@@ -201,8 +228,9 @@ function render() {
   $('galSubCount').textContent = '· ' + list.length + ' layer' + (list.length === 1 ? '' : 's');
 
   const grid = $('galGrid');
-  grid.innerHTML = '';
   io.disconnect();
+  cancelThumbs();
+  grid.innerHTML = '';
 
   if (!list.length) { $('galEmpty').style.display = 'block'; $('galCount').textContent = '0'; return; }
   $('galEmpty').style.display = 'none';

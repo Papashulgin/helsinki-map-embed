@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lataa Helsingin kaupungin karttakuva ja paljasta se Matrix-henkisellä koodisateella.">
+  <title>Matrix Code Rain · Helsingin karttakuva</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    :root {
+      --rain-bg: #020805;
+      --rain-panel: rgba(4, 15, 10, .86);
+      --rain-border: rgba(78, 255, 145, .22);
+      --rain-green: #36ff83;
+      --rain-muted: #9bc7aa;
+    }
+    html, body { min-height: 100%; background: #030a06; color: #e4ffed; }
+    .rain-header {
+      min-height: 74px; padding: 14px 22px; display: flex; align-items: center;
+      justify-content: space-between; gap: 16px; flex-wrap: wrap;
+      background: linear-gradient(110deg, #06170d, #092514 62%, #06170d);
+      border-bottom: 1px solid var(--rain-border);
+    }
+    .rain-brand { display: flex; align-items: center; gap: 13px; }
+    .rain-mark { color: var(--rain-green); font: 800 25px/1 ui-monospace, monospace; text-shadow: 0 0 18px rgba(54,255,131,.7); }
+    .rain-brand h1 { margin: 0; font: 700 16px/1.25 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .08em; }
+    .rain-brand p { margin: 4px 0 0; color: var(--rain-muted); font-size: 12px; }
+    .rain-nav { display: flex; gap: 8px; flex-wrap: wrap; }
+    .rain-nav a { color: #b6ffd0; text-decoration: none; border: 1px solid var(--rain-border); border-radius: 7px; padding: 7px 10px; font: 12px ui-monospace, monospace; }
+    .rain-nav a:hover { border-color: var(--rain-green); background: rgba(54,255,131,.08); }
+    .rain-layout { width: min(1600px, 100%); min-height: calc(100vh - 140px); margin: 0 auto; padding: 18px; display: grid; grid-template-columns: 280px minmax(0, 1fr); gap: 16px; }
+    .rain-controls, .map-shell { border: 1px solid var(--rain-border); border-radius: 12px; background: var(--rain-panel); box-shadow: 0 12px 36px rgba(0,0,0,.28); }
+    .rain-controls { padding: 16px; align-self: start; }
+    .rain-controls h2 { margin: 0 0 7px; color: #d8ffe5; font: 700 13px ui-monospace, monospace; letter-spacing: .08em; text-transform: uppercase; }
+    .rain-controls .intro { margin: 0 0 16px; color: var(--rain-muted); font-size: 12px; line-height: 1.55; }
+    .rain-controls label { display: block; margin: 12px 0 5px; color: #b6ffd0; font: 11px ui-monospace, monospace; letter-spacing: .04em; }
+    .rain-controls select { width: 100%; color: #e4ffed; background: #08190f; border: 1px solid var(--rain-border); border-radius: 7px; padding: 9px; font: 12px ui-monospace, monospace; }
+    .rain-controls select:focus { outline: 2px solid rgba(54,255,131,.55); outline-offset: 1px; }
+    .rain-actions { display: grid; gap: 8px; margin-top: 17px; }
+    .rain-button { width: 100%; justify-content: center; color: #031008; background: var(--rain-green); border: 1px solid var(--rain-green); font: 700 12px ui-monospace, monospace; letter-spacing: .03em; }
+    .rain-button:hover { background: #8dffb7; border-color: #8dffb7; }
+    .rain-button.secondary { color: #c9ffdc; background: rgba(54,255,131,.07); border-color: var(--rain-border); }
+    .rain-button.secondary:hover { background: rgba(54,255,131,.15); border-color: var(--rain-green); }
+    .rain-attribution { margin: 16px 0 0; padding-top: 12px; border-top: 1px solid var(--rain-border); color: #8eaf99; font-size: 10.5px; line-height: 1.5; }
+    .rain-attribution a { color: #b6ffd0; }
+    .map-shell { min-width: 0; display: flex; flex-direction: column; overflow: hidden; }
+    .map-topline { min-height: 42px; display: flex; align-items: center; justify-content: space-between; gap: 10px; padding: 9px 13px; color: #c8ffda; font: 11px ui-monospace, monospace; letter-spacing: .04em; border-bottom: 1px solid var(--rain-border); }
+    .map-topline .live { display: inline-flex; align-items: center; gap: 7px; color: var(--rain-green); }
+    .map-topline .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--rain-green); box-shadow: 0 0 10px var(--rain-green); }
+    .map-stage { position: relative; flex: 1; min-height: min(72vh, 760px); aspect-ratio: 16 / 10; overflow: hidden; background: #010402; }
+    #mapImage { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: fill; opacity: 1; }
+    #rainCanvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+    .map-message { position: absolute; z-index: 2; inset: auto 0 0; padding: 10px 13px; color: #b6ffd0; background: linear-gradient(transparent, rgba(1,7,3,.9)); font: 11px ui-monospace, monospace; pointer-events: none; }
+    .map-message.error { color: #ff9b9b; }
+    .rain-marker-overlay { position: absolute; z-index: 3; inset: 0; pointer-events: none; overflow: hidden; }
+    .rain-management-marker { position: absolute; display: grid; justify-items: center; transform: translate(-50%, -100%); color: #172b3b; }
+    .rain-management-marker > i { position: relative; display: block; width: 22px; height: 20px; background: #e7ac38; clip-path: polygon(50% 0, 100% 28%, 100% 100%, 0 100%, 0 28%); filter: drop-shadow(1px 3px 1px rgba(0,0,0,.4)); }
+    .rain-management-marker > b { position: absolute; top: 2px; color: #142d3d; font: 700 12px/1 ui-sans-serif,system-ui; }
+    .rain-management-marker > small { max-width: 180px; margin-top: 2px; padding: 2px 5px; border: 1px solid rgba(255,255,255,.72); border-radius: 5px; color: #122331; background: rgba(255,255,255,.9); font: 10px/1.25 ui-sans-serif,system-ui; text-align: center; white-space: nowrap; }
+    .map-shell.complete #rainCanvas { display: none; }
+    .rain-footer { max-width: 1600px; margin: 0 auto; padding: 0 22px 16px; color: #86a491; font-size: 11px; }
+    body.embed { width: 100%; height: 100%; min-height: 0; overflow: hidden; }
+    body.embed .rain-header, body.embed .rain-controls, body.embed .rain-footer, body.embed .map-topline { display: none; }
+    body.embed .rain-layout { display: block; width: 100%; height: 100%; min-height: 0; margin: 0; padding: 0; }
+    body.embed .map-shell { width: 100%; height: 100%; min-height: 0; border: 0; border-radius: 0; box-shadow: none; }
+    body.embed .map-stage { width: 100%; height: 100%; min-height: 0; aspect-ratio: auto; }
+    body.embed .map-message { padding: 6px 9px; font-size: 10px; }
+    @media (max-width: 850px) {
+      .rain-layout { grid-template-columns: 1fr; padding: 12px; }
+      .rain-controls { order: 0; }
+      .map-shell { order: 1; }
+      .map-stage { min-height: 48vh; }
+      .rain-footer { padding: 0 14px 14px; }
+    }
+    @media (max-width: 520px) {
+      .rain-header { padding: 12px 14px; }
+      .rain-layout { gap: 10px; }
+      .map-stage { min-height: 42vh; }
+      .map-topline { align-items: flex-start; flex-direction: column; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { scroll-behavior: auto !important; }
+    }
+  </style>
+</head>
+<body>
+  <header class="rain-header">
+    <div class="rain-brand">
+      <span class="rain-mark" aria-hidden="true">▦</span>
+      <div>
+        <h1>MATRIX CODE RAIN <span style="color:#36ff83">// HELSINKI</span></h1>
+        <p>Karttakuva latautuu koodisateen läpi.</p>
+      </div>
+    </div>
+    <nav class="rain-nav" aria-label="Päänavigaatio">
+      <a href="/">Telinekonttori</a>
+      <a href="index.html">← Karttarakentaja</a>
+      <a href="buildings.html">3D-rakennukset</a>
+      <a href="gallery.html">Karttatasot</a>
+    </nav>
+  </header>
+
+  <main class="rain-layout">
+    <aside class="rain-controls" aria-label="Karttakuvan asetukset">
+      <h2>LOAD MAP IMAGE</h2>
+      <p class="intro">Hae kaupungin virallinen karttakuva suoraan WMS-palvelusta. Koodisade paljastaa kuvan latauksen jälkeen.</p>
+
+      <label for="mapLayer">Karttataso</label>
+      <select id="mapLayer">
+        <option value="Opaskartta_Helsinki">Opaskartta · Helsinki</option>
+        <option value="Kantakartta">Kantakartta</option>
+        <option value="Ortoilmakuva_2026_5cm">Ortokuva · 2026</option>
+      </select>
+
+      <label for="mapPlace">Sijainti</label>
+      <select id="mapPlace" aria-label="Valitse sijainti">
+        <option value="" data-easting="25496825" data-northing="6673044">Helsingin keskusta</option>
+      </select>
+
+      <label for="mapResolution">Mittakaava</label>
+      <select id="mapResolution">
+        <option value="2">Lähi · 2 m / kuvapiste</option>
+        <option value="4" selected>Keskusta · 4 m / kuvapiste</option>
+        <option value="8">Laaja · 8 m / kuvapiste</option>
+        <option value="16">Koko alue · 16 m / kuvapiste</option>
+      </select>
+
+      <div class="rain-actions">
+        <button class="btn rain-button" id="loadMap" type="button">↓ Lataa karttakuva</button>
+        <button class="btn rain-button secondary" id="replayRain" type="button">⟳ Toista koodisade</button>
+        <a class="btn rain-button secondary" id="openMapImage" href="#" target="_blank" rel="noopener">↗ Avaa karttakuva</a>
+      </div>
+
+      <p class="rain-attribution">Karttakuva ja lähdeaineisto: <a href="https://kartta.hel.fi/avoindata/" target="_blank" rel="noopener">© Helsingin kaupunki, kaupunkimittauspalvelut 2026</a>. Avoin WMS-karttakuvapalvelu.</p>
+    </aside>
+
+    <section class="map-shell" id="mapShell" aria-label="Ladattu Helsingin karttakuva">
+      <div class="map-topline">
+        <span class="live"><span class="dot" aria-hidden="true"></span><span id="mapStatus" role="status" aria-live="polite">ODOTTAA LATAUSTA</span></span>
+        <span id="mapCoordinates">EPSG:3879 · 25 496 825, 6 673 044</span>
+      </div>
+      <div class="map-stage" id="mapStage">
+        <img id="mapImage" alt="Helsingin kaupungin karttakuva" decoding="async">
+        <canvas id="rainCanvas" aria-hidden="true"></canvas>
+        <div id="rainMarkerOverlay" class="rain-marker-overlay" aria-label="Hallintamerkit kartalla"></div>
+        <div class="map-message" id="mapMessage">Valmis: käynnistä karttakuvan lataus.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rain-footer">Karttakuvan lähde: <a href="https://kartta.hel.fi/ws/geoserver/avoindata/wms" target="_blank" rel="noopener">Helsingin kaupungin avoin WMS-palvelu</a> · Lisenssi CC BY 4.0.</footer>
+  <script src="matrix-coderain.js"></script>
+</body>
+</html>

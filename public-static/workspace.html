@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yhtenäinen työtila telinehallintaan, CRM:ään, BOMiin, henkilöstöön, koulutuksiin, karttoihin ja julkisten hankintojen seurantaan.">
+  <meta name="theme-color" content="#eef2ef">
+  <title>Telinekonttori · Työtila</title>
+  <link rel="stylesheet" href="workspace.css">
+  <link rel="stylesheet" href="vendor/leaflet/leaflet.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar mindmap-drawer" id="sidebar" aria-label="Työtilan mindmap-valikko" aria-hidden="true">
+      <div class="mindmap-drawer-head">
+        <a class="brand" href="/" aria-label="Telinekonttori, etusivu">
+          <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" focusable="false"><path d="M4 8 16 2l12 6-12 6L4 8Zm0 0v13l12 8 12-8V8M16 14v15M10 11v14m12-14v14M7 15l9 5 9-5"/><circle cx="16" cy="14" r="1.4"/><circle cx="16" cy="20" r="1.4"/></svg></span>
+          <span><strong>Telinekonttori</strong><small>Työmaatyötila</small></span>
+        </a>
+        <button class="mindmap-close" id="closeNav" type="button" aria-label="Sulje valikko">×</button>
+      </div>
+
+      <div class="nav-label">TYÖTILAN MINDMAP</div>
+      <details class="drawer-map-disclosure">
+        <summary>Isometrinen moduulikartta</summary>
+        <div id="drawerMapStage" class="drawer-map-stage" aria-label="Valitse työtilan moduuli isometrisestä kartasta"></div>
+      </details>
+      <div class="mindmap-root"><span class="mindmap-root-icon" aria-hidden="true">⌘</span><span><strong>Yhteinen työtila</strong><small>Valitse järjestelmä ja alalehti</small></span></div>
+      <nav id="primaryNav" class="mindmap-nav mindmap-nav-drawer" aria-label="Työtilan mindmap-navigaatio"></nav>
+
+      <div class="sidebar-bottom">
+        <div class="local-badge"><span class="status-dot"></span><span><strong>Paikallinen työtila</strong><small>Työtilan esimerkkitiedot tallentuvat selaimeen</small></span></div>
+        <div class="user-row"><span class="avatar">D</span><span><strong id="sidebarUser">Demo-käyttäjä</strong><small>Työmaan hallinta</small></span><span class="more-dots" aria-hidden="true">···</span></div>
+      </div>
+    </aside>
+
+    <div class="app-main">
+      <header class="topbar">
+        <button class="icon-button menu-toggle" id="menuToggle" type="button" aria-label="Avaa työtilan mindmap-valikko" aria-expanded="false" aria-controls="sidebar"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v5M12 10H6m6 0h6M6 10v7m12-7v7M12 10v8"/><circle cx="12" cy="4" r="2"/><circle cx="6" cy="10" r="2"/><circle cx="18" cy="10" r="2"/><circle cx="6" cy="18" r="2"/><circle cx="12" cy="19" r="2"/><circle cx="18" cy="18" r="2"/></svg></button>
+        <div class="breadcrumbs"><span class="crumb-muted">Telinekonttori</span><span class="crumb-sep">/</span><strong id="pageCrumb">Dashboard</strong></div>
+        <div class="topbar-actions"><span class="sync-indicator"><i></i> <span id="syncIndicatorLabel">Tallennettu tähän selaimeen</span></span><a class="button" href="/archive/" aria-label="Avaa telinejärjestelmien lähdearkisto">Telinearkisto</a><button class="button theme-toggle" data-action="toggle-theme" type="button" aria-label="Vaihda teemaa">☾ Tumma</button><button class="button button-primary" data-action="new-task" type="button"><span>＋</span> Uusi tehtävä</button></div>
+      </header>
+      <main id="appView" class="page-content" tabindex="-1"></main>
+      <footer class="app-footer"><span>CRM- ja myyntiputkitiedot tallentuvat paikalliseen palvelimen tietokantaan; muut työtilan demo-esimerkit säilyvät tässä selaimessa.</span><span>Suomen kartta-aineistot: lähde ja käyttöehdot aineistokortissa · Helsingin Karttarakentaja, 3D-rakennukset ja LiDAR-pistepilvi</span></footer>
+    </div>
+  </div>
+
+  <nav class="mobile-bottom-nav" id="mobileNav" aria-label="Päänavigaatio">
+    <a href="?page=dashboard" data-page="dashboard"><span aria-hidden="true">⌂</span><small>Etusivu</small></a>
+    <a href="?page=tasks" data-page="tasks"><span aria-hidden="true">✓</span><small>Tehtävät</small></a>
+    <a href="?page=scaffold" data-page="scaffold"><span aria-hidden="true">▦</span><small>Työmaa</small></a>
+    <a href="?page=time" data-page="time"><span aria-hidden="true">◷</span><small>Työaika</small></a>
+    <button type="button" id="mobileMore" aria-label="Avaa kaikki työtilan moduulit" aria-expanded="false" aria-controls="sidebar"><span aria-hidden="true">☰</span><small>Lisää</small></button>
+  </nav>
+
+  <div id="workspaceLoading" class="workspace-loading" role="status" aria-live="polite">
+    <img src="assets/latausindikaattori-ammattimainen.svg" alt="Työtilaa ladataan" width="180" height="153">
+    <span>Avataan työtilaa…</span>
+  </div>
+  <div class="sidebar-scrim" id="sidebarScrim"></div>
+  <dialog id="modal" class="app-dialog" aria-labelledby="dialogTitle"></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <img id="workspaceRatchetCursor" class="workspace-ratchet-cursor is-hidden" src="assets/ui-packs/ratchet-light.png" alt="" aria-hidden="true" draggable="false">
+  <script src="vendor/leaflet/leaflet.js"></script>
+  <script src="vendor/proj4.js"></script>
+  <script src="/scaffold-domain.js"></script>
+  <script src="/scaffold-exports.js"></script>
+  <script src="data/mms-archive.js"></script>
+  <script src="data/crm-research-sources.js"></script>
+  <script src="map-data.js"></script>
+  <script src="workspace.js"></script>
+</body>
+</html>

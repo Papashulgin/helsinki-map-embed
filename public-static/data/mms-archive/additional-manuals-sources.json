@@ -1,0 +1,285 @@
+{
+  "retrievedAt": "2026-10-29T01:06:51.792Z",
+  "documents": [
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-FACADE-Instructions-en.pdf",
+      "title": "ALFIX Facade · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2023/06/EN-INSTRUCTIONS-ALFIX-FACADE.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 13635022,
+      "sha256": "29e9a616928cea78b057b9e76cb71fe315a95e22517c21bb66db6d510e956493"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-Fall-Protection-Instructions-en.pdf",
+      "title": "ALFIX Fall Protection · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2023/09/EN-INSTRUCTIONS-ALFIX-FALL-PROTECTION.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 17323580,
+      "sha256": "1d5feaced7515c500e04b753c9d88b04d07c4fa1bad12db45ea67cd80cce0e3b"
+    },
+    {
+      "vendor": "alfix",
+      "name": "UNIFIX-70-Instructions-en.pdf",
+      "title": "UNIFIX 70 · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/EN-INSTRUCTIONS-UNIFIX-70.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 1477577,
+      "sha256": "cf85ed22bb1a4d57a7fb464ceb10c819343d59de53856d6adf5c7585d604665e"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-MODUL-MULTI-Instructions-en.pdf",
+      "title": "ALFIX MODUL MULTI · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/02/EN-INSTRUCTIONS-ALFIX-MODUL-MULTI.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 14464369,
+      "sha256": "b832aeac2d116aa0413a07f98feeaab483b9429b8236e6a1cb1930de196ad1dd"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALBLITZ-MODUL-Instructions-en.pdf",
+      "title": "ALBLITZ MODUL · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2024/04/EN-INSTRUCTIONS-ALBLITZ-MODUL.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 13383447,
+      "sha256": "7bfbed26ab2a048b4edc0dbf66945812007e7febb093ffe940ab76b93ed651e7"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-VARIO-Weather-Protection-Roof-Instructions-en.pdf",
+      "title": "ALFIX VARIO weather protection roof · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/09/EN-INSTRUCTIONS-ALFIX-VARIO-WEATHER-PROTECTION-ROOF.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 3781498,
+      "sha256": "dba47409ce01584bcf41b3c1e95bcecb555cc3ceeca6e5f62798f1f2969a6f4a"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-Mobile-Scaffold-5000-Instructions-en.pdf",
+      "title": "ALUFIX mobile scaffold 5000 · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/05/EN-INSTRUCTIONS-ALFIX-MOBILE-SCAFFOLD-5000.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 9834526,
+      "sha256": "da29c7e2404ee651eca7a7866ab53b5ea8b630fe58d756ec57b0693d8bb18253"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-Mobile-Scaffold-Tower-5100-Instructions-en.pdf",
+      "title": "ALUFIX mobile scaffold tower 5100 · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/05/EN-INSTRUCTIONS-ALFIX-MOBILE-SCAFFOLD-TOWER-5100.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 8883836,
+      "sha256": "edf7d71b2379583985148f97f4dfcc46b9362255fda7bd8ea90c1ab2187cd309"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-Mobile-Scaffold-Tower-5280-Instructions-en.pdf",
+      "title": "ALUFIX mobile scaffold tower 5280 · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2023/06/EN-INSTRUCTIONS-ALFIX-MOBILE-SCAFFOLD-TOWER-5280.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 9130160,
+      "sha256": "55a808bef2928b0b70616148c20eda425463381c2bf8908c6b77b017d8d0b857"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-Mobile-Scaffold-6000-Instructions-en.pdf",
+      "title": "ALUFIX mobile scaffold 6000 · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/05/EN-INSTRUCTIONS-ALFIX-MOBILE-SCAFFOLD-6000.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 10666934,
+      "sha256": "e6e4e212cc2807d81f3139ddeeb8e15d9b3bd6295a9a5be0a4ce9a0648a63d97"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-Mobile-Scaffold-6100-6200-Instructions-en.pdf",
+      "title": "ALUFIX mobile scaffold 6100/6200 · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/09/EN-INSTRUCTIONS-ALFIX-MOBILE-SCAFFOLD-6100-62000.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 10243224,
+      "sha256": "8156b25ef3015f0b45aa8792610e02c0cea15fde238e089100fa9a05f834b7ee"
+    },
+    {
+      "vendor": "alfix",
+      "name": "ALFIX-DS-Bracket-Frame-Instructions-en.pdf",
+      "title": "ALFIX DS bracket frame · assembly and use",
+      "url": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/12/EN-INSTRUTIONS-ALFIX-DS-BRACKET-FRAME.pdf",
+      "sourcePage": "https://www.alfix-systems.com/en/downloads/downloads-instructions-for-erection-and-use/",
+      "bytes": 722653,
+      "sha256": "21234315a208d15112c983b3f00571aa2ff4527dce3d6920b91648e8fc8fbec9"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Universal-International-Manual-en.pdf",
+      "title": "HAKI Universal International · user manual",
+      "url": "https://www.haki.com/storage/F43234D9E525DC6D8F36E2D9B8DE809BBEDB307B77B14FA6835927CF537FCD38/f86cd201e40742e2ad60fae4e6297978/pdf/media/33437f0969eb49f986e604e9f4713716/Manual_HAKI%20Universal%20International_EN.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 4898379,
+      "sha256": "3f0b1a315b86c9155c1eb65e80aaf8f6f64c02c9b090b7d0dd5ec0d60a682f88"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Universal-S4-AL-Manual-en.pdf",
+      "title": "HAKI Universal S4 AL · manual (listed 2025-12-09)",
+      "url": "https://www.haki.com/storage/27431EB41BA0BE1735ACB004F4E32D0A7157B9A32C5BF7B0E214FB1B7C11C805/e744773261424f44b2d4bc995ca25b4c/pdf/media/911a01e1eddf49ce968f86e389ef107c/manual_haki_universal_s4_al_en.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 1021581,
+      "sha256": "2bb5aca085ea4086d9a537de83eb78a440b23d806294cc7cc572d75f3341a971"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Public-Access-Stair-Manual-en.pdf",
+      "title": "HAKI Public Access Stair · manual (listed 2025-02-07)",
+      "url": "https://www.haki.com/storage/C402C5FA468ED1F86767E4B077DE8E2FC26B891A63756EAE1BD2388A5E82201A/ce33067e9fd1407a96c569d4b84e72bd/pdf/media/e4b4101ce86d446d8fd4486e000c5071/Manual_HAKIPublicAccessStair_EN.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 1003848,
+      "sha256": "b9d42165643bfcd81845da3cb6884b05663e51f89cc4271e93392559505d5df6"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Stair-Tower-Manual-en.pdf",
+      "title": "HAKI Stair Tower · manual",
+      "url": "https://www.haki.com/storage/FEA27D46075960F60A6E660711774235AD2C01A2E7C7C01FDE712B5C5F28DF0B/36a2b721c7fa4c50b39fa7dfa3556814/pdf/media/fc0f0e5780434257b3c54ee31352ea39/Manual_HAKIStairTower.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 8493547,
+      "sha256": "bd232bf9c15182f9ca7c6874b9ee4a964d8ca2f700c3f45edb69e30e122579c8"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Compact-Stair-Tower-Manual-en.pdf",
+      "title": "HAKI Compact Stair Tower · manual",
+      "url": "https://www.haki.com/storage/605FAF57C9620A76069279FA96D6330CE44B68AF5AEC6563B3E337923F717603/541199ee72154ddb98a793e4a358bdc2/pdf/media/299df86abe1d45868d87bac20bb866a4/Manual_HAKICompactStairTower.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 3977129,
+      "sha256": "213a8a5b84f678421cd19999d405fc6182beba096699f5a9b47c83339b1a764c"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Suspended-Scaffold-Manual-en.pdf",
+      "title": "HAKI Suspended Scaffold · manual",
+      "url": "https://www.haki.com/storage/4ACC0235D5B455839511BFB91B67A99121FE5FE78C211BB4A6FDC12A6ED5FE4E/e160cae0cfd0418a8aa5aadf48cfc695/pdf/media/89e88c042e35499e9abbb3c1f48a1f04/Manual_HAKISuspendedscaffold_EN.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 1289731,
+      "sha256": "b3a02d9066b08afe645e07e3ef42c33297d1d7709d9eb5b566a20a8bff505b34"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-TKS-750-Manual-en.pdf",
+      "title": "HAKI TKS 750 · manual",
+      "url": "https://www.haki.com/storage/3DEB116B6A049036C7E96BC1AB59A830AB570026E3DB8A2D576073F5E19C11FE/a530b3f044c74faeabd9def5ad95b3d0/pdf/media/a20afeac6b9747ac8bfd464fb73d8e86/HAKI%20TKS%20750_EN%20H.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 7676983,
+      "sha256": "bfc4f18b44c02cee0e8048f3a0e6ddabb1be7f003433ffd7a1ba7d0530cdac52"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Bridge-System-HBS-Manual-en.pdf",
+      "title": "HAKI Bridge System HBS · manual",
+      "url": "https://www.haki.com/storage/567F6DDD3006FB756D138F217ADAE10BDE82C498F41894F7A0EDD115641DF444/128a487addc64ef6bbaddb68548db02f/pdf/media/5be1cc7c7ba04f08a781bde776fdd95f/Manual_HAKIBridgeSystem_HBS_EN.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 1243687,
+      "sha256": "33ecc600983dadada8d9173b018be4dcbb54f495db496d4f4e508d6e4f70862f"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKI-Frame-Scaffold-Manual-en.pdf",
+      "title": "HAKI Frame scaffold · UK manual",
+      "url": "https://www.haki.com/storage/A57D4BD0AC287D775F046CD230E9E5EF54CAACD0CAA7F223F50A1E59C540ADAC/39d5d0a71d164a509fa6f53cf21d3c5d/pdf/media/127160fad6014bd3be3d6a9b235bb1cd/Manual_HAKIFrame_UKEcommerce.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 737898,
+      "sha256": "bbe33108caf6e37f621d6798f893f1539fa2f42fc21bdf066d6431e22c09f616"
+    },
+    {
+      "vendor": "haki",
+      "name": "HAKITEC-750-Shelter-Manual-en.pdf",
+      "title": "HAKITEC 750 shelter system · instructions",
+      "url": "https://www.haki.com/storage/7B901100DE8B5F706875EE76A101BBD6B1051687E0E31F276EB44979DE8FF264/7e6a470111704395a1c8845b58bdbc74/pdf/media/6e0d857f526e4786b8269b53a397b5f2/MonteringsveiledningHAKITEC750Overdekning_engelsk_.pdf?forceDownload=true",
+      "sourcePage": "https://www.haki.com/resources?tags=Manual#document-filter",
+      "bytes": 2857388,
+      "sha256": "5014b0abacacafb498bc4640f8cc9907d726b3e252bdd22c5d53ebab0c5f0ecf"
+    },
+    {
+      "vendor": "scafom-rux",
+      "name": "RINGSCAFF-User-Manual-en.pdf",
+      "title": "RINGSCAFF · user manual",
+      "url": "https://www.scafom-rux.com/files/default/public/downloads/nl-downloadcenter/Erection/RINGSCAFF%20User%20Manual.pdf",
+      "sourcePage": "https://www.scafom-rux.com/en/solutions/modular-scaffolds/ringscaff-modular-scaffold",
+      "bytes": 4453883,
+      "sha256": "080abd0c60a0688303b1a8aa6f1b9fcf7851b1b655cf2db51d5ea5af4d936f90"
+    },
+    {
+      "vendor": "scafom-rux",
+      "name": "SUPER-65-User-Manual-en.pdf",
+      "title": "SUPER 65 · user manual",
+      "url": "https://www.scafom-rux.com/files/default/public/downloads/nl-downloadcenter/Erection/Super%2065%20User%20Manual.PDF",
+      "sourcePage": "https://www.scafom-rux.com/en/solutions/construction-scaffolds/super-65-100-scaffolding-system",
+      "bytes": 6028708,
+      "sha256": "d1101c1341b7d182a2983ce1456b42355178a31d002ab4fedd196a1316682481"
+    },
+    {
+      "vendor": "scafom-rux",
+      "name": "RINGSCAFF-PAG-Manual-en-2024-07.pdf",
+      "title": "RINGSCAFF permanent advanced guardrail · manual, 2024-07",
+      "url": "https://www.scafom-rux.com/files/default/public/downloads/nl-downloadcenter/Erection/scafom-rux_user-manual_permanent-advanced-guardrail-PAG_EN_07-2024.pdf",
+      "sourcePage": "https://www.scafom-rux.com/en/solutions/modular-scaffolds/ringscaff-modular-scaffold",
+      "bytes": 8137341,
+      "sha256": "75961b5bead488ed81bc46c60dd7dd704edf2a4cb6370e8023c8aed1d23232ed"
+    },
+    {
+      "vendor": "huennebeck",
+      "name": "BOSTA-70-User-Guide-en-2021-02.pdf",
+      "title": "BOSTA 70 · user guide, 2021-02",
+      "url": "https://www.huennebeck.com/uploads/files/bosta_70_user_guide_en_2021-02.pdf",
+      "sourcePage": "https://products.huennebeck.com/downloads",
+      "bytes": 14724637,
+      "sha256": "fc586d64eda7eb4f4d3245ee417b3f8e2f24ff9e07376b6d2103ddcec8d20584"
+    },
+    {
+      "vendor": "huennebeck",
+      "name": "ST-60-User-Guide-en-2019-06.pdf",
+      "title": "ST 60 · user guide, 2019-06",
+      "url": "https://www.huennebeck.com/uploads/files/st_60_user_guide_en_2019-06.pdf",
+      "sourcePage": "https://products.huennebeck.com/downloads",
+      "bytes": 41505505,
+      "sha256": "31dbf8aa63d6d20781d75a29df2377969ff51da6ed5d34cf8270866bed02d072"
+    },
+    {
+      "vendor": "huennebeck",
+      "name": "Scaffolding-Product-Handbook-de-en.pdf",
+      "title": "Scaffolding systems · product handbook, German/English",
+      "url": "https://products.huennebeck.com/fileadmin/redakteur/bilder/produkte/Scaffolding_systems/DE_EN_product_handbook_scaffolding.pdf",
+      "sourcePage": "https://products.huennebeck.com/downloads",
+      "bytes": 7124920,
+      "sha256": "33078ce95a2b9cc5fd3b77c7749575d16ff32de2bc8b114d1057c99585cbefdd"
+    },
+    {
+      "vendor": "huennebeck",
+      "name": "BOSTA-70-Reinforcement-Scaffold-User-Guide-en.pdf",
+      "title": "BOSTA 70 reinforcement installation scaffold · user guide",
+      "url": "https://products.huennebeck.com/fileadmin/redakteur/bilder/produkte/Scaffolding_systems/BOSTA_70/EN_reinforcement_scaffold_user_guide.pdf",
+      "sourcePage": "https://products.huennebeck.com/downloads",
+      "bytes": 28365363,
+      "sha256": "95afc3b2e32322965d76bc90b01c90544ca7d372448a940f475d4727d10a933a"
+    },
+    {
+      "vendor": "doka",
+      "name": "DokaScaff-Assembly-Use-en-2017-04.pdf",
+      "title": "DokaScaff · instructions for assembly and use, 2017-04",
+      "url": "https://direct.doka.com/_ext/downloads/downloadcenter/999812402_2017_04_online.pdf",
+      "sourcePage": "https://www.doka.com/us/solutions/overview/downloads-videos-formwork",
+      "bytes": 10704415,
+      "sha256": "63456815e7fce98cb54b25b8902217e97af83618af43a5b14d975cdce2f8c515"
+    },
+    {
+      "vendor": "doka",
+      "name": "DokaScaff-UNI-Assembly-Use-en-2020-06.pdf",
+      "title": "DokaScaff UNI · instructions for assembly and use, 2020-06",
+      "url": "https://direct.doka.com/_ext/downloads/downloadcenter/999814502_2020_06_online.pdf",
+      "sourcePage": "https://www.doka.com/us/solutions/overview/downloads-videos-formwork",
+      "bytes": 17248022,
+      "sha256": "edc8c77802514ef379e17f17e131e35b9bba8c7b4222d3d94804f3b4bde27c45"
+    }
+  ],
+  "failed": []
+}

@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Helsingin esiasetettu 3D-rakennusnäkymä ja rakennusten semanttiset tiedot.">
+  <title>Helsingin 3D-rakennukset ja tiedot</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .buildings-main { max-width: 1600px; margin: 0 auto; padding: 22px; }
+    .buildings-heading { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; flex-wrap: wrap; margin-bottom: 18px; }
+    .buildings-heading h1 { margin: 0; color: var(--blue-darker); font-size: clamp(22px, 3vw, 32px); }
+    .buildings-heading p { margin: 5px 0 0; color: var(--muted); }
+    .buildings-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+    .buildings-layout { display: grid; grid-template-columns: minmax(0, 1.8fr) minmax(280px, .8fr); gap: 18px; align-items: start; }
+    .buildings-map { padding: 0; overflow: hidden; }
+    .buildings-map-stage { position: relative; width: 100%; height: min(74vh, 820px); min-height: 560px; overflow: hidden; background: #030a06; }
+    .buildings-map-stage iframe { position: absolute; inset: 0; display: block; width: 100%; height: 100%; border: 0; background: #e8eef3; }
+    .building-loader { position: absolute; z-index: 5; inset: 0; display: grid; place-items: center; overflow: hidden; color: #d8ffe5; background: #020805; opacity: 1; transition: opacity 360ms ease-out; }
+    .building-loader.is-hidden { opacity: 0; pointer-events: none; }
+    .building-loader[hidden] { display: none; }
+    .building-loader canvas { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+    .building-loader::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg,rgba(1,7,3,.25),transparent 42%,rgba(1,7,3,.42)); pointer-events: none; }
+    .building-loader.is-settling { background: rgba(2,8,5,.3); pointer-events: none; }
+    .building-loader.is-settling canvas { opacity: .48; }
+    .building-loader.is-settling::after { background: linear-gradient(180deg,rgba(1,7,3,.08),transparent 42%,rgba(1,7,3,.14)); }
+    .building-loader.is-settling .building-loader-content { pointer-events: auto; }
+    .building-loader-content { position: relative; z-index: 1; width: min(520px, calc(100% - 36px)); padding: 18px 20px 16px; border: 1px solid rgba(79,255,145,.32); border-radius: 12px; background: rgba(2,12,7,.78); box-shadow: 0 12px 48px rgba(0,0,0,.42), inset 0 0 24px rgba(54,255,131,.04); backdrop-filter: blur(5px); text-align: center; }
+    .building-loader-kicker { color: #70ff9e; font: 700 10px/1.4 ui-monospace, SFMono-Regular, Consolas, monospace; letter-spacing: .16em; text-transform: uppercase; }
+    .building-loader-content h2 { margin: 8px 0 4px; color: #effff3; font: 700 clamp(19px, 3vw, 27px)/1.2 ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .building-loader-copy { margin: 0; color: #b2d4bd; font-size: 12px; }
+    .building-loader-track { height: 3px; margin: 17px 0 10px; overflow: hidden; border-radius: 4px; background: rgba(151,255,185,.12); }
+    .building-loader-track span { display: block; width: 38%; height: 100%; background: linear-gradient(90deg,transparent,#48ff8a,transparent); box-shadow: 0 0 12px #48ff8a; animation: building-scan 1.6s ease-in-out infinite; }
+    @keyframes building-scan { from { transform: translateX(-110%); } to { transform: translateX(270%); } }
+    .building-loader-foot { display: flex; align-items: center; justify-content: space-between; gap: 10px; color: #83a991; font: 10px ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .building-loader-foot a { color: #aaffc5; text-decoration: none; }
+    .building-loader-foot a:hover { text-decoration: underline; }
+    .building-loader-dismiss { margin-top: 14px; padding: 7px 11px; color: #c8ffda; border: 1px solid rgba(79,255,145,.32); border-radius: 7px; background: rgba(54,255,131,.08); font: 600 11px ui-monospace, monospace; cursor: pointer; }
+    .building-loader-dismiss:hover { border-color: #48ff8a; background: rgba(54,255,131,.16); }
+    @media (prefers-reduced-motion: reduce) { .building-loader-track span { animation: none; width: 100%; } .building-loader { transition-duration: 1ms; } }
+    .buildings-map-caption { padding: 10px 14px; font-size: 12px; color: var(--muted); border-top: 1px solid var(--line); }
+    .semantic-card h2 { margin: 0 0 12px; font-size: 16px; color: var(--blue-dark); }
+    .semantic-card h3 { margin: 18px 0 5px; font-size: 13px; color: var(--ink); }
+    .semantic-card p, .semantic-card li { font-size: 13px; color: var(--muted); }
+    .semantic-card ul { padding-left: 19px; margin: 7px 0; }
+    .semantic-fields { display: grid; grid-template-columns: 1fr; gap: 7px; margin-top: 12px; }
+    .semantic-field { padding: 9px 10px; background: #f3f7fa; border: 1px solid #e4ecf2; border-radius: 8px; font-size: 13px; }
+    .semantic-field strong { display: block; color: var(--ink); }
+    .semantic-field span { color: var(--muted); }
+    .copy-result { min-height: 20px; margin: 7px 0 0; font-size: 12px; color: var(--ok); }
+    .cityjson-card { margin-top: 18px; }
+    .cityjson-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 14px; flex-wrap: wrap; }
+    .cityjson-heading h2 { margin: 0 0 6px; color: var(--blue-dark); font-size: 18px; }
+    .cityjson-heading p { margin: 0; color: var(--muted); font-size: 13px; }
+    .cityjson-badge { padding: 4px 8px; border-radius: 20px; color: #176747; background: #e8f6ef; font-size: 11px; font-weight: 700; white-space: nowrap; }
+    .cityjson-form { display: grid; grid-template-columns: repeat(4, minmax(120px, 1fr)) auto; align-items: end; gap: 10px; margin-top: 16px; }
+    .cityjson-form .field { margin: 0; }
+    .cityjson-form label { display: block; margin-bottom: 5px; color: var(--muted); font-size: 12px; font-weight: 600; }
+    .cityjson-form input { width: 100%; }
+    .cityjson-submit { min-height: 39px; white-space: nowrap; }
+    .cityjson-note, .cityjson-status { margin: 10px 0 0; color: var(--muted); font-size: 12px; }
+    .cityjson-status[data-state="error"] { color: var(--err); }
+    .cityjson-status[data-state="success"] { color: var(--ok); }
+    .cityjson-results { margin-top: 15px; border-top: 1px solid var(--line); padding-top: 13px; }
+    .cityjson-results[hidden] { display: none; }
+    .cityjson-result-top { display: flex; justify-content: space-between; gap: 12px; align-items: center; flex-wrap: wrap; }
+    .cityjson-summary { margin: 0; font-size: 13px; font-weight: 700; color: var(--ink); }
+    .cityjson-features { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 9px; margin: 12px 0; }
+    .cityjson-feature { min-width: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 8px; background: #fbfdff; }
+    .cityjson-feature summary { overflow-wrap: anywhere; cursor: pointer; font-size: 12px; font-weight: 700; color: var(--blue-darker); }
+    .cityjson-feature dl { display: grid; grid-template-columns: minmax(90px, .7fr) minmax(0, 1.3fr); gap: 4px 8px; margin: 10px 0 0; font-size: 11px; }
+    .cityjson-feature dt { color: var(--muted); overflow-wrap: anywhere; }
+    .cityjson-feature dd { margin: 0; color: var(--ink); overflow-wrap: anywhere; }
+    .cityjson-raw { margin-top: 10px; }
+    .cityjson-raw summary { cursor: pointer; color: var(--blue-dark); font-size: 12px; font-weight: 600; }
+    .cityjson-raw pre { max-height: 360px; overflow: auto; padding: 12px; border-radius: 8px; background: #10202e; color: #e2f2ff; font-size: 11px; white-space: pre-wrap; overflow-wrap: anywhere; }
+    @media (max-width: 900px) { .cityjson-form { grid-template-columns: repeat(2, minmax(120px, 1fr)); } }
+    @media (max-width: 1000px) { .buildings-layout { grid-template-columns: 1fr; } }
+    @media (max-width: 600px) { .buildings-main { padding: 14px; } .buildings-map-stage { min-height: 65vh; height: 65vh; } .building-loader-content { padding: 15px; } .building-loader-foot { flex-direction: column; } .cityjson-form { grid-template-columns: 1fr 1fr; } .cityjson-submit { grid-column: 1 / -1; } }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div>
+      <h1>🏙️ Helsingin 3D-rakennukset</h1>
+      <p class="sub">Valmis 3D-näkymä, jossa rakennuksia voi valita ja niiden ominaisuustietoihin siirtyä.</p>
+    </div>
+    <div class="powered">
+      <a href="/">← Telinekonttoriin</a><br>
+      <a href="index.html">← Karttarakentajaan</a><br>
+      <a href="gallery.html">Aineistogalleria →</a>
+    </div>
+  </header>
+
+  <main class="buildings-main">
+    <div class="buildings-heading">
+      <div>
+        <h1>Rakennusmalli ja semanttiset tiedot</h1>
+        <p>Rakennukset piirretään Helsingin CityGML LoD2 -geometriasta. Virallinen rakennusnimistö näkyy osoittimen alla nimistökohdan kohdalla; puut ja pensasryhmät tulevat erillisistä karttatasoista.</p>
+      </div>
+      <div class="buildings-actions">
+        <a class="btn btn-sm" href="index.html?preset=3d-buildings">Muokkaa asetusta</a>
+        <a class="btn btn-sm" id="openBuildingMap" target="_blank" rel="noopener">Avaa semanttiset rakennustiedot ↗</a>
+        <button class="btn btn-sm" id="copyBuildingEmbed" type="button">Kopioi upotuskoodi</button>
+      </div>
+    </div>
+
+    <div class="buildings-layout">
+      <section class="card buildings-map" aria-label="Helsingin 3D-rakennuskartta">
+        <div class="buildings-map-stage" id="buildingMapStage" aria-busy="true">
+          <iframe id="buildingMap" title="Helsingin 3D-rakennukset ja valittavat rakennuskohteet" allow="fullscreen" loading="eager"></iframe>
+          <div class="building-loader" id="buildingLoader" role="status" aria-live="polite" aria-label="Ladataan Helsingin 3D-kaupunkimallia">
+            <canvas id="buildingLoaderCanvas" aria-hidden="true"></canvas>
+            <div class="building-loader-content">
+              <div class="building-loader-kicker"><span aria-hidden="true">●</span> Matrix Code Rain · Helsinki / 3D</div>
+              <h2>Piirretään 3D-kaupunkia</h2>
+              <p class="building-loader-copy" id="buildingLoaderStatus">Ladataan rakennuksia ja kaupunkimallia…</p>
+              <div class="building-loader-track" aria-hidden="true"><span></span></div>
+          <div class="building-loader-foot"><span>CityGML 2.0 · LoD2 · N2000</span><a href="https://kartta.hel.fi/3d/" target="_blank" rel="noopener">Avaa 3D-kartta ↗</a></div>
+              <button class="building-loader-dismiss" id="dismissBuildingLoader" type="button" hidden>Näytä kartta odottamatta</button>
+            </div>
+          </div>
+        </div>
+        <div class="buildings-map-caption">Oletusnäkymässä ovat Helsingin CityGML LoD2 -rakennukset, virallinen NimistoRakennukset-taso, katupuut, puistopuut ja puu- ja pensasryhmät. Vie osoitin rakennuksen nimipisteen päälle nähdäksesi nimen. Kartta-aineisto: © Helsingin kaupunki.</div>
+      </section>
+
+      <aside class="card semantic-card">
+        <h2>Rakennuksen tiedot</h2>
+        <p>Oletusnäkymä näyttää puut ja rakennukset yhdessä. Avaa erillinen 3D-rakennusnäkymä, kun haluat valita rakennuksen ja tarkastella sen tunnisteita ja ominaisuuksia.</p>
+
+        <div class="semantic-fields">
+          <div class="semantic-field"><strong>GMLID · RATU · VTJ-PRT</strong><span>Kaupunkimallin ja rakennusrekisterin tunnisteet</span></div>
+          <div class="semantic-field"><strong>Rakennusluokka · käyttötarkoitus · tyyppi</strong><span>Semanttisia luokituksia rakennukselle</span></div>
+          <div class="semantic-field"><strong>Kerrosten lukumäärä</strong><span>Rakennuksen maanpäällisten kerrosten määrä</span></div>
+          <div class="semantic-field"><strong>Osoite · rakennusvuosi · pinta-ala</strong><span>Rakennusrekisterissä näkyviä ominaisuustietoja</span></div>
+        </div>
+
+        <h3>3D-mallin tunnisteet ja ominaisuudet</h3>
+        <p>Valitun LOD2-rakennuksen tietokortti näyttää esimerkiksi tunnisteet, rakennusluokan, käyttötarkoituksen, tyypin ja kerrosluvun. Rekisteritietokortissa näkyy kohteesta riippuen myös osoite, valmistumisvuosi, pinta-aloja ja tilavuus.</p>
+        <p>Rakennusten näkyvä LoD2-geometria tulee Helsingin CityGML 2.0 -kaupunkitietomallista. Karttapalvelu toimittaa saman geometrian Cesium 3D Tiles / B3DM -laattoina; puut renderöidään erillisistä karttatasoista. Rakennuksilla on GMLID-, RATU- ja VTJ-PRT-tunnisteet.</p>
+            <p>Rakennusten viralliset nimet tulevat Helsingin NimistoRakennukset-aineistosta. Vie osoitin kartalla näkyvän rakennuksen nimipisteen päälle: tooltip näyttää suomenkielisen nimen (C_NIMIS), ja kohteen lisätiedoissa on ruotsinkielinen nimi (C_NIMIR).</p>
+        <ul>
+          <li>CityGML 2.0</li>
+          <li>Koordinaatisto ETRS-GK25</li>
+          <li>Korkeusjärjestelmä N2000</li>
+          <li>Aineiston lisenssi CC BY 4.0</li>
+        </ul>
+        <p><a href="https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tietoa-helsingista/kartat-ja-paikkatieto/helsinki-3d" target="_blank" rel="noopener">Helsingin kaupungin Helsinki 3D -aineistokuvaus ↗</a></p>
+        <p><a href="https://kartta.hel.fi/paikkatietohakemisto/metadata?id=38&amp;l=fi" target="_blank" rel="noopener">Helsingin rakennusnimistön aineistokuvaus ↗</a></p>
+        <p><a href="https://kartta.hel.fi/3d/datasource-data/e5e7158a-52df-45a1-9be0-1be8f2828abd/tileset.json" target="_blank" rel="noopener">Rakennusten CityGML-pohjaisen LoD2-geometrian 3D Tiles -indeksi ↗</a></p>
+        <p class="copy-result" id="copyResult" aria-live="polite"></p>
+      </aside>
+    </div>
+
+    <section class="card cityjson-card" aria-labelledby="cityJsonHeading">
+      <div class="cityjson-heading">
+        <div>
+          <h2 id="cityJsonHeading">Helsingin 3D-rakennusten CityJSON-haku</h2>
+          <p>Hae rakennusobjekteja rajatulta alueelta. Selain kutsuu tämän sovelluksen omaa palvelinta, joka välittää pyynnön Helsingin CityDB WFS -rajapintaan ja palauttaa JSON-datan samaan alkuperään.</p>
+        </div>
+        <span class="cityjson-badge">WFS 2.0 · CityJSON · EPSG:3879</span>
+      </div>
+
+      <form class="cityjson-form" id="cityJsonForm">
+        <div class="field">
+          <label for="cityJsonX">Itäkoordinaatti</label>
+          <input id="cityJsonX" name="x" type="number" value="25496825" step="1" required>
+        </div>
+        <div class="field">
+          <label for="cityJsonY">Pohjoiskoordinaatti</label>
+          <input id="cityJsonY" name="y" type="number" value="6673044" step="1" required>
+        </div>
+        <div class="field">
+          <label for="cityJsonRadius">Hakusäde (m)</label>
+          <input id="cityJsonRadius" name="radius" type="number" value="150" min="25" max="500" step="25" required>
+        </div>
+        <div class="field">
+          <label for="cityJsonCount">Tuloksia enintään</label>
+          <input id="cityJsonCount" name="count" type="number" value="20" min="1" max="50" step="1" required>
+        </div>
+        <button class="btn btn-primary cityjson-submit" id="cityJsonSubmit" type="submit">Hae rakennukset</button>
+      </form>
+      <p class="cityjson-note">Koordinaatit ovat Helsingin ETRS-GK25-järjestelmässä (EPSG:3879). Hakualue ja tulosmäärä on rajattu, jotta WFS-pyyntö pysyy kohtuullisena. © Helsingin kaupunki, kaupunkimittauspalvelut, CC BY 4.0.</p>
+      <p class="cityjson-status" id="cityJsonStatus" aria-live="polite">Valmis. Oletussijainti on Helsingin keskustassa.</p>
+
+      <div class="cityjson-results" id="cityJsonResults" hidden>
+        <div class="cityjson-result-top">
+          <p class="cityjson-summary" id="cityJsonSummary"></p>
+          <button class="btn btn-sm" id="cityJsonDownload" type="button" hidden>Lataa JSON</button>
+        </div>
+        <div class="cityjson-features" id="cityJsonFeatures"></div>
+        <details class="cityjson-raw">
+          <summary>Näytä raaka WFS-vastaus</summary>
+          <pre id="cityJsonRaw"></pre>
+        </details>
+      </div>
+      <p class="cityjson-note"><a href="https://kartta.hel.fi/3d/citydb-wfs/wfs?SERVICE=WFS&amp;VERSION=2.0.0&amp;REQUEST=GetCapabilities" target="_blank" rel="noopener">Rajapinnan GetCapabilities ↗</a> · <a href="https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tietoa-helsingista/kartat-ja-paikkatieto/paikkatiedot-tehokayttoon/avoimet-paikkatiedot" target="_blank" rel="noopener">Helsingin avoimien paikkatietojen ohje ↗</a></p>
+    </section>
+  </main>
+
+  <script src="buildings-loader.js"></script>
+</body>
+</html>

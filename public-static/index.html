@@ -7,7 +7,6 @@
   <meta name="description" content="Build embeddable maps from the City of Helsinki map service (kartta.hel.fi) — 1000+ layers, no API key.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%97%BA%EF%B8%8F%3C/text%3E%3C/svg%3E">
   <link rel="stylesheet" href="style.css">
-<script src="https://sites.super.myninja.ai/_assets/ninja-daytona-script.js"></script>
 </head>
 <body>
   <header class="header">
@@ -16,8 +15,12 @@
       <p class="sub">Create embeddable maps from the City of Helsinki map service (kartta.hel.fi) — 1,000+ layers, no API key.</p>
     </div>
     <div class="powered">
+      <a href="/">← Telinekonttoriin</a><br>
       Powered by <a href="https://kartta.hel.fi/" target="_blank" rel="noopener">kartta.hel.fi</a><br>
-      Louhi / SpatialWeb · <a href="gallery.html">Layers gallery →</a>
+      Louhi / SpatialWeb · <a href="gallery.html">Layers gallery →</a><br>
+      <a href="pointcloud.html">3D LAS / LAZ point-cloud viewer →</a><br>
+      <a href="buildings.html">3D buildings + building data →</a><br>
+      <a href="matrix-coderain.html">Matrix Code Rain map image →</a>
     </div>
   </header>
 
@@ -57,6 +60,16 @@
           <select id="baseMap"></select>
         </div>
         <p class="hint">34 official base maps: guide, street, property, aerial &amp; ortho imagery, 3D tiles…</p>
+        <div class="preset-callout">
+          <div>
+            <strong>Helsinki 3D buildings</strong>
+            <span>Load a ready view with clickable building data.</span>
+          </div>
+          <div class="row">
+            <button class="btn btn-sm" id="load3dPreset" type="button">Load preset</button>
+            <a class="btn btn-sm" href="buildings.html">Open 3D view</a>
+          </div>
+        </div>
       </section>
 
       <!-- 3. Layers -->
@@ -152,7 +165,7 @@
     <a class="made" href="https://www.ninjatech.ai/product/super-ninja" target="_blank" rel="noopener">🥷 Made by SuperNinja</a>
   </footer>
 
-  <script src="https://cdn.jsdelivr.net/npm/proj4@2.11.0/dist/proj4.js"></script>
+  <script src="vendor/proj4.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

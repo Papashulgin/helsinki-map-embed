@@ -1,0 +1,253 @@
+{
+  "archiveTitle": "ALFIX official German manuals and catalogues",
+  "createdAt": "2026-10-28",
+  "manufacturer": "ALFIX GmbH",
+  "sourcePages": [
+    "https://www.alfix-systems.com/de/downloads/anleitungen/",
+    "https://www.alfix-systems.com/de/downloads/prospekte/"
+  ],
+  "documents": [
+    {
+      "file": "ALFIX-FASSADE.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/06/ALFIX-FASSADE.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 15661930,
+      "sha256": "6bc7128a302ab14b8015f1e2de199b55739fdde5773fc8c82e855969c9ea6d22"
+    },
+    {
+      "file": "ALFIX-GERUESTZUBEHOER.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/06/ALFIX-GERUESTZUBEHOER.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 9210634,
+      "sha256": "e0aa726be32472125bd7e1ec7dc3564e5dc4513db618b01efe95e294b9a2085c"
+    },
+    {
+      "file": "ALFIX-MODUL-METRIC.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/01/ALFIX-MODUL-METRIC.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 12200391,
+      "sha256": "589ac557e0e4dae3b5d8a806b269ef29986322134e5c6620ec6d00d922cd93b6"
+    },
+    {
+      "file": "ALFIX-MODUL-MULTI.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/01/ALFIX-MODUL-MULTI.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 14415430,
+      "sha256": "9f1cd628f0a82bd2c18cb028079865f6af7dc35f284c2dfdcb571597364e1ad9"
+    },
+    {
+      "file": "ALFIX-WETTERSCHUTZDACH-VARIO.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/06/ALFIX-WETTERSCHUTZDACH-VARIO.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 10269215,
+      "sha256": "99c02a384f9f01224e562fbb1c0159ecdcc383fdfdf33f7109a3dfa71e1ddd31"
+    },
+    {
+      "file": "AuV-ALBLITZ-MODUL.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2024/04/AuV-ALBLITZ-MODUL.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 12710299,
+      "sha256": "3f0bd89124ad9cfa4a883a0c043e568431a384180706651d00a9e92a8062c328"
+    },
+    {
+      "file": "AuV-ALFIX-ABSTURZSCHUTZ.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2023/06/AuV-ALFIX-ABSTURZSCHUTZ.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 11008456,
+      "sha256": "56bcb36b31a223dd1355e31541de9be85cfde4b1e43d933f6b38a13fe0799887"
+    },
+    {
+      "file": "AuV-ALFIX-DS-KONSOLRAHMEN.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/03/AuV-ALFIX-DS-KONSOLRAHMEN.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 2993832,
+      "sha256": "ea0fd97c74d9d5b4a631d190c1295b022924e64f7d7815246ed295d08defe804"
+    },
+    {
+      "file": "AuV-ALFIX-FAHRGERUEST-ALUFIX-5000.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/AuV-ALFIX-FAHRGERUEST-ALUFIX-5000.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 9803010,
+      "sha256": "2e1e0e56d2377f107500139645c24289109c218f1a4baccf04b7aa0cd4bf8d3b"
+    },
+    {
+      "file": "AuV-ALFIX-FAHRGERUEST-ALUFIX-5100.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/03/AuV-ALFIX-FAHRGERUEST-ALUFIX-5100.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 8853426,
+      "sha256": "8b0455414216a291d0d958a82675b57cbb5f4260422845601a275f6d7b5d36da"
+    },
+    {
+      "file": "AuV-ALFIX-FAHRGERUEST-ALUFIX-5280.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/04/AuV-ALFIX-FAHRGERUEST-ALUFIX-5280.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 9098418,
+      "sha256": "e0b88ac11471f514ebb7053b6e7b495adae1325e50563ab19a982a743e2ebfa6"
+    },
+    {
+      "file": "AuV-ALFIX-FAHRGERUEST-ALUFIX-6000.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2018/02/AuV-ALFIX-FAHRGERUEST-ALUFIX-6000.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 10638569,
+      "sha256": "f47534864a7c27b648b7bb4f9eb1248655a4e8b2937bc0082d3d0127710ea40f"
+    },
+    {
+      "file": "AuV-ALFIX-FAHRGERUEST-ALUFIX-6100-6200.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/04/AuV-ALFIX-FAHRGERUEST-ALUFIX-6100-6200.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 10213581,
+      "sha256": "d6c13661f3208ffc369b5468bf22932234e0d3444d76a62796084a63dfec99b5"
+    },
+    {
+      "file": "AuV-ALFIX-FASSADE.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2023/06/AuV-ALFIX-FASSADE.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 8897327,
+      "sha256": "3a1b1e6d815943396ad1fc701ed5294e48fe4c1c067e2464728fa11b6544467d"
+    },
+    {
+      "file": "AuV-ALFIX-FLACHDACHABSTURZSICHERUNG.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/AuV-ALFIX-FLACHDACHABSTURZSICHERUNG.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 1591404,
+      "sha256": "28d748eb674aa6e7cb4c8cca347aa5dcf48b6b57378e6dacb34ea5b4f96c919a"
+    },
+    {
+      "file": "AuV-ALFIX-MODUL-MULTI.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/08/AuV-ALFIX-MODUL-MULTI.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 20645461,
+      "sha256": "51640a21995d3b0ed348455c5d126fc829af1b26b1c7ce7ac919d7dd5a7b97b2"
+    },
+    {
+      "file": "AuV-ALFIX-WDVS.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/AuV-ALFIX-WDVS.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 4336784,
+      "sha256": "be30bdaf42406def13462e39b30810575b57e20a20860b1c31375d1a8da72164"
+    },
+    {
+      "file": "AuV-ALFIX-WETTERSCHUTZDACH-VARIO.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/AuV-ALFIX-WETTERSCHUTZDACH-VARIO.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 3812318,
+      "sha256": "91c8e5781a0f79405a6950691c043a877d5fc18c8c470eb45065791867bddc28"
+    },
+    {
+      "file": "AuV-FLACHDACHSEITENSCHUTZ-MOBIL.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/AuV-FLACHDACHSEITENSCHUTZ-MOBIL.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 550137,
+      "sha256": "fd0b539c53703677b72f4d72fbf9d73ea46815f9d9836fccb88085fd6bb63990"
+    },
+    {
+      "file": "AuV-FREISTEHENDES-ALFIX-GERUEST.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2024/03/AuV-FREISTEHENDES-ALFIX-GERUEST.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 9734399,
+      "sha256": "2251003c2491aef8aa9e2f972a8e21cca91286fcccbf2a91aedddd3e439c5449"
+    },
+    {
+      "file": "AuV-FREISTEHENDES-UNIFIX-GERUEST.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2024/03/AuV-FREISTEHENDES-UNIFIX-GERUEST.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 9613125,
+      "sha256": "a6e3a9366f1bd32eb2fdfde8245cd253f05be3c245cfe9160b03f4b10756d923"
+    },
+    {
+      "file": "AuV-KAMINGERUEST.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/01/AuV-KAMINGERUEST.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 3308631,
+      "sha256": "51ba296856ae7f608826e4975cce7f2386eae7546b6d3d253ea8b70152595242"
+    },
+    {
+      "file": "AuV-UNIFIX-70.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2017/10/AuV-UNIFIX-70.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 4324795,
+      "sha256": "4268d0e632c0ffe9ff0973cf8a40599c0ba2b99a677c74f77803abb403d36f6f"
+    },
+    {
+      "file": "AuV-UNIFIX-DS-KONSOLRAHMEN.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/03/AuV-UNIFIX-DS-KONSOLRAHMEN.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 3262815,
+      "sha256": "e4b0af9989e3d3f7aee40c3242e39c290b1c84b47ddee03ad206df4a99005e9b"
+    },
+    {
+      "file": "AuV-UNIFIX-TRBS-GELAENDER.pdf",
+      "documentType": "assembly-and-use-manual",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/01/AuV-UNIFIX-TRBS-GELAENDER.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/anleitungen/",
+      "bytes": 3865208,
+      "sha256": "7b4944c26e2075a7da4bb22d0a044bb4b6f2fc3cb4343d97c3105aff17cbc19e"
+    },
+    {
+      "file": "DE_ALFIX-FAHRGERUESTE_2022.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/01/DE_ALFIX-FAHRGERUESTE_2022.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 7750484,
+      "sha256": "8e6f1bebd997c24682f85242d83a7129a334a031899faf9703745686cceaba21"
+    },
+    {
+      "file": "DE_ALFIX-TREPPENTUERME.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2022/01/DE_ALFIX-TREPPENTUERME.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 5023767,
+      "sha256": "07ef131212ddfa589d5b0f63a0dca69bd13f33713dde78569cc39bdd00138a16"
+    },
+    {
+      "file": "DE_ALFIX_Kennzeichnung-Freigabe_Pruefprotokoll.pdf",
+      "documentType": "inspection-form",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/05/DE_ALFIX_Kennzeichnung-Freigabe_Pruefprotokoll.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 68978,
+      "sha256": "69560fce86127322178c1435654aab1d358e355bac290fe37b4da6416098ff28"
+    },
+    {
+      "file": "DE_DG-FIX.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2021/02/DE_DG-FIX.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 4177866,
+      "sha256": "fb02c1530fae6e7c1d068423c7b2b3925876519df8ecd5c13d482e4f1aa5d5eb"
+    },
+    {
+      "file": "UNIFIX-FASSADE.pdf",
+      "documentType": "brochure",
+      "sourceUrl": "https://www.alfix-systems.com/wp/wp-content/uploads/2019/06/UNIFIX-FASSADE.pdf",
+      "sourcePageUrl": "https://www.alfix-systems.com/de/downloads/prospekte/",
+      "bytes": 15797769,
+      "sha256": "e1b3c041d47cfee1a8e7bd29cd2eea3c87e6851e07daf9181e94984a5a5034a9"
+    }
+  ],
+  "errors": [],
+  "note": "Copies are retained for local MMS reference. Source dates vary; verify the latest manufacturer revision before use. They do not constitute project-specific design approval."
+}

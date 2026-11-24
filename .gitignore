@@ -16,3 +16,22 @@ Thumbs.db
 # local env
 .env
 .env.local
+.local-secrets/
+.local-data/
+.local-backups/
+
+# downloaded source archives and generated national map bundles; keep local
+/public-static/data/mms-archive/**/*.pdf
+/public-static/data/mms-archive/**/*.zip
+/public-static/data/finland-map-data/manifest.json
+/public-static/data/finland-map-data/*.gpkg*
+/public-static/data/finland-map-data/*.zip
+/public-static/downloads/*.zip
+
+# local backups and generated Python cache files
+/public-static/archive/*backup*.zip
+*.blend1
+__pycache__/
+
+# transient local capture
+/.tmp-allpoints-screen.png

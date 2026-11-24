@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-30",
+  "geopackage": {
+    "integrity": "ok",
+    "foreign_key_issues": [],
+    "layers": [
+      {
+        "name": "kunnat_2026",
+        "features": 308,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "maakunnat_2026",
+        "features": 19,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "seutukunnat_2026",
+        "features": 69,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "suuralueet_2026",
+        "features": 5,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "hyvinvointialueet_2026",
+        "features": 23,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "elinvoimakeskukset_2026",
+        "features": 10,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "vaalipiirit_2026",
+        "features": 13,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "paavo_postinumeroalueet_2026",
+        "features": 3018,
+        "epsg": "3067",
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "karttatasohakemisto",
+        "features": 5380,
+        "epsg": null,
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "rajapintahakemisto",
+        "features": 333,
+        "epsg": null,
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      },
+      {
+        "name": "terralab_luettelo_osumat",
+        "features": 185,
+        "epsg": null,
+        "invalid_geometries": 0,
+        "empty_geometries": 0
+      }
+    ]
+  },
+  "qgis_project": {
+    "read_back": true,
+    "crs": "EPSG:3067",
+    "total_layers": 38,
+    "valid_layers": 38,
+    "invalid_layers": [],
+    "relative_local_paths": true
+  },
+  "catalogue_ui": {
+    "loaded_in_browser": true,
+    "total_rows": 5590,
+    "search_test": "pohjavesi",
+    "search_result_count": 10,
+    "javascript_syntax": "passed"
+  },
+  "limitations": [
+    "WMS GetCapabilities checks validate advertised layer lists, not every GetMap at every scale.",
+    "WFS connection imports are documented but not individually downloaded.",
+    "QGIS was read and rendered through its libraries; no full interactive QGIS application session was tested.",
+    "Large national raster, LiDAR, topographic and OSM datasets are linked, not downloaded in this package."
+  ]
+}

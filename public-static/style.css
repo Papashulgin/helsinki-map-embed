@@ -112,6 +112,23 @@ a { color: var(--blue); }
 }
 .card .hint { font-size: 12px; color: var(--muted); margin: 8px 0 0; }
 
+.preset-callout {
+  margin-top: 13px;
+  padding: 11px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  border: 1px solid #cfe2f2;
+  border-radius: 8px;
+  background: #f2f8fc;
+}
+.preset-callout strong, .preset-callout span { display: block; }
+.preset-callout strong { color: var(--blue-darker); font-size: 13px; }
+.preset-callout span { color: var(--muted); font-size: 12px; }
+.preset-callout .row { flex: none; }
+
 /* ---------- Fields ---------- */
 .field { margin-bottom: 12px; }
 .field:last-child { margin-bottom: 0; }

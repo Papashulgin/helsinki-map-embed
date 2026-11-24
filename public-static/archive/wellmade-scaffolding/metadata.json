@@ -1,0 +1,601 @@
+{
+  "archiveTitle": "Wellmade scaffolding catalogue archive",
+  "archiveCreated": "2026-10-28",
+  "language": "en",
+  "manufacturer": "Tianjin Wellmade Scaffold Co., Ltd / Nanjing Wellmade Metalwork Co., Ltd",
+  "sourceDocument": {
+    "file": "Wellmade-Scaffolding-Catalogue.pdf",
+    "title": "Wellmade System Scaffolding - Scaffolding Systems Catalogue",
+    "documentType": "product-catalogue",
+    "physicalPdfPages": 28,
+    "printedPageNumbers": "1-53 (mostly two-page landscape spreads)",
+    "pdfVersion": "1.6",
+    "creator": "Adobe Acrobat 7.0 Image Conversion Plug-in",
+    "creationDate": "2014-11-14 11:43:22 EET",
+    "modificationDate": "2018-05-22 11:55:59 EEST",
+    "sourceUrl": "https://www.wm-scaffold.com/wp-content/uploads/2021/01/2-Wellmade-Scaffold-Catalogue-different-scaffolding-sytsems.pdf",
+    "sourcePageUrl": "https://www.wm-scaffold.com/scaffold-catalogue/",
+    "sourceNote": "User-supplied file; SHA-256 compared with the exact PDF linked by the manufacturer's catalogue page on 2026-10-28.",
+    "sha256": "20be32153fbdfc62c0a3c39990ab49217599fdc39ed04d8b144f2bb45dc517ac"
+  },
+  "model": {
+    "file": "models/Wellmade-Ringlock-3-components.blend",
+    "components": [
+      {
+        "name": "Ringlock O ledger",
+        "code": "WRL307",
+        "datumLengthMm": 3070,
+        "tube": "OD 48.3 mm x 3.0 mm wall"
+      },
+      {
+        "name": "Ringlock standard",
+        "code": "WRS200",
+        "lengthMm": 2000,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentersMm": [
+          250,
+          750,
+          1250,
+          1750
+        ],
+        "rosetteModel": "OD 123 mm x 9 mm, eight approximate openings"
+      },
+      {
+        "name": "Adjustable base jack",
+        "lengthMm": 760,
+        "stem": "OD 38 mm x 4 mm nominal",
+        "basePlateMm": [
+          150,
+          150,
+          6
+        ],
+        "drawingDatumMm": 660,
+        "threadPitchMm": 6.35
+      }
+    ],
+    "unit": "millimetres; Blender scene scale_length 0.001; STL coordinate values in millimetres",
+    "preview": "models/Wellmade-components-preview.png",
+    "partPreviews": [
+      "models/Wellmade-ledger-preview.png",
+      "models/Wellmade-ledger-head-preview.png",
+      "models/Wellmade-standard-preview.png",
+      "models/Wellmade-jack-preview.png"
+    ],
+    "exports": [
+      "models/Wellmade-Ringlock-Ledger-WRL307-3070mm.stl",
+      "models/Wellmade-Ringlock-Standard-WRS200-2000mm.stl",
+      "models/Wellmade-Adjustable-Jack-760mm-38x4.stl",
+      "models/Wellmade-Ringlock-3-components.glb",
+      "models/Wellmade-Ringlock-All-Standards.blend",
+      "models/Wellmade-Ringlock-All-Standards.glb",
+      "models/Wellmade-Ringlock-Standard-L0500mm.stl",
+      "models/Wellmade-Ringlock-Standard-L1000mm.stl",
+      "models/Wellmade-Ringlock-Standard-L1500mm.stl",
+      "models/Wellmade-Ringlock-Standard-L2000mm.stl",
+      "models/Wellmade-Ringlock-Standard-L2500mm.stl",
+      "models/Wellmade-Ringlock-Standard-L3000mm.stl",
+      "models/Wellmade-Ringlock-Standard-L4000mm.stl"
+    ],
+    "assumptions": [
+      "The 3.07 m ledger is modeled to the current Wellmade page's centre-to-centre datum; the older attached catalogue's 3.05 m table variant remains archived as historical catalogue data.",
+      "Ledger-head dimensions were interpreted from supplied orthographic images; unshown casting form and weld details are approximations.",
+      "Rosette diameter and thickness use midpoints from the manufacturer's stated 122-124 mm and 8-10 mm ranges; connection-slot shape is approximated.",
+      "The standard has no splice spigot in the mesh because its complete fit dimensions are not supplied.",
+      "The jack's 660 mm drawing callout has an unclear datum; it is represented as the jack-nut location, not a verified adjustment stroke.",
+      "The geometry is not a manufacturing drawing, compatibility certification, or structural verification.",
+      "All seven catalogue upright lengths use the stated 500 mm rosette pitch; the source drawings do not dimension the splice spigot, which is omitted.",
+      "Diagonal meshes use catalogue bay length and 2000 mm rise, so their computed chord exceeds the catalogue Brace Length by 32.6-87.3 mm; connector datum is unspecified and end fittings are visual placeholders.",
+      "Stair catalogues omit tread count and individual rise; 3D stairs use 12 equal treads with 166.7 mm rise. Cuplock flight width is estimated as 600 mm. Stringer/tread profiles and joints are illustrative; handrails are omitted."
+    ],
+    "modeledBoundsMm": {
+      "ledger": [
+        3070,
+        70.5,
+        56
+      ],
+      "standard": [
+        123,
+        123,
+        2000
+      ],
+      "adjustableJack": [
+        150,
+        150,
+        760
+      ]
+    },
+    "legacyModels": [
+      "models/legacy-ledger-only/Wellmade-WRL244-ledger.stl",
+      "models/legacy-ledger-only/Wellmade-WRL305-ledger.stl",
+      "models/legacy-ledger-only/Wellmade-ringlock-ledgers.blend",
+      "models/legacy-ledger-only/Wellmade-ringlock-ledgers.glb",
+      "models/legacy-ledger-only/Wellmade-ringlock-ledgers-preview.png"
+    ],
+    "allLedgerVariants": [
+      {
+        "nominalLengthMm": 650,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 3.14,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L0650mm.stl"
+      },
+      {
+        "nominalLengthMm": 880,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 3.93,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L0880mm.stl"
+      },
+      {
+        "nominalLengthMm": 920,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 4.09,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L0920mm.stl"
+      },
+      {
+        "nominalLengthMm": 1070,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 4.68,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L1070mm.stl"
+      },
+      {
+        "nominalLengthMm": 1150,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 4.95,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L1150mm.stl"
+      },
+      {
+        "nominalLengthMm": 1570,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 6.47,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L1570mm.stl"
+      },
+      {
+        "nominalLengthMm": 1830,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 7.4,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L1830mm.stl"
+      },
+      {
+        "nominalLengthMm": 2130,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 8.49,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L2130mm.stl"
+      },
+      {
+        "nominalLengthMm": 2440,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 9.61,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L2440mm.stl"
+      },
+      {
+        "nominalLengthMm": 3050,
+        "source": "attached Wellmade catalogue",
+        "catalogueMassKg": 11.83,
+        "datumInterpretation": "nominal catalogue length; endpoints not explicitly defined",
+        "stl": "models/Wellmade-Ringlock-Ledger-L3050mm.stl"
+      },
+      {
+        "nominalLengthMm": 3070,
+        "source": "current Wellmade WRL307 product page",
+        "catalogueMassKg": null,
+        "datumInterpretation": "standard centreline-to-centreline",
+        "stl": "models/Wellmade-Ringlock-Ledger-L3070mm.stl"
+      }
+    ],
+    "allLedgersPreview": "models/Wellmade-all-ledger-lengths-preview.png",
+    "allLedgersBlend": "models/Wellmade-Ringlock-All-Ledgers.blend",
+    "allLedgersGlb": "models/Wellmade-Ringlock-All-Ledgers.glb",
+    "allLedgersIndex": "models/ledger-lengths.html",
+    "generatorScript": "make_all_ledgers.py",
+    "allStandardVariants": [
+      {
+        "nominalLengthMm": 500,
+        "catalogueMassKg": 3.19,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L0500mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      },
+      {
+        "nominalLengthMm": 1000,
+        "catalogueMassKg": 5.66,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250,
+          750
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L1000mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      },
+      {
+        "nominalLengthMm": 1500,
+        "catalogueMassKg": 8.07,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250,
+          750,
+          1250
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L1500mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      },
+      {
+        "nominalLengthMm": 2000,
+        "catalogueMassKg": 10.45,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250,
+          750,
+          1250,
+          1750
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L2000mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      },
+      {
+        "nominalLengthMm": 2500,
+        "catalogueMassKg": 12.87,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250,
+          750,
+          1250,
+          1750,
+          2250
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L2500mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      },
+      {
+        "nominalLengthMm": 3000,
+        "catalogueMassKg": 15.29,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250,
+          750,
+          1250,
+          1750,
+          2250,
+          2750
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L3000mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      },
+      {
+        "nominalLengthMm": 4000,
+        "catalogueMassKg": 20.11,
+        "tube": "OD 48.3 mm x 3.2 mm wall",
+        "rosetteCentresMm": [
+          250,
+          750,
+          1250,
+          1750,
+          2250,
+          2750,
+          3250,
+          3750
+        ],
+        "stl": "models/Wellmade-Ringlock-Standard-L4000mm.stl",
+        "datumInterpretation": "nominal standard length; splice spigot omitted"
+      }
+    ],
+    "allStandardsBlend": "models/Wellmade-Ringlock-All-Standards.blend",
+    "allStandardsGlb": "models/Wellmade-Ringlock-All-Standards.glb",
+    "allStandardsPreview": "models/Wellmade-all-standard-lengths-preview.png",
+    "allStandardsIndex": "models/standard-lengths.html",
+    "standardGeneratorScript": "make_all_standards.py",
+    "allStandardExports": [
+      "models/Wellmade-Ringlock-Standard-L0500mm.stl",
+      "models/Wellmade-Ringlock-Standard-L1000mm.stl",
+      "models/Wellmade-Ringlock-Standard-L1500mm.stl",
+      "models/Wellmade-Ringlock-Standard-L2000mm.stl",
+      "models/Wellmade-Ringlock-Standard-L2500mm.stl",
+      "models/Wellmade-Ringlock-Standard-L3000mm.stl",
+      "models/Wellmade-Ringlock-Standard-L4000mm.stl"
+    ],
+    "allStandardsModeledBoundsMm": {
+      "500": [
+        123,
+        123,
+        500
+      ],
+      "1000": [
+        123,
+        123,
+        1000
+      ],
+      "1500": [
+        123,
+        123,
+        1500
+      ],
+      "2000": [
+        123,
+        123,
+        2000
+      ],
+      "2500": [
+        123,
+        123,
+        2500
+      ],
+      "3000": [
+        123,
+        123,
+        3000
+      ],
+      "4000": [
+        123,
+        123,
+        4000
+      ]
+    },
+    "allDiagonalVariants": [
+      {
+        "itemCode": "WRB065",
+        "bayLengthMm": 650,
+        "catalogueBraceLengthMm": 2070,
+        "riseMm": 2000,
+        "catalogueMassKg": 7.34,
+        "modeledCentrelineLengthMm": 2103.0,
+        "differenceModeledChordMinusCatalogueBraceMm": 33.0,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB065-Bay0650mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB088",
+        "bayLengthMm": 880,
+        "catalogueBraceLengthMm": 2150,
+        "riseMm": 2000,
+        "catalogueMassKg": 7.99,
+        "modeledCentrelineLengthMm": 2185.0,
+        "differenceModeledChordMinusCatalogueBraceMm": 35.0,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB088-Bay0880mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB092",
+        "bayLengthMm": 920,
+        "catalogueBraceLengthMm": 2170,
+        "riseMm": 2000,
+        "catalogueMassKg": 8.31,
+        "modeledCentrelineLengthMm": 2201.5,
+        "differenceModeledChordMinusCatalogueBraceMm": 31.5,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB092-Bay0920mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB107",
+        "bayLengthMm": 1070,
+        "catalogueBraceLengthMm": 2230,
+        "riseMm": 2000,
+        "catalogueMassKg": 8.4,
+        "modeledCentrelineLengthMm": 2268.2,
+        "differenceModeledChordMinusCatalogueBraceMm": 38.2,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB107-Bay1070mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB115",
+        "bayLengthMm": 1150,
+        "catalogueBraceLengthMm": 2260,
+        "riseMm": 2000,
+        "catalogueMassKg": 8.53,
+        "modeledCentrelineLengthMm": 2307.1,
+        "differenceModeledChordMinusCatalogueBraceMm": 47.1,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB115-Bay1150mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB157",
+        "bayLengthMm": 1570,
+        "catalogueBraceLengthMm": 2480,
+        "riseMm": 2000,
+        "catalogueMassKg": 9.23,
+        "modeledCentrelineLengthMm": 2542.6,
+        "differenceModeledChordMinusCatalogueBraceMm": 62.6,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB157-Bay1570mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB183",
+        "bayLengthMm": 1830,
+        "catalogueBraceLengthMm": 2640,
+        "riseMm": 2000,
+        "catalogueMassKg": 9.72,
+        "modeledCentrelineLengthMm": 2710.9,
+        "differenceModeledChordMinusCatalogueBraceMm": 70.9,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB183-Bay1830mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB213",
+        "bayLengthMm": 2130,
+        "catalogueBraceLengthMm": 2850,
+        "riseMm": 2000,
+        "catalogueMassKg": 10.31,
+        "modeledCentrelineLengthMm": 2921.8,
+        "differenceModeledChordMinusCatalogueBraceMm": 71.8,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB213-Bay2130mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB244",
+        "bayLengthMm": 2440,
+        "catalogueBraceLengthMm": 3070,
+        "riseMm": 2000,
+        "catalogueMassKg": 11.02,
+        "modeledCentrelineLengthMm": 3154.9,
+        "differenceModeledChordMinusCatalogueBraceMm": 84.9,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB244-Bay2440mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      },
+      {
+        "itemCode": "WRB305",
+        "bayLengthMm": 3050,
+        "catalogueBraceLengthMm": 3560,
+        "riseMm": 2000,
+        "catalogueMassKg": 12.15,
+        "modeledCentrelineLengthMm": 3647.3,
+        "differenceModeledChordMinusCatalogueBraceMm": 87.3,
+        "tube": "OD 48.3 mm x 2.5 mm wall",
+        "stl": "models/Wellmade-Ringlock-Diagonal-WRB305-Bay3050mm.stl",
+        "datumInterpretation": "modeled between bay endpoints at 2000 mm rise; catalogue brace-length datum is unspecified"
+      }
+    ],
+    "allDiagonalsBlend": "models/Wellmade-Ringlock-All-Diagonals.blend",
+    "allDiagonalsGlb": "models/Wellmade-Ringlock-All-Diagonals.glb",
+    "allDiagonalsPreview": "models/Wellmade-all-diagonal-lengths-preview.png",
+    "allDiagonalsIndex": "models/diagonal-lengths.html",
+    "diagonalGeneratorScript": "make_all_diagonals.py",
+    "allDiagonalExports": [
+      "models/Wellmade-Ringlock-Diagonal-WRB065-Bay0650mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB088-Bay0880mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB092-Bay0920mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB107-Bay1070mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB115-Bay1150mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB157-Bay1570mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB183-Bay1830mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB213-Bay2130mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB244-Bay2440mm.stl",
+      "models/Wellmade-Ringlock-Diagonal-WRB305-Bay3050mm.stl"
+    ],
+    "stairVariants": [
+      {
+        "code": "WCSW1",
+        "scaffoldSystem": "Cuplock Stairway",
+        "catalogueRunMm": 2140,
+        "catalogueRiseMm": 2000,
+        "catalogueWidthMm": null,
+        "modeledWidthMm": 600,
+        "modeledWidthIsAssumption": true,
+        "catalogueMassKg": 110.16,
+        "assumedTreadCount": 12,
+        "modeledRiserHeightMm": 166.7,
+        "modeledGoingMm": 178.3,
+        "slopeAngleDeg": 43.06,
+        "stl": "models/Wellmade-WCSW1-Stair-3D.stl"
+      },
+      {
+        "code": "WCSW2",
+        "scaffoldSystem": "Cuplock Stairway",
+        "catalogueRunMm": 2440,
+        "catalogueRiseMm": 2000,
+        "catalogueWidthMm": null,
+        "modeledWidthMm": 600,
+        "modeledWidthIsAssumption": true,
+        "catalogueMassKg": 120.96,
+        "assumedTreadCount": 12,
+        "modeledRiserHeightMm": 166.7,
+        "modeledGoingMm": 203.3,
+        "slopeAngleDeg": 39.34,
+        "stl": "models/Wellmade-WCSW2-Stair-3D.stl"
+      },
+      {
+        "code": "WCSW3",
+        "scaffoldSystem": "Cuplock Stairway",
+        "catalogueRunMm": 2500,
+        "catalogueRiseMm": 2000,
+        "catalogueWidthMm": null,
+        "modeledWidthMm": 600,
+        "modeledWidthIsAssumption": true,
+        "catalogueMassKg": 120.96,
+        "assumedTreadCount": 12,
+        "modeledRiserHeightMm": 166.7,
+        "modeledGoingMm": 208.3,
+        "slopeAngleDeg": 38.66,
+        "stl": "models/Wellmade-WCSW3-Stair-3D.stl"
+      },
+      {
+        "code": "WSKSC600",
+        "scaffoldSystem": "Kwikstage Staircase",
+        "catalogueRunMm": 2500,
+        "catalogueRiseMm": 2000,
+        "catalogueWidthMm": 600,
+        "modeledWidthMm": 600,
+        "modeledWidthIsAssumption": false,
+        "catalogueMassKg": 53.0,
+        "assumedTreadCount": 12,
+        "modeledRiserHeightMm": 166.7,
+        "modeledGoingMm": 208.3,
+        "slopeAngleDeg": 38.66,
+        "stl": "models/Wellmade-WSKSC600-Stair-3D.stl"
+      },
+      {
+        "code": "WSKSC900",
+        "scaffoldSystem": "Kwikstage Staircase",
+        "catalogueRunMm": 2500,
+        "catalogueRiseMm": 2000,
+        "catalogueWidthMm": 900,
+        "modeledWidthMm": 900,
+        "modeledWidthIsAssumption": false,
+        "catalogueMassKg": 57.0,
+        "assumedTreadCount": 12,
+        "modeledRiserHeightMm": 166.7,
+        "modeledGoingMm": 208.3,
+        "slopeAngleDeg": 38.66,
+        "stl": "models/Wellmade-WSKSC900-Stair-3D.stl"
+      }
+    ],
+    "stairsBlend": "models/Wellmade-All-Scaffold-Stair-Variants.blend",
+    "stairsGlb": "models/Wellmade-All-Scaffold-Stair-Variants.glb",
+    "stairsPreview": "models/Wellmade-all-stair-rises-preview.png",
+    "stairsIndex": "models/stair-rises.html",
+    "stairsGeneratorScript": "make_stairs.py",
+    "stairExports": [
+      "models/Wellmade-WCSW1-Stair-3D.stl",
+      "models/Wellmade-WCSW2-Stair-3D.stl",
+      "models/Wellmade-WCSW3-Stair-3D.stl",
+      "models/Wellmade-WSKSC600-Stair-3D.stl",
+      "models/Wellmade-WSKSC900-Stair-3D.stl"
+    ]
+  },
+  "userSuppliedDrawings": "drawings/README-fi.md",
+  "manufacturerPartSources": [
+    "https://www.wm-scaffold.com/ringlock-scaffolding-ledger.html",
+    "https://www.wm-scaffold.com/ledger-head/",
+    "https://www.wm-scaffold.com/Ringlock-Scaffolding-Standards.html/",
+    "https://www.wm-scaffold.com/scaffold-rosettes/",
+    "https://www.wm-scaffold.com/scaffold-leveling-jack-base.html"
+  ],
+  "technicalScope": "Catalogue reference geometry and component masses only; not a project-specific scaffold design, compatibility certification, or structural approval.",
+  "cuplockModel": {
+    "glb": "models/Cuplock-one-bay-1800x1200x2000.glb",
+    "blend": "models/Cuplock-one-bay-1800x1200x2000.blend",
+    "stl": "models/Cuplock-one-bay-1800x1200x2000.stl",
+    "preview": "models/Cuplock-one-bay-preview.png",
+    "assumptions": "cuplock-fi.md",
+    "bayCentrelineMm": [
+      1800,
+      1200
+    ],
+    "standardLengthMm": 2000,
+    "cupPitchMm": 500,
+    "nominalTubeOdMm": 48.3,
+    "assumedTubeWallMm": 3.2,
+    "type": "illustrative generic Cuplock assembly; not manufacturer-specific CAD or structural design",
+    "sources": [
+      "https://pioneers-ind.com/wp-content/uploads/2023/07/cuplok_compressed.pdf",
+      "https://scaffolding.com/wp-content/uploads/2024/09/4-scaffold-cuplock-system-Manual.pdf"
+    ]
+  }
+}

@@ -20,6 +20,23 @@
 
 const $ = (id) => document.getElementById(id);
 const EMBED_BASE = 'https://kartta.hel.fi/embed/';
+const BUILDING_PRESET_LAYERS = Object.freeze([
+  { id: '3D-cesium-terrain', title: '3d-maanpinta', opacity: 100 },
+  { id: '3D-cesium-buildings', title: '3d-rakennukset', opacity: 100 },
+  { id: 'HKRPTY_Puurekisteri_kp_Katupuut', title: 'Katupuut', opacity: 100 },
+  { id: 'HKRPTY_Puurekisteri_kp_Puistopuut', title: 'Puistopuut', opacity: 100 },
+  { id: 'Ylre_katualue_osat_puu_ja_pensasryhmat', title: 'Katualueiden puu- ja pensasryhmät', opacity: 100 },
+  { id: 'Ylre_viheralue_osat_puu_ja_pensasryhmat', title: 'Viheralueiden puu- ja pensasryhmät', opacity: 100 },
+  { id: 'NimistoRakennukset', title: 'Rakennusten nimistö', opacity: 100 },
+]);
+const BUILDING_PRESET = { easting: 25496825, northing: 6673044, resolution: 1 };
+const EPSG_3879_DEF =
+  '+proj=tmerc +lat_0=0 +lon_0=25 +k=1 +x_0=25500000 +y_0=0 +ellps=GRS80 +units=m +no_defs +type=crs';
+
+// proj4 ships with EPSG:4326, but not Helsinki's GK25FIN projection.
+if (typeof proj4 !== 'undefined' && typeof proj4.defs === 'function') {
+  proj4.defs('EPSG:3879', EPSG_3879_DEF);
+}
 
 const state = {
   baseMap: 'Karttasarja',
@@ -27,6 +44,7 @@ const state = {
   easting: 25496825,
   northing: 6673044,
   resolution: 4,
+  preset: '',
   coordMode: 'grid',            // 'grid' (EPSG:3879) | 'wgs84'
   lat: 60.1699,
   lon: 24.9384,
@@ -70,6 +88,11 @@ function readUrlParams() {
   const baseParam = q.get('base');
   let touched = false;
 
+  if (q.get('preset') === '3d-buildings') {
+    applyBuildingPreset(false);
+    touched = true;
+  }
+
   if (baseParam && CATALOG.baseMaps.some((b) => b.id === baseParam)) {
     state.baseMap = baseParam;
     $('baseMap').value = baseParam;
@@ -78,10 +101,22 @@ function readUrlParams() {
 
   if (layersParam) {
     const ids = layersParam.split(',').map((s) => s.trim()).filter(Boolean);
+    const explicitBase = CATALOG.baseMaps.find((b) => b.id === baseParam);
+    const primaryBase = explicitBase || ids.map((id) => CATALOG.baseMaps.find((b) => b.id === id)).find(Boolean);
+    if (primaryBase && !explicitBase) {
+      state.baseMap = primaryBase.id;
+      $('baseMap').value = primaryBase.id;
+      touched = true;
+    }
     for (const id of ids) {
-      // base map id?  -> select as background instead of an overlay
       const bm = CATALOG.baseMaps.find((b) => b.id === id);
-      if (bm) { state.baseMap = bm.id; $('baseMap').value = bm.id; touched = true; continue; }
+      if (bm) {
+        const is3dTile = id === '3D-cesium-buildings' || id === '3D-cesium-terrain';
+        if (is3dTile && id !== primaryBase?.id && !state.selected.some((s) => s.id === id)) {
+          state.selected.push({ id, title: bm.title, opacity: 100 });
+        }
+        continue;
+      }
       const meta = CATALOG.flat.find((f) => f.id === id);
       if (meta && !state.selected.some((s) => s.id === id)) {
         state.selected.push({ id, title: meta.title, opacity: 100 });
@@ -90,11 +125,42 @@ function readUrlParams() {
     }
   }
 
-  if (q.has('e') || q.has('easting')) state.easting = parseFloat(q.get('e') || q.get('easting')) || state.easting;
-  if (q.has('n') || q.has('northing')) state.northing = parseFloat(q.get('n') || q.get('northing')) || state.northing;
-  if (q.has('r') || q.has('resolution')) { state.resolution = parseFloat(q.get('r') || q.get('resolution')) || state.resolution; $('res').value = state.resolution; }
-  if (q.has('lat')) state.lat = parseFloat(q.get('lat')) || state.lat;
-  if (q.has('lon')) state.lon = parseFloat(q.get('lon')) || state.lon;
+  const allow3dParam = q.get('allow3d');
+  if (['1', '2', '3'].includes(allow3dParam)) {
+    $('allow3d').value = allow3dParam;
+    touched = true;
+  }
+
+  const eastingParam = q.has('e') ? q.get('e') : q.get('easting');
+  const northingParam = q.has('n') ? q.get('n') : q.get('northing');
+  if (eastingParam !== null && northingParam !== null) {
+    const easting = Number(eastingParam);
+    const northing = Number(northingParam);
+    if (Number.isFinite(easting) && Number.isFinite(northing)) {
+      state.easting = easting;
+      state.northing = northing;
+      state.coordMode = 'grid';
+      touched = true;
+    }
+  } else if (q.has('lat') || q.has('lon')) {
+    const coordinates = parseWgs84Coordinates(q.get('lat'), q.get('lon'));
+    if (coordinates) {
+      setWgs84Center(coordinates);
+      $('lat').value = coordinates.lat;
+      $('lon').value = coordinates.lon;
+      touched = true;
+    }
+  }
+
+  const resolutionParam = q.has('r') ? q.get('r') : q.get('resolution');
+  if (resolutionParam !== null) {
+    const resolution = Number(resolutionParam);
+    if (Number.isFinite(resolution) && resolution >= 0.25 && resolution <= 32) {
+      state.resolution = resolution;
+      $('res').value = state.resolution;
+      touched = true;
+    }
+  }
 
   if (touched) {
     syncCheckboxes();
@@ -102,6 +168,25 @@ function readUrlParams() {
     updateCenterInfo();
     setStatus('ok', 'Loaded ' + state.selected.length + ' layer(s) from link \u2014 tweak & generate.');
   }
+}
+
+function applyBuildingPreset(showStatus = true) {
+  state.preset = '3d-buildings';
+  state.baseMap = 'Karttasarja';
+  state.selected = BUILDING_PRESET_LAYERS.map((layer) => ({ ...layer }));
+  state.easting = BUILDING_PRESET.easting;
+  state.northing = BUILDING_PRESET.northing;
+  state.resolution = BUILDING_PRESET.resolution;
+  state.coordMode = 'grid';
+  $('baseMap').value = state.baseMap;
+  $('res').value = state.resolution;
+  $('allow3d').value = '2';
+  $('lat').value = '';
+  $('lon').value = '';
+  syncCheckboxes();
+  renderSelected();
+  updateCenterInfo();
+  if (showStatus) setStatus('ok', '3D buildings preset loaded. Generate the map to open it.');
 }
 
 /* ------------------------------------------------------------------ */
@@ -153,6 +238,38 @@ function populatePlaces(gaz) {
     o.dataset.lon = g.lon;
     o.textContent = g.name;
     sel.appendChild(o);
+  }
+}
+
+function parseWgs84Coordinates(latValue, lonValue) {
+  const latText = String(latValue ?? '').trim();
+  const lonText = String(lonValue ?? '').trim();
+  if (!latText || !lonText) return null;
+
+  const lat = Number(latText);
+  const lon = Number(lonText);
+  if (!Number.isFinite(lat) || !Number.isFinite(lon)) return null;
+  if (lat < -90 || lat > 90 || lon < -180 || lon > 180) return null;
+  return { lat, lon };
+}
+
+function setWgs84Center(coordinates) {
+  state.lat = coordinates.lat;
+  state.lon = coordinates.lon;
+  state.coordMode = 'wgs84';
+
+  try {
+    const [easting, northing] = proj4('EPSG:4326', 'EPSG:3879', [state.lon, state.lat]);
+    if (!Number.isFinite(easting) || !Number.isFinite(northing)) throw new Error('Invalid projected coordinates');
+    state.easting = easting;
+    state.northing = northing;
+    return true;
+  } catch (e) {
+    // The map service still receives WGS84 and reprojects it; avoid showing
+    // the previous location as if it were the new one when proj4 is offline.
+    state.easting = NaN;
+    state.northing = NaN;
+    return false;
   }
 }
 
@@ -208,6 +325,7 @@ function buildLeaf(n) {
 }
 
 function toggleLayer(n, on) {
+  state.preset = '';
   if (on) {
     if (!state.selected.some((s) => s.id === n.id)) {
       state.selected.push({ id: n.id, title: n.title, opacity: 100 });
@@ -325,30 +443,41 @@ function bindEvents() {
   });
 
   $('applyCoords').addEventListener('click', () => {
-    const lat = parseFloat($('lat').value), lon = parseFloat($('lon').value);
-    if (isNaN(lat) || isNaN(lon)) { setStatus('err', 'Enter valid latitude and longitude.'); return; }
-    state.lat = lat; state.lon = lon; state.coordMode = 'wgs84';
-    // show the grid equivalent for reference
-    try {
-      const g = proj4('EPSG:4326', 'EPSG:3879', [lon, lat]);
-      state.easting = g[0]; state.northing = g[1];
-    } catch (e) {}
+    const coordinates = parseWgs84Coordinates($('lat').value, $('lon').value);
+    if (!coordinates) {
+      setStatus('err', 'Enter latitude from -90 to 90 and longitude from -180 to 180.');
+      return;
+    }
+    const projected = setWgs84Center(coordinates);
     updateCenterInfo();
-    setStatus('ok', 'Location set from WGS84 coordinates.');
+    setStatus('ok', projected
+      ? 'Location set from WGS84 coordinates.'
+      : 'Location set; kartta.hel.fi will reproject these WGS84 coordinates.');
   });
 
   $('res').addEventListener('input', (e) => { state.resolution = +e.target.value; updateCenterInfo(); });
   $('baseMap').addEventListener('change', (e) => { state.baseMap = e.target.value; });
+  $('load3dPreset').addEventListener('click', () => applyBuildingPreset());
   $('layerSearch').addEventListener('input', (e) => runSearch(e.target.value));
   $('generate').addEventListener('click', generate);
   $('copy').addEventListener('click', copyCode);
   $('openUrl').addEventListener('click', () => { if (lastUrl) window.open(lastUrl, '_blank', 'noopener'); });
+  document.querySelectorAll('input, select, textarea').forEach((control) => {
+    if (control.id === 'w' || control.id === 'h') return;
+    control.addEventListener('input', () => { state.preset = ''; });
+    control.addEventListener('change', () => { state.preset = ''; });
+  });
 }
 
 function updateCenterInfo() {
-  $('centerInfo').textContent =
-    'Center: ' + Math.round(state.easting) + ', ' + Math.round(state.northing) +
-    ' (EPSG:3879) · zoom ' + state.resolution + ' m/px';
+  $('centerInfo').textContent = centerLabel() + ' · zoom ' + state.resolution + ' m/px';
+}
+
+function centerLabel() {
+  if (Number.isFinite(state.easting) && Number.isFinite(state.northing)) {
+    return 'Center: ' + Math.round(state.easting) + ', ' + Math.round(state.northing) + ' (EPSG:3879)';
+  }
+  return 'Center: ' + state.lat + ', ' + state.lon + ' (WGS84)';
 }
 
 /* ------------------------------------------------------------------ */
@@ -386,7 +515,7 @@ function buildEmbedUrl() {
   if (a3d) p.append('allow3d', a3d);
 
   const txt = $('text').value.trim();
-  if (txt) p.append('text', encodeURIComponent(txt));
+  if (txt) p.append('text', txt);
 
   p.append('setlanguage', $('lang').value);
 
@@ -396,7 +525,8 @@ function buildEmbedUrl() {
 function buildIframe(url) {
   const w = parseInt($('w').value, 10) || 640;
   const h = parseInt($('h').value, 10) || 480;
-  return `<iframe width="${w}" height="${h}" style="border:0; width:${w}px !important; height:${h}px !important;" frameborder="0" src="${url}" title="Helsinki Map Service"></iframe>`;
+  const title = state.preset === '3d-buildings' ? 'Helsinki 3D Buildings, Trees and Shrub Areas' : 'Helsinki Map Service';
+  return `<iframe width="${w}" height="${h}" style="border:0; width:${w}px !important; height:${h}px !important;" frameborder="0" src="${url}" title="${title}"></iframe>`;
 }
 
 /* ------------------------------------------------------------------ */
@@ -421,7 +551,8 @@ function generate() {
   meta.appendChild(chip('Base map: ' + base));
   if (state.selected.length) meta.appendChild(chip('+ ' + state.selected.length + ' layer' + (state.selected.length > 1 ? 's' : '')));
   meta.appendChild(chip('Zoom ' + state.resolution + ' m/px'));
-  meta.appendChild(chip('Center ' + Math.round(state.easting) + ', ' + Math.round(state.northing)));
+  meta.appendChild(chip(centerLabel().replace(/^Center: /, '')));
+  if (state.preset === '3d-buildings') meta.appendChild(chip('Official 3D model + trees and shrub areas'));
   const a = document.createElement('a');
   a.className = 'chip link'; a.href = url; a.target = '_blank'; a.rel = 'noopener';
   a.textContent = 'Open embed URL ↗';

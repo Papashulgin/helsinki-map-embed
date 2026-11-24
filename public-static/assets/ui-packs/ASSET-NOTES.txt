@@ -1,0 +1,5 @@
+UI assets prepared from user-supplied ZIP files (JPEG preview artwork only; EPS/AI files were not executed).
+Source packs: creative-process-infography, creative-architecture-25-glyph-solid-black-icon-pack,
+construction-icons-collection, lifting-machinery-height-work-isometric-set, architecture-background-design, and rachetscursors.
+The ZIP files did not include a license notice. The process illustration is cropped to omit placeholder text and watermark.
+Additional sources: architecture-background-design (cropped scaffold illustration), rachetscursors (dark SVG master plus transparent dark/light PNG cursor variants extracted from the supplied HTML). The cursor HTML was inspected as data only; its embedded light cursor image was extracted, and its script was not run.

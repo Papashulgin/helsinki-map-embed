@@ -1,0 +1,105 @@
+{
+  "title": "Uusi ylioppilastalo (ent. Osakuntatalo) · Mannerheimintie 5 · 3D-julkisivuluonnos",
+  "created": "2026-11-03",
+  "address": "Mannerheimintie 5, 00100 Helsinki",
+  "buildingName": "Uusi ylioppilastalo (ent. Osakuntatalo)",
+  "buildingIdentity": {
+    "RATU": 391,
+    "VTJ-PRT": "103036835V",
+    "parcel": "091-002-0096-0034"
+  },
+  "geometrySource": {
+    "provider": "Helsingin kaupungin rakennusrekisteri WFS",
+    "featureId": "Rakennukset_alue_rekisteritiedot.81772",
+    "retrievedAt": "2026-11-02T22:06:34.776Z",
+    "crs": "EPSG:3879",
+    "footprintAreaM2": 2137.421875,
+    "registeredFloors": 8,
+    "sourceVertices": 121,
+    "modelOutlineVertices": 52,
+    "localOriginEPSG3879": [
+      25496673.72253122,
+      6672947.914071591
+    ],
+    "exportCoordinates": "Local metres relative to listed EPSG:3879 origin; Z=0 is an assumed ground reference. GLB follows glTF Y-up convention."
+  },
+  "facadeReference": {
+    "file": "archive-previews/mansku5-photo.jpeg",
+    "description": "User-supplied current photo of Uusi ylioppilastalo; visual reference for the depicted street facade.",
+    "licence": "User-supplied; no separate reuse licence statement provided."
+  },
+  "domeReference": {
+    "title": "Uusi ylioppilastalo – Kupolitorni",
+    "publisher": "Helsingin kaupunginmuseo",
+    "url": "https://www.hel.fi/static/liitteet/museo/Lausunnot%202020/HKM%20Uusi%20ylioppilastalo%20torni.pdf",
+    "documentedDomeRadiusM": 4.3,
+    "documentedNeckHeightM": 4.3,
+    "documentedHemisphereRadiusM": 4.3,
+    "documentedLanternHeightM": 2.867
+  },
+  "siting": {
+    "streetWing": "Mannerheimintien suuntainen pitkä rakennusosa",
+    "squareWing": "tontin sisäosaan ja Ylioppilasaukion suuntaan jatkuva rakennusosa",
+    "cupolaPlacement": "WFS-jalanjäljen pyöristetyn kulman yhteyteen, local EPSG:3879 metres",
+    "referenceUrl": "https://www.finnisharchitecture.fi/projects/new-student-house",
+    "method": "WFS-pohjamuoto yhdistetty virallisen arkkitehtuurikuvauksen siipijakoon; tornin tarkka keskipiste on tulkittu pyöristetystä kulmasta."
+  },
+  "roofReference": {
+    "visualSource": "Ylvan kohdesivu ja sen ulkokuvat",
+    "url": "https://ylva.fi/kohteet/uusi-ylioppilastalo/",
+    "layoutSource": "Helsingin yliopiston arkkitehtuurikävely",
+    "layoutUrl": "https://www.avoin.helsinki.fi/oppimateriaalit/taidehistoria/virtuaali/uusi_yo.shtml",
+    "cityModelCrossCheck": {
+      "title": "Helsinki 3D · rakennukset LoD2",
+      "url": "https://www.hel.fi/fi/paatoksenteko-ja-hallinto/tietoa-helsingista/kartat-ja-paikkatieto/helsinki-3d",
+      "status": "RATU 391:n ladattu kaupunkimallin kattogeometria kattoi vain osan pohjamuodosta, joten sitä ei käytetty koko katon korvaavana mallina."
+    },
+    "mainRidgeAxisDegreesFromLocalEast": -27.0,
+    "description": "Pitkän Mannerheimintien siiven harjakatto dormereineen on käännetty seuraamaan rakennusrekisterin vinottaista pitkää akselia. Aukion puoleisella siivellä on erillinen päätykatto. Korotettujen kattojen alle tehty matala kattopinta sulkee muun rekisteripohjan yksinkertaistettuna, saumoitettuna kattokenttänä. Lappeiden liittymät, harjakorkeudet ja dormerien paikat ovat Ylvan ilmakuvista arvioituja, eivät koko katon mittapiirustuksesta.",
+    "status": "photo-derived estimate; no full roof plan or measured roof pitch was located"
+  },
+  "height": {
+    "mainBodyMetres": 24.8,
+    "overallTopMetres": 40.927,
+    "status": "estimated body; documented dome component dimensions",
+    "method": "8 registered storeys × approx. 3.1 m. The City Museum documents the 4.3 m dome neck and hemisphere radius, and lantern height of 2/3 × 4.3 m. Tower base is estimated; its plan placement follows the rounded WFS footprint corner."
+  },
+  "historicalReferences": [
+    {
+      "title": "Mannerheimintie 1–5 / entinen Aleksanterinkatu 25 · rakennuspiirustus, 1885",
+      "record": "Yksa 167421508819700",
+      "url": "https://yksa.disec.fi/Yksa4/id/167421508819700?view=list&_displayStart=0&back=true&history=1&ref=results&_sort=4%2Cdesc&direction=next&sb_index=13#tab/basic",
+      "file": "006.tif",
+      "role": "osoitealueen arkistoviite; ei tulkittu nykyisen ylioppilastalon julkisivuksi"
+    },
+    {
+      "title": "Stockmann / ABC City · käyttäjän toimittamat 1925 piirustukset",
+      "record": "Yksa 167421523809800",
+      "url": "https://yksa.disec.fi/Yksa4/id/167421523809800/?view=list&_displayStart=0&back=true&history=1&ref=results&_sort=4%2Cdesc#tab/overview",
+      "files": [
+        "stokka.jpg",
+        "stokkka.jpg"
+      ],
+      "role": "erillinen arkistoviite; ei käytetty tämän rakennuksen tunnistukseen tai geometriaan"
+    }
+  ],
+  "scope": "Helsingin rakennusrekisterin pohjamuoto ja kerrosmäärä yhdistetty kahden siiven sijoitteluun, Ylvan nykykuvissa näkyvään kattomassaan, käyttäjän valokuvaan ja kaupunginmuseon dokumentoimiin kupolin päämittoihin.",
+  "limitations": [
+    "Visuaalinen luonnos, ei varmennettu nykytilan as-built-, LOD3- tai BIM-malli.",
+    "Katon harjakorkeudet, dormerien paikat ja kattokulmat ovat valokuvista arvioituja; koko katon mittapiirustusta ei löytynyt.",
+    "Rungon korkeus, tornin korkeusperusta, ikkuna-aukot ja sisäänkäynnin mitoitus ovat arvioita; kupolin ilmoitetut päämitat ovat kaupunginmuseon raportista.",
+    "Stockmann / ABC City -kuvia ei käytetty tämän rakennuksen tunnistukseen tai mallin geometriaan.",
+    "Ei rakennesuunnitteluun, telineen mitoitukseen tai lupapiirustukseksi ilman mittauksia ja tarkistettuja lähtöpiirustuksia."
+  ],
+  "files": {
+    "editable": "mannerheimintie-5.blend",
+    "webModel": "mannerheimintie-5.glb",
+    "geometry": "mannerheimintie-5.obj",
+    "preview": "mannerheimintie-5-preview.png",
+    "userPhoto": "archive-previews/mansku5-photo.jpeg"
+  },
+  "sourceChecksumsSHA256": {
+    "sourceFootprint": "39fd244c74a2a59f9f0fc63221ea5ede8d645aae1add4a18a6e99e6eba6e2720",
+    "userSuppliedCurrentPhoto": "c124d44154d949a3f302d5545dfd975f15c2c2e00c68e3a6d2865f64e27f011b"
+  }
+}

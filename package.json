@@ -4,11 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "build:lidar": "node scripts/build-lidar-loader.mjs",
+    "test": "node --test"
   },
   "keywords": [],
   "type": "commonjs",
   "dependencies": {
-    "express": "^4.22.3"
+    "@loaders.gl/core": "^4.5.4",
+    "@loaders.gl/las": "^4.5.4",
+    "better-sqlite3": "^11.10.0",
+    "express": "^4.22.3",
+    "proj4": "2.11.0",
+    "three": "0.160.0"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
   }
 }

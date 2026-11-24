@@ -1,0 +1,50 @@
+{
+  "archiveTitle": "Layher Allround source archive",
+  "archiveCreated": "2026-10-28",
+  "manufacturer": "Wilhelm Layher GmbH & Co KG",
+  "distributorSource": "Telinekataja Oy",
+  "sourceIndexUrl": "https://telinekataja.fi/rakennustelineet/esitteet-ja-ohjeet/",
+  "documents": [
+    {
+      "file": "Layher-Allround-Asennus-ja-kayttoohje-fi-2018-04.pdf",
+      "title": "Layher Allround-telinejärjestelmä: asennus- ja käyttöohje",
+      "language": "fi",
+      "documentType": "assembly-and-use-manual",
+      "edition": "04.2018",
+      "pages": 60,
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/8c/81/8c818fab-5d3d-438e-948b-9a489d05ea4e/allround.pdf",
+      "sourceNote": "User-supplied PDF; public distributor copy identified as the same edition."
+    },
+    {
+      "file": "Layher-Allround-Catalogue-en-2021.pdf",
+      "title": "Layher Allround Catalogue",
+      "language": "en",
+      "documentType": "product-catalogue",
+      "edition": "2021",
+      "pages": 76,
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/b0/50/b050d79c-e4a0-4f69-868c-72d8031b08da/en_allround_catalogue_2021.pdf",
+      "sourceNote": "Downloaded from Telinekataja public documents page on 2026-10-28."
+    }
+  ],
+  "additionalSources": [
+    {
+      "title": "Valtioneuvoston asetus rakennustyön turvallisuudesta 205/2009, current consolidated text",
+      "url": "https://data.finlex.fi/fi/lainsaadanto/2009/205",
+      "checkedAt": "2026-11-03",
+      "scope": "Scaffold design, instructions and design-plan requirements; no universal numeric facade gap was found in sections 51-54."
+    },
+    {
+      "title": "STM Decision 156/1998, repealed",
+      "url": "https://finlex.fi/fi/lainsaadanto/1998/156",
+      "checkedAt": "2026-11-03",
+      "scope": "Historical 0.25 m inside-guardrail rule; Finlex identifies the decision as repealed from 2009-06-01."
+    },
+    {
+      "title": "Layher Keder Roof XL Instructions for Assembly and Use, edition 01.2014",
+      "url": "https://www.layher.nl/-/media/LAYHER/Documentatie/05-Dak-en-Wandsysteem/English/ENG_montagehandleiding_Kederdach_2014.pdf",
+      "checkedAt": "2026-11-03",
+      "scope": "Support-scaffold axes 0.73 m and 1.09 m; not a facade-clearance rule."
+    }
+  ],
+  "technicalScope": "Reference dimensions only; clearance examples are not project inputs or legal approval. This archive does not constitute a project-specific scaffold design or structural approval."
+}

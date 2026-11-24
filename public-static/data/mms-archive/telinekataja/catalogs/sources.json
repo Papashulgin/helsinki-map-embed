@@ -1,0 +1,199 @@
+{
+  "sourcePage": "https://telinekataja.fi/en/scaffolding/brochures-and-instructions/",
+  "retrievedAt": "2026-10-28T17:27:26.605Z",
+  "documents": [
+    {
+      "name": "Asennusohje-Allround-fi.pdf",
+      "title": "Asennusohje suomeksi · Allround",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/8c/81/8c818fab-5d3d-438e-948b-9a489d05ea4e/allround.pdf",
+      "bytes": 4763527,
+      "sha256": "22d55e6563ca63be981839b89029d25ca8e32723a6adc34d7cea788d695d8ac3",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-Allround-fi.pdf"
+    },
+    {
+      "name": "Asennusohje-ARS-fi.pdf",
+      "title": "Asennusohje suomeksi · ARS",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/70/cf/70cf0095-e836-45ae-8930-8bfb8aac79a3/ars.pdf",
+      "bytes": 5028587,
+      "sha256": "9ade507f0260bceca69ce2336dc2d5c84a33e1f8945d3e319c38e890954d350b",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-ARS-fi.pdf"
+    },
+    {
+      "name": "Asennusohje-KH-saasuoja-fi.pdf",
+      "title": "Asennusohje suomeksi · KH-sääsuoja",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/22/a3/22a383a1-8554-497c-9f26-b5bb1d86abe9/kh-saasuoja.pdf",
+      "bytes": 1455561,
+      "sha256": "950b8ab05b1cb23fea0de33520fcfafc1f426452b1065d2b68334151a5c04e2c",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-KH-saasuoja-fi.pdf"
+    },
+    {
+      "name": "Asennusohje-KH-XL-saasuoja-fi.pdf",
+      "title": "Asennusohje suomeksi · KH XL -sääsuoja",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/bf/fb/bffbc0ae-4ecc-4a5f-ab7b-e91ea131bd91/kh-xl-saasuoja.pdf",
+      "bytes": 2849702,
+      "sha256": "477586c0fe706ce0f51df7f1aec3af0757051f549fd2569d13e22fff3ab72cd6",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-KH-XL-saasuoja-fi.pdf"
+    },
+    {
+      "name": "Asennusohje-siirreltava-teline-fi.pdf",
+      "title": "Asennusohje suomeksi · siirrettävä teline",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/e7/71/e771f00e-5b17-456c-b3f1-c21615fd2ca5/siirreltava-teline.pdf",
+      "bytes": 552741,
+      "sha256": "b18e06ccbc758444d9bb6c61903aa902df1168843a87175794891d022496e3e7",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-siirreltava-teline-fi.pdf"
+    },
+    {
+      "name": "Asennusohje-TG-60-tukitorni-fi.pdf",
+      "title": "Asennusohje suomeksi · TG-60-tukitorni",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/6a/79/6a799dd4-078a-4b9e-8acd-9e1d86ac7aae/tg-60-tukitorni.pdf",
+      "bytes": 373915,
+      "sha256": "a1ad698754d72e15c797f2794b8e34a6aeb29c36a3e1877ea922f8fec0e4e43c",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-TG-60-tukitorni-fi.pdf"
+    },
+    {
+      "name": "Asennusohje-Allround-en.pdf",
+      "title": "Installation instructions · Allround · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/f5/6d/f56daa50-ab76-47e1-abd3-aaaadb793671/allround_en.pdf",
+      "bytes": 8619195,
+      "sha256": "cd3cc3e599294077a4f3f860d101dbdf0d315008a4b975c8cdea7d83daaee352",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Asennusohje-Allround-en.pdf"
+    },
+    {
+      "name": "Lumenpudotustuotteet-fi.pdf",
+      "title": "Lumenpudotustuotteet",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/ce/84/ce84f9e6-7bd4-4033-8468-71f1e103c7fb/lumenpudotustuotteet.pdf",
+      "bytes": 3049417,
+      "sha256": "0ec201dd87811e9ceca875ccf2395544eb03d917d1bebcace154157bd814ec5d",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Lumenpudotustuotteet-fi.pdf"
+    },
+    {
+      "name": "Lumenpoistoon-varautuminen-fi.pdf",
+      "title": "Lumenpoistoon varautuminen",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/c5/31/c53129ba-8c04-4fb5-9457-a62303acb2e1/lumenpoistoon-varautuminen.pdf",
+      "bytes": 130019,
+      "sha256": "3109784293a2900161c38fe76b5fe37557828c98ac167990f38138ab3ea0661a",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Lumenpoistoon-varautuminen-fi.pdf"
+    },
+    {
+      "name": "Pakkausohje-AR-seinakonsoli-fi.pdf",
+      "title": "Seinäkonsolin purku- ja pakkausohje · AR",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/60/89/608903ef-4b8a-40f6-8660-859341a31421/ar_seinakonsolin_purku_ja_pakkausohje.pdf",
+      "bytes": 753111,
+      "sha256": "fae4c25770ba0038cab2cb0f4abb19445e020d88adefdb1a6980c68133bc8623",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Pakkausohje-AR-seinakonsoli-fi.pdf"
+    },
+    {
+      "name": "Pakkausohje-ARS-silloitus-fi.pdf",
+      "title": "Silloituksen purku- ja pakkausohje · ARS",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/73/1b/731b1d51-857f-49c4-aae4-8b000f4d0d28/ars_silloituksen_purku_ja_pakkausohje.pdf",
+      "bytes": 615312,
+      "sha256": "c4309188388e7e6be9e695db419cb66b276688eaaee043242526370b98c829b0",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Pakkausohje-ARS-silloitus-fi.pdf"
+    },
+    {
+      "name": "Pakkausohje-FW-silloitus-fi.pdf",
+      "title": "Silloituksen purku- ja pakkausohje · FW",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/4c/2b/4c2b33b6-eae9-412c-8dce-f9613f6120ea/fw_silloituksen_purku_ja_pakkausohje.pdf",
+      "bytes": 510407,
+      "sha256": "431fb7798e5b4881552a523a0d125bde49c8cff2fd0f739d162186eb8a410158",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Pakkausohje-FW-silloitus-fi.pdf"
+    },
+    {
+      "name": "Kalustonippuohje-AR-fi-en-et.pdf",
+      "title": "Kalustonippuohje · AR · suomi, englanti, viro",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/46/9f/469f0843-05c3-4eb8-8f73-7b3738875b09/kalustonuippuohje-ar-fin-eng-est.pdf",
+      "bytes": 2613569,
+      "sha256": "ffd08978d8889d364b92ce30f8e4e3dca591de0153c9f02d724d7b58e628603c",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Kalustonippuohje-AR-fi-en-et.pdf"
+    },
+    {
+      "name": "Kalustonippuohje-KH-KHXL-fi-en-et.pdf",
+      "title": "Kalustonippuohje · KH/KH XL · suomi, englanti, viro",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/38/ac/38ac2d3c-5366-43ff-87d7-97b0ee0c59ed/kalustonippuohje-kh-khxl-fin-eng-est.pdf",
+      "bytes": 2135286,
+      "sha256": "660527e48e1dd890c87ed01fc149623bab02121d58b836c76cb404d0dfc3f182",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Kalustonippuohje-KH-KHXL-fi-en-et.pdf"
+    },
+    {
+      "name": "Pakkaus-varastointi-kuljetus-KH-kattopeitteet-fi.pdf",
+      "title": "KH-kattopeitteiden pakkaus, varastointi ja kuljetus",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/de/ce/dece0523-1fee-4b4d-a863-70bce99af665/kh-kattopeitteiden-pakkaus-varastointi-kuljetus.pdf",
+      "bytes": 288041,
+      "sha256": "db09a6d47a6890a53149e57af3af81b8e4795edc9f5e0916c49fd5a530d9d776",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Pakkaus-varastointi-kuljetus-KH-kattopeitteet-fi.pdf"
+    },
+    {
+      "name": "Pakkaus-varastointi-kuljetus-KH-katusekate-et.pdf",
+      "title": "KH-katusekatteiden pakkaus, varastointi ja kuljetus · viro",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/47/13/4713d1f8-5b11-400f-bb4b-9e4a26924894/kh-katusekatede-pakkimine-ladustamine-ja-transport.pdf",
+      "bytes": 347834,
+      "sha256": "dd50e97355a06ebde939b7bc23272b0eec24b35d9605df38a2ed1f2139c4353c",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Pakkaus-varastointi-kuljetus-KH-katusekate-et.pdf"
+    },
+    {
+      "name": "Packing-storage-transport-KH-tarpaulins-en.pdf",
+      "title": "Packing, storage and transport of KH tarpaulins · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/0e/1e/0e1e5e42-b200-429e-b39a-bb01c7ae2e8d/packing-storage-and-transport-of-the-kh-tarpaulins.pdf",
+      "bytes": 292755,
+      "sha256": "8e52bfddb21ce1f7a4955570dd369174866d0d57910e8feb043c73281304c1be",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Packing-storage-transport-KH-tarpaulins-en.pdf"
+    },
+    {
+      "name": "Pakkausohje-siirtokiskot-pyorastot-fi.pdf",
+      "title": "Siirtokiskojen ja pyörästöjen purku- ja pakkausohje",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/42/89/42898d60-8746-4c7d-b436-ca8369c50947/siirtokiskojen_ja_pyorastojen_purku_ja_pakkausohje.pdf",
+      "bytes": 1076729,
+      "sha256": "527832d9a14cf8095a8169546dcc23829041a3997ed2eb0f181987e33fe2ad02",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Pakkausohje-siirtokiskot-pyorastot-fi.pdf"
+    },
+    {
+      "name": "Layher-Allround-Catalogue-en-2021.pdf",
+      "title": "Layher Allround Catalogue 2021 · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/b0/50/b050d79c-e4a0-4f69-868c-72d8031b08da/en_allround_catalogue_2021.pdf",
+      "bytes": 21823785,
+      "sha256": "2c7a3e1f83f33849e2b64a65ab3728b2af913b383a1c52a116d738a96404759d",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Layher-Allround-Catalogue-en-2021.pdf"
+    },
+    {
+      "name": "Layher-Protective-Systems-Catalogue-en-2021.pdf",
+      "title": "Layher Protective Systems Catalogue 2021 · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/85/20/85200166-fb2f-4dba-8512-91ea77f33786/en_protective_system_catalogue_2021.pdf",
+      "bytes": 14280016,
+      "sha256": "3e5dbb2febe282cf9edb20e261c08f3ee1eb3dc9188bf9dfbaa1abd43e266cb4",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Layher-Protective-Systems-Catalogue-en-2021.pdf"
+    },
+    {
+      "name": "Layher-Access-Technology-Catalogue-en-2017.pdf",
+      "title": "Layher Access Technology Catalogue 2017 · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/ef/28/ef2891e1-fe53-415e-baa3-e6e2f4a869de/access_technology_catalogue_2017.pdf",
+      "bytes": 19241618,
+      "sha256": "d7cf18ead2d9ad25cc96d15ee2c1632623934d9c4568d5ed6c9cac71ec461034",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Layher-Access-Technology-Catalogue-en-2017.pdf"
+    },
+    {
+      "name": "Layher-Blitz-Catalogue-en-2021.pdf",
+      "title": "Layher Blitz Catalogue 2021 · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/55/3a/553a0739-df6b-4f44-8912-f39f48ec0db7/en_speedy_catalogue_2021.pdf",
+      "bytes": 16274267,
+      "sha256": "e4af033df0dcada112d2f17a1f2eb02b2e2149ac6ab920556478a1549dc51c8f",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Layher-Blitz-Catalogue-en-2021.pdf"
+    },
+    {
+      "name": "Layher-Accessories-Catalogue-en-2021.pdf",
+      "title": "Layher Accessories Catalogue 2021 · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/78/14/78144995-86c2-4431-9e3b-205c6db5f2ee/en_system-free_accessories_catalogue_2021.pdf",
+      "bytes": 16353299,
+      "sha256": "f88e8819362a5eb68e838911bfb08730dace6cd4f54f03f4d69aad6bb4eddb84",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Layher-Accessories-Catalogue-en-2021.pdf"
+    },
+    {
+      "name": "Layher-Event-Catalogue-en-2021.pdf",
+      "title": "Layher Event Catalogue 2021 · English",
+      "sourceUrl": "https://telinekataja.fi/media/filer_public/1f/e9/1fe9a16f-e6c0-4e62-a098-bacbe87ad7de/en_event_catalogue_2021.pdf",
+      "bytes": 17751440,
+      "sha256": "785bdda6c99d32b3e7f5761e3c083acd0e4d9f19a1fd5ef5a447cab329a6d814",
+      "localPath": "/data/mms-archive/telinekataja/catalogs/Layher-Event-Catalogue-en-2021.pdf"
+    }
+  ],
+  "failed": []
+}

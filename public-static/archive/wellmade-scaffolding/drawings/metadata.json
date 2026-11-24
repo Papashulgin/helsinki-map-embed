@@ -1,0 +1,128 @@
+{
+  "archiveCreated": "2026-10-28",
+  "assets": [
+    {
+      "file": "ledger-head-dimension.png",
+      "originalFilename": "headconnect.png",
+      "source": "user-supplied attachment",
+      "description": "dimensioned ledger end drawing",
+      "pixelSize": [
+        663,
+        647
+      ],
+      "format": "PNG",
+      "sha256": "3c9e5e30cf4a17065aa5c06f82036eb1b07735b01532f6d6307862076f144ecf"
+    },
+    {
+      "file": "standard-rosette-spacing.webp",
+      "originalFilename": "Ringlock-scaffolding-standard.webp",
+      "source": "user-supplied attachment",
+      "description": "standard upright with 0.5 m typical rosette spacing",
+      "pixelSize": [
+        772,
+        914
+      ],
+      "format": "WEBP",
+      "sha256": "1e5d2b1c7bb61c92c8675795d87040b6adce0831d027ee4bec2ba5db6baddc6b"
+    },
+    {
+      "file": "ledger-wedge-engagement.png",
+      "originalFilename": "ledger-ringlock-1.png",
+      "source": "user-supplied attachment",
+      "description": "ledger wedge engagement illustration",
+      "pixelSize": [
+        550,
+        300
+      ],
+      "format": "PNG",
+      "sha256": "1e75ebc1c18717bc5c0bda4ffd4fc6f2b97fc3e59f3e2954047f840195b15827"
+    },
+    {
+      "file": "ledger-connector-section.png",
+      "originalFilename": "connector.png",
+      "source": "user-supplied attachment",
+      "description": "ledger head B-B section drawing",
+      "pixelSize": [
+        358,
+        558
+      ],
+      "format": "PNG",
+      "sha256": "85f853e9a1b7e72de40d5bbe56dc23996f76adf106964536f14364f223570adc"
+    },
+    {
+      "file": "jack-reference.jpeg",
+      "originalFilename": "jacks.jpeg",
+      "source": "user-supplied attachment",
+      "description": "generic screw jack and U-head illustration",
+      "pixelSize": [
+        287,
+        791
+      ],
+      "format": "JPEG",
+      "sha256": "6be193e576b9b632cc82eb9d771e0d032cf50346f1343f713cde111ab6107ba8"
+    },
+    {
+      "file": "adjustable-jack-dimensions.png",
+      "originalFilename": "Group-66.png",
+      "source": "user-supplied attachment",
+      "description": "adjustable jack drawing with 760, 660 and Ø38x4 callouts",
+      "pixelSize": [
+        1080,
+        1080
+      ],
+      "format": "PNG",
+      "sha256": "d192dc08a2e540de5a27c37e44b139e4c71728fa5947570c4ddab088d1a11184"
+    },
+    {
+      "file": "ledger-head-cast-reference.jpg",
+      "originalFilename": "ledgerdead.jpg",
+      "source": "user-supplied attachment",
+      "description": "cast ledger-head perspective reference",
+      "pixelSize": [
+        400,
+        337
+      ],
+      "format": "JPEG",
+      "sha256": "d4119cafd7d9343f502a7e36615e8e79ee41a79c6b5c01725492bddae6d0eae4"
+    },
+    {
+      "file": "rosette-source-page-screenshot.png",
+      "originalFilename": "Kuvakaappaus 2026-10-28 07-44-07.png",
+      "source": "user-supplied attachment",
+      "description": "manufacturer rosette page screenshot",
+      "pixelSize": [
+        1920,
+        1080
+      ],
+      "format": "PNG",
+      "sha256": "b46020a3662ac9b7b21df76b9391e5b388463a4a630323e9ce3d83ddc3dfab04"
+    },
+    {
+      "file": "ledger-dimension-reference.jpg",
+      "originalFilename": "ledger.jpg",
+      "source": "user-supplied attachment",
+      "description": "low-resolution ledger dimension image",
+      "pixelSize": [
+        506,
+        380
+      ],
+      "format": "JPEG",
+      "sha256": "90f5df7f5e0b30bf985d439d1d9fcfe968a0ea392ef2d91ea71ccccc96d6c847"
+    },
+    {
+      "file": null,
+      "originalFilename": "e70e8d3e-bd7e-4ef9-b262-18a406a50361.png",
+      "source": "user-supplied attachment",
+      "duplicateOf": "ledger-head-dimension.png",
+      "sha256": "3c9e5e30cf4a17065aa5c06f82036eb1b07735b01532f6d6307862076f144ecf"
+    }
+  ],
+  "externalSourcePages": [
+    "https://www.wm-scaffold.com/ringlock-scaffolding-ledger.html",
+    "https://www.wm-scaffold.com/ledger-head/",
+    "https://www.wm-scaffold.com/Ringlock-Scaffolding-Standards.html/",
+    "https://www.wm-scaffold.com/scaffold-rosettes/",
+    "https://www.wm-scaffold.com/scaffold-leveling-jack-base.html"
+  ],
+  "sourceNote": "Images are references supplied by the user. Manufacturer web pages are linked for public product data; only the browser screenshot identifies its page directly."
+}
