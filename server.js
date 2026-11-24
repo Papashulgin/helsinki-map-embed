@@ -1373,10 +1373,25 @@ app.post('/api/building-drawings/search', async (req, res) => {
       }).slice(0, 10).map((item) => ({ ...item, category: /julkisivu|fasad/i.test(item.title || '') ? 'Julkisivu' : /pohja|planritning/i.test(item.title || '') ? 'Pohjapiirustus' : /leikkaus|sektion/i.test(item.title || '') ? 'Leikkaus' : /rakenne/i.test(item.title || '') ? 'Rakenne' : 'Mahdollinen lähde', source: payload.source || source.label }));
       return { id: source.id, label: payload.source || source.label, status: 'ok', count: items.length, items, note: payload.note || '' };
     } catch (error) {
-      return { id: source.id, label: source.label, status: 'unavailable', count: 0, items: [], note: error.name === 'AbortError' ? 'Haku aikakatkaistiin.' : error.message || 'Lähde ei vastannut.' };
+      const bridgeUnavailable = error.message === 'fetch failed' || error.cause?.code === 'ECONNREFUSED';
+      const note = error.name === 'AbortError'
+        ? 'Haku aikakatkaistiin.'
+        : bridgeUnavailable
+          ? 'Paikallinen DataBridge ei ole käynnissä. Käynnistä palvelimet komennolla npm start tai ./start-local.sh.'
+          : error.message || 'Lähde ei vastannut.';
+      return { id: source.id, label: source.label, status: 'unavailable', count: 0, items: [], note };
     } finally { clearTimeout(timer); }
   };
-  const results = await Promise.all([...sources, ...webSources].map(lookup));
+  const searchSources = [...sources, ...webSources];
+  const results = new Array(searchSources.length);
+  let nextSource = 0;
+  const workerCount = Math.min(3, searchSources.length);
+  await Promise.all(Array.from({ length: workerCount }, async () => {
+    while (nextSource < searchSources.length) {
+      const index = nextSource++;
+      results[index] = await lookup(searchSources[index]);
+    }
+  }));
   res.json({ query, searchedAt: new Date().toISOString(), sources: results, items: results.flatMap((source) => source.items), note: 'Crawler hakee julkisista rajapinnoista ja käytössä olevista hakupalveluista. Hakutulos on ehdokas; piirustus on tarkistettava alkuperäisestä arkistosta.' });
 });
 

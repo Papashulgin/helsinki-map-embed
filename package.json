@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "./start-local.sh",
+    "start:server": "node server.js",
     "build:lidar": "node scripts/build-lidar-loader.mjs",
     "test": "node --test"
   },
